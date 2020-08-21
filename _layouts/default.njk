@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+
+            body {
+                margin: 0;
+            }
+
+            header {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .evc-banner {
+                background-color: #B2D23E;
+                color: #007155;
+                text-align: center;
+                padding: 10px 0;
+                font-size: 2.5em;
+                margin: 15px 0;
+            }
+
+            .uvm-banner {
+                color: white;
+                background-color: #F47D20;
+                padding: 0 25px;
+                display: flex;
+                align-items: center;
+                float: right;
+                margin-bottom: 15px;
+                font-size: 0.7em;
+            }
+
+            .uvm-banner .uvm-logo {
+                height: 32px;
+                margin-right: 10px;
+            }
+
+            .blue-block {
+                background-color: #BBE5FB;
+                position: relative;
+                overflow: hidden;
+                z-index: -1;
+            }
+
+            .blue-block .topography {
+                position: absolute;
+                width: 100vw;
+                top: 0;
+                z-index: -1;
+            }
+
+            .slogan {
+                color: green;
+                font-style: italic;
+            }
+
+            main {
+                margin: 0 15px;
+            }
+
+            section {
+                margin-bottom: 50px;
+            }
+
+            h2 {
+                margin-bottom: 0;
+                color: #F47D20;
+                font-weight: 900;
+            }
+
+            p {
+                font-size: 1.2em;
+                line-height: 1.5em;
+            }
+
+            .contact-info {
+                display: grid;
+                grid-template-areas: "profile email" "profile phone";
+                grid-template-columns: minmax(300px, 500px) minmax(300px, 500px);
+                justify-content: center;
+            }
+
+            .contact-info * {
+                display: flex;
+                justify-self: center;
+                align-self: center;
+                text-decoration: none;
+                color: #3B84DD;
+                font-weight: bold;
+            }
+
+            .profile-pic {
+                height: 100px;
+                border-radius: 50%;
+                grid-area: profile;
+            }
+
+            .email {
+                grid-area: email;
+            }
+
+            .phone {
+                grid-area: phone;
+            }
+
+            .phone:before {
+                content: "\260e";
+                margin-right: 0.5em;
+            }
+
+            @media only screen and (min-width: 780px) {
+                main {
+                    margin: 0 15%;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+
+            <div class="blue-block">
+                <img src="assets/topography.png" class="topography" alt="topographical style overlay">
+                <h1 class="evc-banner">Every Vote Counts</h1>
+                <div class="uvm-banner">
+                    <img src="assets/uvm-logo.png" class="uvm-logo" alt="UVM Logo">
+                    <h1>UVM</h1>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <h2 class="slogan">We're getting out the student vote.</h2>
+            <hr>
+            {{ content | safe }}
+        </main>
+
+    </body>
+</html>

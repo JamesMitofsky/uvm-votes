@@ -1,0 +1,24 @@
+{
+  "name": "uvm.vote",
+  "version": "1.0.0",
+  "description": "every vote counts at UVM, but we ain't seeing turnout like that's the case. Let's get crackin'",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesTedesco/uvm.vote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesTedesco/uvm.vote/issues"
+  },
+  "homepage": "https://github.com/JamesTedesco/uvm.vote#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
