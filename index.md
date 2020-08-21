@@ -5,7 +5,7 @@ title: this is one ginormous test
 <section class="intro-section">
 <h2>What's wrong?</h2>
 <img src="assets/uvm-voting-rate.png" class="voting-rate-pic" alt="Visualization of UVM's voting rate.">
-<p>The voting rate of students at UVM is 46.2%. That's to say: less than half the nearly 12k students enrolled at UVM cast their vote. What's more, that ~46% is being boyed by graduate students; the undergrad voting rate is even lower. All of this is to say nothing of the fact we're 3% below the national average according to Tuft's <a href="https://idhe.tufts.edu/nslve">National Study of Learning, Voting, and Education</a>.</p>
+<p>The voting rate of students at UVM is 46.2%. That's to say less than half the nearly 12k students enrolled at UVM cast their vote. What's more, that ~46% is being boyed by graduate students; the undergrad voting rate is even lower. All of this is to say nothing of the fact we're 3% below the national average according to Tuft's <a href="https://idhe.tufts.edu/nslve">National Study of Learning, Voting, and Education</a>.</p>
 
 <p>We can fix this.</p>
 </section>
