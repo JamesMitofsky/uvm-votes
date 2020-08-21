@@ -10,7 +10,7 @@ title: this is one ginormous test
 </section>
 
 <section>
-<h2>How to fix this?</h2>
+<h2>Two steps. Right now.</h2>
 <p>Voter registration is only the first step of what's really a two-step affair. Folks gotta show up to vote!
 
 This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, it looks like relying on personal relationships and incremental support to being people the resources they need to not only register but also vote, come election day.</p>
