@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <title>Every Vote Counts - UVM</title>
         <style>
 
             body {
@@ -57,6 +57,7 @@
             .slogan {
                 color: green;
                 font-style: italic;
+                margin: 25px 0;
             }
 
             main {
@@ -64,13 +65,18 @@
             }
 
             section {
-                margin-bottom: 50px;
+                margin-bottom: 40px;
+                padding: 4px 10px;
+            }
+
+            section:first-of-type {
+                box-shadow: 1px 1px 5px #7c7777;
+                border-radius: 5px;
             }
 
             h2 {
                 margin-bottom: 0;
                 color: #F47D20;
-                font-weight: 900;
             }
 
             p {
@@ -81,7 +87,7 @@
             .contact-info {
                 display: grid;
                 grid-template-areas: "profile email" "profile phone";
-                grid-template-columns: minmax(300px, 500px) minmax(300px, 500px);
+                grid-template-columns: repeat(2, minmax(300px, 500px));
                 justify-content: center;
             }
 
@@ -138,8 +144,7 @@
         <main>
 
             <h2 class="slogan">We're getting out the student vote.</h2>
-            <hr>
-            <section>
+            <section class="intro-section">
 <h2>What's wrong?</h2>
 <p>The voting rate of students at UVM is below the national average by 3%. That might not seem problematic except for the fact it means only 46.2% of our campus voted in the last general election.</p>
 <p>We can fix this.</p>

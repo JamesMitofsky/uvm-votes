@@ -2,7 +2,7 @@
 layout: default.njk
 title: this is one ginormous test
 ---
-<section>
+<section class="intro-section">
 <h2>What's wrong?</h2>
 <p>The voting rate of students at UVM is below the national average by 3%. That might not seem problematic except for the fact it means only 46.2% of our campus voted in the last general election.</p>
 
