@@ -11,14 +11,16 @@ title: this is one ginormous test
 
 <section>
 <h2>Two steps. Right now.</h2>
-<p>Voter registration is only the first step of what's really a two-step affair. Folks gotta show up to vote!
-
-This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, it looks like relying on personal relationships and incremental support to being people the resources they need to not only register but also vote, come election day.</p>
+<ol>
+    <li>Register people to vote.</li>
+    <li>Encourage folks to turn out at the polls.</li>
+</ol>
+<p>This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, it looks like relying on personal relationships and incremental support to being people the resources they need to not only register but also vote, come election day.</p>
 </section>
 
 <section>
 <h2>The Greater Vision</h2>
-<p>Institutionalize voting. Although the work of networking to get out the vote is a timeless project, technology can elevate this work.
+<p>Institutionalize voting.
 
 Presently, UVM has a handful of useful voting resources, but they're not incorperated to the main paths students travel, physically or digitally. Solving for this,registration and other voting resources should be integrated with the course registration portal. Stanford, James Madison University, and others across the country have already deployed models like this to increase turnout.
 
@@ -29,7 +31,7 @@ UVM has already partnered with TurboVote - a great tool to support voter registr
 
 <section>
 <h2>Get in touch!</h2>
-<p>If this sounds interesting and you have questions or want to talk, feel free to reach out directly via email or text.</p>
+<p>If this sounds interesting, feel free to reach me directly via email or text.</p>
 
 <div class="contact-info">
     <img src="assets/headshot.jpg" class="profile-pic" alt="Portfolio picture of James">
