@@ -196,7 +196,7 @@ a {
     font-weight    : bold;
 }
 
-.header a, section:first-of-type {
+.header a, section:first-of-type a {
     color: #0074ff;
 }
 
