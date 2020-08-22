@@ -2,6 +2,7 @@ body {
     margin     : 0;
     font-size  : 1.4em;
     line-height: 2em;
+    font-family: 'Cutive', serif;
 }
 
 
@@ -15,6 +16,7 @@ body {
     margin-bottom   : 15px;
     transition      : ease 0.2s all;
     line-height     : 1.1em;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .uvm-banner {
@@ -26,6 +28,7 @@ body {
     float           : right;
     margin-bottom   : 15px;
     font-size       : 0.5em;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .uvm-banner .uvm-logo {
@@ -59,7 +62,7 @@ body {
 }
 
 .header .inner-section {
-    padding: 0 9px;
+    min-height: auto;
 }
 
 .header p {
@@ -137,6 +140,11 @@ section.light-theme {
 @media only screen and (min-width: 600px) {
     .inner-section {
         width: 500px;
+    }
+    .header .inner-section {
+        min-height: 230px;
+        display: flex;
+        align-items: center;
     }
 }
 
