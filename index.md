@@ -33,9 +33,9 @@ title: this is one ginormous test
 
 UVM aleady has a handful of useful voting resources, but they're off the beaten path - digitall or otherwise. Solving for this, the administration should integrate voting the mainstream student experience. In person, this could be through orientation or move-in days. Or, why not follow in the footsteps of Stanford and Northwester, affording students a step in their online registrtion process to consider their voting resources?
 
-Through harmonizing the university's pre-exiting processes with registering students to vote, there's good reason to suspect this small change would pay off in dividends of significantly increased voter turnout. In some ways, going to school is about making certain decisions easier, like studying for French exams, chem finals, anthro projects, or even - incredibly - voting.
+Through harmonizing the university's pre-exiting processes with registering students to vote, there's good reason to suspect this small change would pay off in significantly increased voter turnout. It has to be said that the university is uniquely positioned to help solve this problem. That's because, in some ways, going to school is about making the good decisions easier, like studying for French exams, chem finals, and anthro projects. It's not hard to imagine including voter registration.
 
-Having partnered with TurboVote, UVM has already laid some of the groundwork for students to tread toward online resources. The hurdle of moving the existing civic groundwork into the limelight is a barrier worth crossing.</p>
+Having already partnered with TurboVote, UVM has laid some of the groundwork for students to tread toward online resources. The hurdle of moving the existing civic groundwork into the limelight is a barrier worth crossing.</p>
 </div>
 </section>
 
