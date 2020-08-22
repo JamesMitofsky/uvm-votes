@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
 
         dir: {
             // ⚠️ These values are both relative to your input directory.
-            includes: "_includes",
+            includes: "assets",
             layouts: "_layouts"
         }
 
