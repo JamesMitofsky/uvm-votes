@@ -18,10 +18,11 @@ title: this is one ginormous test
 <div class="inner-section">
 <h2>Two steps. Right now.</h2>
 <ol>
-    <li>Register people to vote.</li>
-    <li>Encourage folks to turn out at the polls.</li>
+    <li>Give people the resources to register.</li>
+    <li>Encourage those people to vote.</li>
 </ol>
-<p>This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, it looks like relying on personal relationships and incremental support to being people the resources they need to not only register but also vote, come election day.</p>
+<p>This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, this looks like relying on personal relationships and incremental support to bring folks the resources they need to both register and vote. This includes live problem solving and - since 80% of our student population is out-of-state - considering where competative races are happening.</p>
+<p>The impact of this project benefits greatly from more participation across graduation years and, especially, majors.</p>
 </div>
 </section>
 
