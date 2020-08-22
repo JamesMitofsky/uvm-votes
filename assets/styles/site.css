@@ -45,7 +45,7 @@ p {
     font-family     : 'Bungee Shade', cursive;
     position        : relative;
     z-index         : 1;
-    text-shadow     : -1px 1px 5px white;
+    text-shadow     : -1px 1px 1px white;
 }
 
 .uvm-banner {
@@ -60,7 +60,7 @@ p {
     font-family     : 'Bungee Shade', cursive;
     position        : relative;
     z-index         : 1;
-    text-shadow     : -1px 1px 3px black;
+    text-shadow     : -1px 1px 1px black;
 }
 
 .uvm-banner .uvm-logo {
