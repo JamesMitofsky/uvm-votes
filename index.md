@@ -44,7 +44,7 @@ UVM has already partnered with TurboVote - a great tool to support voter registr
 <p>If this sounds interesting, feel free to reach me directly via email or text.</p>
 
 <div class="contact-info">
-    <img src="assets/headshot.jpg" class="profile-pic" alt="Portfolio picture of James">
+    <img src="assets/images/headshot.jpg" class="profile-pic" alt="Portfolio picture of James">
     <a class="email" href = "mailto:jtedesco@uvm.edu">jtedesco@uvm.edu</a>
     <a class="phone" href="tel:1-802-777-4849">(802)777-4849</a>
 </div>
