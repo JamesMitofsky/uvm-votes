@@ -12,6 +12,8 @@
 
             body {
                 margin: 0;
+                font-size: 1.6em;
+                line-height: 2em;
             }
 
             header {
@@ -24,8 +26,10 @@
                 color: #007155;
                 text-align: center;
                 padding: 10px 0;
-                font-size: 2.5em;
+                font-size: 1.6em;
                 margin: 15px 0;
+                transition: ease 0.2s all;
+                line-height: 1.1em;
             }
 
             .uvm-banner {
@@ -36,11 +40,11 @@
                 align-items: center;
                 float: right;
                 margin-bottom: 15px;
-                font-size: 0.7em;
+                font-size: 0.5em;
             }
 
             .uvm-banner .uvm-logo {
-                height: 32px;
+                height: 50px;
                 margin-right: 10px;
             }
 
@@ -51,44 +55,43 @@
                 z-index: -1;
             }
 
-            .blue-block .topography {
+            .blue-block .inner-section:after {
+                content: '';
                 position: absolute;
-                width: 100vw;
+                left: 0;
                 top: 0;
+                width: 100%;
+                height: 100%;
                 z-index: -1;
-            }
-
-            .slogan {
-                color: green;
-                font-style: italic;
-                margin: 25px 0;
-            }
-
-            main {
-                margin: 0 15px;
+                opacity: 0.1;
+                background-image: url("assets/topography.png");
+                -ms-background-size: cover;
+                -o-background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                background-size: cover;
             }
 
             section {
                 margin-bottom: 40px;
-                padding: 4px 10px;
                 display: flex;
                 flex-direction: column;
             }
 
-            section:first-of-type {
-                box-shadow: 1px 1px 5px #7c7777;
-                border-radius: 5px;
+            .inner-section {
+                margin: 0 10px;
             }
 
-            h2 {
-                margin-bottom: 0;
-                color: #F47D20;
+            .light-theme h2 {
+                color: #007155;
             }
 
-            li,
-            p {
-                font-size: 1.2em;
-                line-height: 1.5em;
+            .dark-theme {
+                background-color: #007155;
+                color: white;
+            }
+            .dark-theme h2 {
+                color: #D9F420;
             }
 
             a {
@@ -114,7 +117,6 @@
                 display: flex;
                 justify-self: center;
                 align-self: center;
-                font-size: 1.2em;
             }
 
             .profile-pic {
@@ -136,9 +138,23 @@
                 margin-right: 0.5em;
             }
 
+            /* Utilities */
+            .bold {
+                font-weight: bolder;
+            }
+
             @media only screen and (min-width: 780px) {
-                main {
-                    margin: 0 15%;
+                .inner-section {
+                    margin: 0 25%;
+                }
+
+                .evc-banner {
+                    margin: 0 0 15px;
+                    padding: 15px;
+                }
+
+                header {
+                    font-size: 1.5em;
                 }
             }
         </style>
@@ -151,18 +167,21 @@
         <header>
 
             <div class="blue-block">
-                <img src="assets/topography.png" class="topography" alt="topographical style overlay">
+                {# <img src="assets/topography.png" class="topography" alt="topographical style overlay"> #}
                 <h1 class="evc-banner">Every Vote Counts</h1>
                 <div class="uvm-banner">
                     <img src="assets/uvm-logo.png" class="uvm-logo" alt="UVM Logo">
                     <h1>UVM</h1>
                 </div>
+                <div class="inner-section">
+                    <p>We're the University of Vermont's chapter of Every Vote Counts National. EVC is a student lead organization focused on civic engagement, with tenet focuses on voter registration, education, and reform.</p>
+                </div>
+
             </div>
         </header>
 
         <main>
 
-            <h2 class="slogan">We're getting out the student vote.</h2>
             {{ content | safe }}
         </main>
 
