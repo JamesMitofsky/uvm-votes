@@ -21,7 +21,7 @@ title: this is one ginormous test
     <li>Give people the resources to register.</li>
     <li>Encourage those people to vote.</li>
 </ol>
-<p>This semester, we're aiming to increase turnout through using a campaign style approach. Specifically, this looks like relying on personal relationships and incremental support to bring folks the resources they need to both register and vote. This includes live problem solving and - since 80% of our student population is out-of-state - considering where competative races are happening.</p>
+<p>This semester, we're aiming to increase turnout through using a campaign style approach. This looks like relying on personal relationships and incremental support to bring folks the resources they need to both register and vote. This includes live problem solving and - since 80% of our student population is out-of-state - considering where competative races are happening.</p>
 <p>The impact of this project benefits greatly from more participation across graduation years and, especially, majors.</p>
 </div>
 </section>
