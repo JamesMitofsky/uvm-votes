@@ -30,18 +30,18 @@ title: this is one ginormous test
 <h2>The Greater Vision</h2>
 <p>Institutionalize voting.
 
-Presently, UVM has a handful of useful voting resources, but they're not incorperated to the main paths students travel, physically or digitally. Solving for this,registration and other voting resources should be integrated with the course registration portal. Stanford, James Madison University, and others across the country have already deployed models like this to increase turnout.
+UVM aleady has a handful of useful voting resources, but they're off the beaten path - digitall or otherwise. Solving for this, the administration should integrate voting the mainstream student experience. In person, this could be through orientation or move-in days. Or, why not follow in the footsteps of Stanford and Northwester, affording students a step in their online registrtion process to consider their voting resources?
 
-The most encouraging version of these course registration hold models is to give students the most flexibility while putting resources in front of them. By leveraging a system which every university student has contact with, voter registration and the visibility for the importance of voting will increase.
+Through harmonizing the university's pre-exiting processes with registering students to vote, there's good reason to suspect this small change would pay off in dividends of significantly increased voter turnout. In some ways, going to school is about making certain decisions easier, like studying for French exams, chem finals, anthro projects, or even - incredibly - voting.
 
-UVM has already partnered with TurboVote - a great tool to support voter registration - but tools kept in the back of a shed aren't likely to see much action.</p>
+Having partnered with TurboVote, UVM has already laid some of the groundwork for students to tread toward online resources. The hurdle of moving the existing civic groundwork into the limelight is a barrier worth crossing.</p>
 </div>
 </section>
 
 <section class="dark-theme">
 <div class="inner-section">
 <h2>Get in touch!</h2>
-<p>If this sounds interesting, feel free to reach me directly via email or text.</p>
+<p>If this sounds interesting, don't hesitate to reach out to me directly via email or text.</p>
 
 <div class="contact-info">
     <img src="assets/images/headshot.jpg" class="profile-pic" alt="Portfolio picture of James">
