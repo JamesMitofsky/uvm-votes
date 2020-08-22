@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Bungee Shade;
+    src: url(assets/BungeeShade-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Cutive;
+    src: url(assets/Cutive-Regular.ttf);
+  }
+
 body {
     margin     : 0;
     font-size  : 1.1em;
