@@ -16,10 +16,6 @@
                 line-height: 2em;
             }
 
-            header {
-                display: flex;
-                flex-direction: column;
-            }
 
             .evc-banner {
                 background-color: #B2D23E;
@@ -48,14 +44,15 @@
                 margin-right: 10px;
             }
 
-            .blue-block {
+            .header {
                 background-color: #BBE5FB;
                 position: relative;
                 overflow: hidden;
                 z-index: -1;
             }
 
-            .blue-block .inner-section:after {
+           
+            .header .texture {
                 content: '';
                 position: absolute;
                 left: 0;
@@ -72,14 +69,15 @@
                 background-size: cover;
             }
 
-            section {
+             section {
                 margin-bottom: 40px;
                 display: flex;
-                flex-direction: column;
+                justify-content: start;
             }
 
-            .inner-section {
-                margin: 0 10px;
+            section:last-of-type {
+                padding-bottom: 60px;
+                margin-bottom: 0;
             }
 
             .light-theme h2 {
@@ -138,15 +136,43 @@
                 margin-right: 0.5em;
             }
 
+            /* layout widths */
+
+            .inner-section {
+                margin: 0 auto;
+                width: 100%;
+                padding: 15px;
+                transition: width ease 0.2s;
+            }
+
+            @media only screen and (min-width: 600px) {
+                .inner-section {width: 500px;}
+            }
+
+            @media only screen and (min-width: 800px) {
+                .inner-section {width: 600px;}
+            }
+
+            @media only screen and (min-width: 1000px) {
+                .inner-section {width: 700px;}
+            }
+
+            @media only screen and (min-width: 1200px) {
+                .inner-section {width: 900px;}
+            }
+
+            @media only screen and (min-width: 1500px) {
+                .inner-section {width: 1100px;}
+            }
+
             /* Utilities */
             .bold {
                 font-weight: bolder;
             }
 
+
+            /* responseive media queries */
             @media only screen and (min-width: 780px) {
-                .inner-section {
-                    margin: 0 25%;
-                }
 
                 .evc-banner {
                     margin: 0 0 15px;
@@ -157,33 +183,139 @@
                     font-size: 1.5em;
                 }
             }
+
+
+
+            /* highcharts styles */
+            .highcharts-data-table table,
+            .highcharts-figure {
+                min-width: 310px;
+                max-width: 800px;
+                margin: 1em auto;
+            }
+
+            #container {
+                height: 400px;
+            }
+
+            .highcharts-data-table table {
+                font-family: Verdana, sans-serif;
+                border-collapse: collapse;
+                border: 1px solid #EBEBEB;
+                margin: 10px auto;
+                text-align: center;
+                width: 100%;
+                max-width: 500px;
+            }
+            .highcharts-data-table caption {
+                padding: 1em 0;
+                font-size: 1.2em;
+                color: #555;
+            }
+            .highcharts-data-table th {
+                font-weight: 600;
+                padding: 0.5em;
+            }
+            .highcharts-data-table caption,
+            .highcharts-data-table td,
+            .highcharts-data-table th {
+                padding: 0.5em;
+            }
+            .highcharts-data-table thead tr,
+            .highcharts-data-table tr:nth-child(even) {
+                background: #f8f8f8;
+            }
+            .highcharts-data-table tr:hover {
+                background: #f1f7ff;
+            }
         </style>
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
     </head>
 
     <!-- If you're looking at the code, chances are, you might want to contribute to this project. Check out the Github repo here: https://github.com/JamesTedesco/uvm.vote -->
     <body>
 
-        <header>
+        <header class="header">
 
-            <div class="blue-block">
-                {# <img src="assets/topography.png" class="topography" alt="topographical style overlay"> #}
-                <h1 class="evc-banner">Every Vote Counts</h1>
-                <div class="uvm-banner">
-                    <img src="assets/uvm-logo.png" class="uvm-logo" alt="UVM Logo">
-                    <h1>UVM</h1>
-                </div>
-                <div class="inner-section">
-                    <p>We're the University of Vermont's chapter of Every Vote Counts National. EVC is a student lead organization focused on civic engagement, with tenet focuses on voter registration, education, and reform.</p>
-                </div>
-
+        
+            {# <img src="assets/topography.png" class="topography" alt="topographical style overlay"> #}
+            <h1 class="evc-banner">Every Vote Counts</h1>
+            <div class="uvm-banner">
+                <img src="assets/uvm-logo.png" class="uvm-logo" alt="UVM Logo">
+                <h1>UVM</h1>
             </div>
+            <div class="texture"></div>
+            <div class="inner-section">
+                <p>We're the University of Vermont's chapter of Every Vote Counts National. EVC is a student lead organization focused on civic engagement, with tenet focuses on voter registration, education, and reform.</p>
+            </div>
+
+            
         </header>
 
         <main>
 
             {{ content | safe }}
+
         </main>
 
+        <script>
+            Highcharts.chart('container', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'National Average vs. UVM'
+                },
+                xAxis: {
+                    categories: [
+                        'Voting Rate of Registered Students', 'Overall Voting Rate', 'Undergrad Voting Rate'
+                    ],
+                    crosshair: true
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: '% of Students'
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' + '<td style="padding:0"><b>{point.y:.1f}%</b></td></tr>',
+                    footerFormat: '</table>',
+                    shared: true,
+                    useHTML: true
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0.2,
+                        borderWidth: 0
+                    },
+                    series: {
+                        dataLabels: {
+                            enabled: true
+                        }
+                    }
+                },
+                series: [
+                    {
+                        name: 'National',
+                        data: [
+                            68, 50.4, 47.2
+                        ],
+                        color: "gold"
+
+                    }, {
+                        name: 'UVM',
+                        data: [
+                            62.7, 46.2, 42.8
+                        ],
+                        color: "green"
+                    }
+                ]
+            });
+        </script>
     </body>
 </html>
