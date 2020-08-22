@@ -1,7 +1,12 @@
+
+
 @font-face {
-    font-family: Bungee Shade;
-    src        : url(assets/BungeeShade-Regular.ttf);
-}
+    font-family: 'Bungee Shade';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Bungee Shade'), local('BungeeShade-Regular'), url(/assets/fonts/BungeeShade-Regular.woff2) format('woff2');
+  }
 
 @font-face {
     font-family: Cutive;
@@ -76,8 +81,8 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 250%;
+    height: 250%;
     opacity: 0.1;
     background-image: url(assets/images/topography.svg);
     -ms-background-size: contain;
