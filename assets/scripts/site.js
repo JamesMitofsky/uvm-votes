@@ -1,5 +1,8 @@
 
 Highcharts.chart('container', {
+    credits: {
+        enabled: false
+    },
     chart: {
         type: 'column'
     },
