@@ -1,12 +1,10 @@
-
-
 @font-face {
-    font-family: 'Bungee Shade';
-    font-style: normal;
-    font-weight: 400;
+    font-family : 'Bungee Shade';
+    font-style  : normal;
+    font-weight : 400;
     font-display: swap;
-    src: local('Bungee Shade'), local('BungeeShade-Regular'), url(/assets/fonts/BungeeShade-Regular.woff2) format('woff2');
-  }
+    src         : local('Bungee Shade'), local('BungeeShade-Regular'), url(/assets/fonts/BungeeShade-Regular.woff2) format('woff2');
+}
 
 @font-face {
     font-family: Cutive;
@@ -34,6 +32,7 @@ body {
     font-family     : 'Bungee Shade', cursive;
     position        : relative;
     z-index         : 1;
+    text-shadow     : -1px 1px 5px white;
 }
 
 .uvm-banner {
@@ -44,10 +43,11 @@ body {
     align-items     : center;
     float           : right;
     margin-bottom   : 15px;
-    font-size       : 0.5em;
+    font-size       : 0.7em;
     font-family     : 'Bungee Shade', cursive;
     position        : relative;
     z-index         : 1;
+    text-shadow     : -1px 1px 3px black;
 }
 
 .uvm-banner .uvm-logo {
@@ -78,18 +78,18 @@ body {
 }
 
 .hero-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 250%;
-    height: 250%;
-    opacity: 0.1;
-    background-image: url(assets/images/topography.svg);
-    -ms-background-size: contain;
-    -o-background-size: contain;
-    -moz-background-size: contain;
+    position               : absolute;
+    left                   : 0;
+    top                    : 0;
+    width                  : 250%;
+    height                 : 250%;
+    opacity                : 0.1;
+    background-image       : url(assets/images/topography.svg);
+    -ms-background-size    : contain;
+    -o-background-size     : contain;
+    -moz-background-size   : contain;
     -webkit-background-size: contain;
-    background-size: contain;
+    background-size        : contain;
 }
 
 .header .inner-section {
