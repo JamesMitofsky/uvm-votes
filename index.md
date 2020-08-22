@@ -8,7 +8,7 @@ title: this is one ginormous test
     <div id="container"></div>
 </figure>
 <h2>The issue.</h2>
-<p>The voting rate of students at UVM is 46.2%. That's to say less than half the nearly 12k students enrolled at UVM cast their vote. What's more, that ~46% is being boyed by graduate students; the undergrad voting rate is even lower. All of this is to say nothing of the fact we're 3% below the national average according to Tuft's <a href="https://idhe.tufts.edu/nslve">National Study of Learning, Voting, and Education</a>.</p>
+<p>Compared with other universities around the country, our voting rate is down. Not to mention that college students in general are one of the less well represented demographics, which compounds with issues of socio-economic status. According to the <a href="https://idhe.tufts.edu/nslve">National Study of Learning, Voting, and Education</a>, less than half of UVM's undergraduate students voted in the last general election.</p>
 
 <p class="bold">We can fix this.</p>
 </div>

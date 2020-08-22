@@ -73,6 +73,7 @@ body {
 
 .header .inner-section {
     min-height: auto;
+    text-align: center;
 }
 
 .header p {
@@ -152,9 +153,7 @@ section.light-theme {
         width: 500px;
     }
     .header .inner-section {
-        min-height: 230px;
-        display: flex;
-        align-items: center;
+        min-height: 150px;
     }
     body {
         font-size: 1.3em;
