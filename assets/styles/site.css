@@ -138,6 +138,11 @@ section.light-theme {
     justify-content      : center;
 }
 
+.contact-info svg {
+    height: 2em;
+    margin-right: 10px;
+}
+
 .contact-info * {
     display     : flex;
     justify-self: center;
@@ -156,11 +161,6 @@ section.light-theme {
 
 .phone {
     grid-area: phone;
-}
-
-.phone:before {
-    content     : "\260e";
-    margin-right: 0.5em;
 }
 
 /* layout widths */
