@@ -129,7 +129,7 @@ a:hover {
 
 /* force catch of two light theme links */
 .light-theme a {
-    color: #0074ff;
+    color      : #0074ff;
     font-weight: bold;
 }
 
@@ -151,37 +151,39 @@ section.light-theme {
 }
 
 .contact-info {
-    display              : grid;
-    grid-template-areas  : "profile email email"
-                        "profile phone phone";
-    grid-template-columns: repeat(2, minmax(auto, 500px));
+    display: grid;
+    grid-template-areas:
+        "profile . email"
+        "profile . phone";
+    grid-template-columns: minmax(auto, 500px) minmax(auto, 100%) minmax(auto, 500px);
     justify-content      : center;
 }
 
 .contact-info svg {
-    height: 2em;
+    height      : 2em;
     margin-right: 10px;
 }
 
-.contact-info * {
-    display     : flex;
-    justify-self: center;
-    align-self  : center;
-}
-
 .profile-pic {
-    height: 5.8em;
-    width: auto;
+    height       : 5.8em;
+    width        : auto;
     border-radius: 50%;
-    grid-area: profile;
+    display      : flex;
+    justify-self : center;
+    align-self   : center;
+    grid-area    : profile;
 }
 
 .email {
     grid-area: email;
+    display: flex;
+    align-self: center;
 }
 
 .phone {
     grid-area: phone;
+    display: flex;
+    align-self: center;
 }
 
 /* layout widths */
@@ -192,7 +194,7 @@ section.light-theme {
     transition: width ease 0.2s;
 }
 
-.inner-section > * {
+.inner-section>* {
     margin: 50px 0;
 }
 
@@ -215,6 +217,7 @@ section.light-theme {
     .inner-section {
         width: 600px;
     }
+
     .evc-banner {
         margin : 0 0 15px;
         padding: 15px;
