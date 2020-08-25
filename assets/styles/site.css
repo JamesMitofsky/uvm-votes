@@ -13,10 +13,26 @@
 
 /* utilities */
 body {
-    margin     : 0;
-    font-size  : 1.1em;
-    line-height: 2em;
-    font-family: 'Cutive', serif;
+    margin        : 0;
+    font-size     : 1.1em;
+    line-height   : 2em;
+    font-family   : 'Cutive', serif;
+    min-height    : 100vh;
+    display       : flex;
+    flex-direction: column;
+}
+
+main {
+    flex          : 1 1 auto;
+    display       : flex;
+    flex-direction: column;
+}
+
+#error {
+    flex       : 1 1 auto;
+    display    : flex;
+    align-items: center;
+    text-align : center;
 }
 
 .inner-section .title {
@@ -159,14 +175,14 @@ section.light-theme {
 }
 
 .email {
-    grid-area: email;
-    display: flex;
+    grid-area : email;
+    display   : flex;
     align-self: center;
 }
 
 .phone {
-    grid-area: phone;
-    display: flex;
+    grid-area : phone;
+    display   : flex;
     align-self: center;
 }
 
