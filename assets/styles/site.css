@@ -12,6 +12,11 @@
 }
 
 /* utilities */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-size: 1.1em;
@@ -36,16 +41,29 @@ main {
     text-align: center;
 }
 
-.inner-section .title {
-    margin-bottom: -35px;
-}
-
 p {
     margin: 40px 0;
 }
 
 .bold {
     font-weight: bolder;
+}
+
+a.link-btn {
+    text-decoration: none;
+    background-color: #07a2e4;
+    color: white;
+    transition: all .2s ease;
+    text-align: center;
+    margin: 2em 0;
+    align-self: center;
+    width: fit-content;
+    padding: 10px 4em;
+    border-radius: 10px;
+}
+
+a.link-btn:hover {
+    background-color: #048ac3;
 }
 
 /* general styles */
@@ -117,6 +135,10 @@ p {
     margin: 0;
 }
 
+.title {
+    margin-bottom: 0;
+}
+
 /* Side-by-side boxes */
 .roles-wrapper {
     display: grid;
@@ -157,36 +179,15 @@ p {
 }
 
 
-/* .role h3 {
-}
-
-.role ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px;
-}
-
-.role li {
-    padding: 20px 20px 20px 40px;
-} */
-
-
-/* short term targeting solution */
-li div {
-    font-weight: bold;
-}
-
-
-
 
 /* theme dependent styles */
 
-a {
+.link {
     text-decoration: none;
     color: #67d2ff;
 }
 
-a:hover {
+.link:hover {
     text-decoration: underline;
 }
 
@@ -250,16 +251,14 @@ section.light-theme {
 }
 
 /* layout widths */
-
 .inner-section {
     margin: 0 auto;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
     transition: width ease 0.2s;
 }
 
-.inner-section>* {
-    margin: 50px 0;
-}
 
 @media only screen and (min-width: 600px) {
     .inner-section {

@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.wrapLineLength": 50,
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+}
