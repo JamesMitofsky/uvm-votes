@@ -117,6 +117,68 @@ p {
     margin: 0;
 }
 
+/* Side-by-side boxes */
+.roles-wrapper {
+    display: grid;
+    grid-template-areas: "volunteer organize";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.roles-wrapper>.role {
+    background-color: #fff8f8;
+    color: green;
+    overflow: hidden;
+}
+
+.role h3 {
+    background-color: #F47D20;
+    margin: 0;
+    text-align: center;
+    padding: .5em;
+    color: white;
+}
+
+.description {
+    display: grid;
+    grid-template-areas: "icon header"
+        "icon description";
+    padding: 1em;
+}
+
+.desc-icon {
+    height: 50px;
+    grid-area: icon;
+    margin-right: 10px;
+}
+
+.description h4 {
+    margin: 0;
+}
+
+
+/* .role h3 {
+}
+
+.role ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.role li {
+    padding: 20px 20px 20px 40px;
+} */
+
+
+/* short term targeting solution */
+li div {
+    font-weight: bold;
+}
+
+
+
+
 /* theme dependent styles */
 
 a {
