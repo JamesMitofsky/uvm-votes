@@ -190,6 +190,10 @@ a.link-btn:hover {
     margin: 0;
 }
 
+.description div {
+    color: #363636;
+}
+
 
 
 /* theme dependent styles */
