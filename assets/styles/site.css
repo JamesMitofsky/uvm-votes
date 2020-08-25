@@ -109,6 +109,10 @@ a.link-btn:hover {
     overflow: hidden;
 }
 
+.header .inner-section {
+    display: block;
+}
+
 .hero-background {
     position: absolute;
     left: 0;
