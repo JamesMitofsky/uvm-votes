@@ -129,7 +129,6 @@ a.link-btn:hover {
 }
 
 .header .inner-section {
-    min-height: auto;
     text-align: left;
     position: relative;
     z-index: 1;
@@ -280,7 +279,7 @@ section.light-theme {
     }
 
     .header .inner-section {
-        min-height: 150px;
+        padding: 40px 0;
         text-align: center;
     }
 
