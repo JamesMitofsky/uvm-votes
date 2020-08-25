@@ -151,6 +151,15 @@ a.link-btn:hover {
     grid-gap: 2em;
 }
 
+/* temporary solution - so much is wrong here */
+@media only screen and (max-width: 900px) {
+    .roles-wrapper {
+        grid-template-areas: "volunteer"
+            "organize";
+        grid-template-columns: 1fr;
+    }
+}
+
 .roles-wrapper>.role {
     background-color: #fff8f8;
     color: green;
