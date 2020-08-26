@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"></script>
+        <script>
+            if (window.location.href != "http://localhost:8080/") {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-151087295-2');
+            } else {
+                console.log('Site Anouncement: analytics disabled - dev environment')
+            }
+        </script>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Every Vote Counts - UVM Chapter</title>
