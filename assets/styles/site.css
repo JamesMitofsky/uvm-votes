@@ -450,6 +450,10 @@ section.light-theme {
     transition: width ease 0.2s;
 }
 
+.inner-section>* {
+    margin: 20px 0;
+}
+
 
 @media only screen and (min-width: 600px) {
     .inner-section {
