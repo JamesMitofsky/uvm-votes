@@ -151,7 +151,7 @@ p {
 
 form {
     margin: 20px 0;
-    padding: 0 40px;
+    padding: 40px;
     background-color: rgb(168 170 166 / 50%);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
