@@ -344,8 +344,8 @@ form a span:nth-child(4) {
 }
 
 .roles-wrapper>.role {
-    background-color: #fff8f8;
-    color: green;
+    background-color: hsl(120 35% 98% / 1);
+    color: #007155;
     overflow: hidden;
 }
 
