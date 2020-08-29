@@ -319,6 +319,10 @@ form a span:nth-child(4) {
     justify-content: space-between;
 }
 
+.quick-fix-thanks {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
