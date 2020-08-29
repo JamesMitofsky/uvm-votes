@@ -55,10 +55,10 @@ p {
     color: white;
     transition: all .2s ease;
     text-align: center;
-    margin: 2em 0;
     align-self: center;
     width: fit-content;
-    padding: 10px 4em;
+    font-size: inherit;
+    padding: 1em 2em;
     border-radius: 10px;
     border: none;
 }
@@ -311,6 +311,12 @@ form a span:nth-child(4) {
     100% {
         bottom: 100%;
     }
+}
+
+.form-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
