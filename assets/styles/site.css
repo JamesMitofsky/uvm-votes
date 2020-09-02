@@ -158,12 +158,12 @@ p {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
-    margin-bottom: -200px;
+    margin-bottom: -180px;
     z-index: 1;
 }
 
 #greater-vision {
-    margin-top: 250px;
+    margin-top: 180px;
 }
 
 form h2 {
@@ -209,118 +209,6 @@ form .user-box input:valid~label {
     font-size: 12px;
 }
 
-form form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #03e9f4;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
-}
-
-form a:hover {
-    background: #03e9f4;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
-}
-
-form a span {
-    position: absolute;
-    display: block;
-}
-
-form a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
-    animation: btn-anim1 1s linear infinite;
-}
-
-@keyframes btn-anim1 {
-    0% {
-        left: -100%;
-    }
-
-    50%,
-    100% {
-        left: 100%;
-    }
-}
-
-form a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
-}
-
-@keyframes btn-anim2 {
-    0% {
-        top: -100%;
-    }
-
-    50%,
-    100% {
-        top: 100%;
-    }
-}
-
-form a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
-}
-
-@keyframes btn-anim3 {
-    0% {
-        right: -100%;
-    }
-
-    50%,
-    100% {
-        right: 100%;
-    }
-}
-
-form a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s
-}
-
-@keyframes btn-anim4 {
-    0% {
-        bottom: -100%;
-    }
-
-    50%,
-    100% {
-        bottom: 100%;
-    }
-}
-
 .form-bottom {
     display: flex;
     align-items: center;
@@ -335,16 +223,17 @@ form a span:nth-child(4) {
 
 
 /* Side-by-side boxes */
-.roles-wrapper {
+.inner-section .roles-wrapper {
     display: grid;
     grid-template-areas: "volunteer organize";
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
+    margin: 50px 0;
 }
 
 /* temporary solution - so much is wrong here */
 @media only screen and (max-width: 900px) {
-    .roles-wrapper {
+    .inner-section .roles-wrapper {
         grid-template-areas: "volunteer"
             "organize";
         grid-template-columns: 1fr;
@@ -373,13 +262,15 @@ form a span:nth-child(4) {
 }
 
 .desc-icon {
-    height: 50px;
+    height: 62px;
     grid-area: icon;
-    margin-right: 10px;
+    margin-right: 2em;
+    margin-left: 1em;
 }
 
 .description h4 {
     margin: 0;
+    margin-top: -10px;
 }
 
 .description div {
@@ -462,6 +353,7 @@ section.light-theme {
 /* layout widths */
 .inner-section {
     margin: 0 auto;
+    margin-bottom: 2.5em;
     padding: 15px;
     display: flex;
     flex-direction: column;
