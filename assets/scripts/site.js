@@ -7,7 +7,7 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-        text: '2016 National Election: National Average vs. UVM'
+        text: '2016 General Election: National Average vs. UVM'
     },
     xAxis: {
         categories: [
