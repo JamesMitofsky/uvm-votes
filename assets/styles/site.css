@@ -271,13 +271,14 @@ form .user-box input:valid~label {
     grid-template-areas: "icon header"
         "icon description";
     padding: 1em;
+    column-gap: 1em;
+    overflow-wrap: anywhere;
 }
 
 .desc-icon {
-    height: 62px;
+    width: 62px;
     grid-area: icon;
-    margin-right: 2em;
-    margin-left: 1em;
+    margin: 0 1em;
 }
 
 .description h4 {
