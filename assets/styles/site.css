@@ -417,6 +417,11 @@ section.light-theme {
 
 
 /* highcharts styles */
+
+figure.highcharts-figure {
+    margin: 0 auto;
+}
+
 .highcharts-data-table table,
 .highcharts-figure {
     min-width: 310px;

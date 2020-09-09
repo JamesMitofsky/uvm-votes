@@ -4,7 +4,8 @@ Highcharts.chart('container', {
         enabled: false
     },
     chart: {
-        type: 'column'
+        type: 'column',
+        backgroundColor: "rgb(230, 243, 230)"
     },
     title: {
         text: '2016 General Election: National Average vs. UVM'
