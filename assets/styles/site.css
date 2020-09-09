@@ -90,7 +90,8 @@ p {
 
 .uvm-banner {
     color: white;
-    background-color: #F47D20;
+    border: #F47D20 5px solid;
+    border-right: none;
     padding: .5em;
     display: flex;
     align-items: center;
@@ -111,7 +112,6 @@ p {
 .uvm-banner svg {
     margin: 0 .5em;
     height: 40px;
-    fill: white;
 }
 
 .uvm-logo {
