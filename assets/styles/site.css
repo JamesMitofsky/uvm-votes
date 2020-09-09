@@ -74,8 +74,7 @@ p {
     background-color: #B2D23E;
     color: #007155;
     text-align: center;
-    padding: 10px 0;
-    font-size: 1.6em;
+    padding: 5px 0;
     margin: 0;
     margin-bottom: 15px;
     transition: ease 0.2s all;
@@ -84,24 +83,38 @@ p {
     position: relative;
     z-index: 1;
     text-shadow: -1px 1px 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .uvm-banner {
     color: white;
     background-color: #F47D20;
-    padding: 0 25px;
+    padding: .5em;
     display: flex;
     align-items: center;
     float: right;
+    margin: 0 0 15px 10px;
+    margin-left: 10px;
     margin-bottom: 15px;
-    font-size: 0.7em;
     font-family: 'Bungee Shade', cursive;
     position: relative;
     z-index: 1;
     text-shadow: -1px 1px 1px black;
 }
 
-.uvm-banner .uvm-logo {
+.uvm-banner a {
+    line-height: 0;
+}
+
+.uvm-banner svg {
+    margin: 0 .5em;
+    height: 40px;
+    fill: white;
+}
+
+.uvm-logo {
     height: 50px;
     margin-right: 10px;
 }
@@ -112,8 +125,13 @@ p {
     overflow: hidden;
 }
 
-.header .inner-section {
+.header div.org-description {
     display: block;
+    padding: 0 .5em;
+    margin: 23px auto;
+    text-align: left;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-background {
@@ -129,12 +147,6 @@ p {
     -moz-background-size: contain;
     -webkit-background-size: contain;
     background-size: contain;
-}
-
-.header .inner-section {
-    text-align: left;
-    position: relative;
-    z-index: 1;
 }
 
 .header p {
@@ -370,8 +382,7 @@ section.light-theme {
         width: 500px;
     }
 
-    .header .inner-section {
-        padding: 40px 0;
+    .header div.org-description {
         text-align: center;
     }
 
@@ -383,15 +394,6 @@ section.light-theme {
 @media only screen and (min-width: 800px) {
     .inner-section {
         width: 600px;
-    }
-
-    .evc-banner {
-        margin: 0 0 15px;
-        padding: 15px;
-    }
-
-    header {
-        font-size: 1.2em;
     }
 }
 
