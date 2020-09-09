@@ -12,7 +12,7 @@ Highcharts.chart('container', {
     },
     xAxis: {
         categories: [
-            'Voting Rate of Registered Students', 'Overall Voting Rate', 'Undergrad Voting Rate'
+            'Voting Rate of Registered Students', 'Voting Rate of All Students', 'Voting Rate of Undergrads'
         ],
         crosshair: true
     },
