@@ -21,7 +21,7 @@ body {
     margin: 0;
     font-size: 1.1em;
     line-height: 2em;
-    font-family: 'Cutive', serif;
+    font-family: 'Cutive', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ p {
     margin-bottom: 15px;
     transition: ease 0.2s all;
     line-height: 1.1em;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee Shade', sans-serif;
     position: relative;
     z-index: 1;
     text-shadow: -1px 1px 1px white;
