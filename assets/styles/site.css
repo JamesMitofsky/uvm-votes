@@ -282,7 +282,7 @@ form .user-box input:valid~label {
 
 .description h4 {
     margin: 0;
-    margin-top: -10px;
+    line-height: 1.2em;
 }
 
 .description div {
