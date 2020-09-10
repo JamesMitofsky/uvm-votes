@@ -131,7 +131,6 @@ p {
     margin: 23px auto;
     text-align: left;
     position: relative;
-    z-index: 1;
 }
 
 .hero-background {
