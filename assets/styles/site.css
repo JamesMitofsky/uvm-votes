@@ -4,11 +4,13 @@
     font-weight: 400;
     font-display: swap;
     src: local('Bungee Shade'), local('BungeeShade-Regular'), url(/assets/fonts/BungeeShade-Regular.woff2) format('woff2');
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Cutive;
+    font-family: 'Cutive';
     src: url(/assets/Cutive-Regular.ttf);
+    font-display: swap;
 }
 
 /* utilities */
