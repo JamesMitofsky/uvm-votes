@@ -22,5 +22,8 @@
     "homepage": "https://github.com/JamesTedesco/uvm.vote#readme",
     "devDependencies": {
         "@11ty/eleventy": "^0.11.0"
+    },
+    "dependencies": {
+        "sal.js": "^0.8.1"
     }
 }
