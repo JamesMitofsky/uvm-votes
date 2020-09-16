@@ -72,6 +72,7 @@ p {
 }
 
 /* general styles */
+
 .evc-banner {
     background-color: #B2D23E;
     color: #007155;
@@ -158,21 +159,24 @@ p {
     margin-bottom: 0;
 }
 
-
 /* form styles */
 
+#test {
+    z-index: 1;
+    margin: 0;
+    margin-top: -200px;
+    padding-top: 200px;
+    margin-bottom: -200px;
+}
 
 .inner-section form {
     margin: 20px 0;
-    margin-bottom: -100px;
     z-index: 1;
     padding: 40px;
     background-color: #548D7D;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
-    margin-bottom: -180px;
-    z-index: 1;
 }
 
 #greater-vision {
@@ -233,9 +237,8 @@ form .user-box input:valid~label {
     flex-direction: column;
 }
 
-
-
 /* Side-by-side boxes */
+
 .inner-section .roles-wrapper {
     display: grid;
     grid-template-areas: "volunteer organize";
@@ -245,10 +248,10 @@ form .user-box input:valid~label {
 }
 
 /* temporary solution - so much is wrong here */
+
 @media only screen and (max-width: 900px) {
     .inner-section .roles-wrapper {
-        grid-template-areas: "volunteer"
-            "organize";
+        grid-template-areas: "volunteer""organize";
         grid-template-columns: 1fr;
     }
 }
@@ -269,8 +272,7 @@ form .user-box input:valid~label {
 
 .description {
     display: grid;
-    grid-template-areas: "icon header"
-        "icon description";
+    grid-template-areas: "icon header""icon description";
     padding: 1em;
     column-gap: 1em;
     overflow-wrap: anywhere;
@@ -291,8 +293,6 @@ form .user-box input:valid~label {
     color: #363636;
 }
 
-
-
 /* theme dependent styles */
 
 .link {
@@ -305,6 +305,7 @@ form .user-box input:valid~label {
 }
 
 /* force catch of two light theme links */
+
 .light-theme a {
     color: #0074ff;
     font-weight: bold;
@@ -329,9 +330,7 @@ section.light-theme {
 
 .contact-info {
     display: grid;
-    grid-template-areas:
-        "profile . email"
-        "profile . phone";
+    grid-template-areas: "profile . email""profile . phone";
     grid-template-columns: minmax(auto, 500px) minmax(auto, 100%) minmax(auto, 500px);
     justify-content: center;
     padding-bottom: 60px;
@@ -365,6 +364,7 @@ section.light-theme {
 }
 
 /* layout widths */
+
 .inner-section {
     margin: 0 auto;
     margin-bottom: 2.5em;
@@ -377,7 +377,6 @@ section.light-theme {
 .inner-section>* {
     margin: 20px 0;
 }
-
 
 @media only screen and (min-width: 600px) {
     .inner-section {
@@ -412,7 +411,6 @@ section.light-theme {
         width: 1100px;
     }
 }
-
 
 /* highcharts styles */
 
