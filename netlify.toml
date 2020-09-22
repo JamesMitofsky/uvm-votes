@@ -1,8 +1,9 @@
 [[redirects]]
+    from = "/reg"
+    to = "https://uvm.turbovote.org/"
+    status = 200
+
+[[redirects]]
     from = "/*"
     to = "/404/"
     status = 404
-
-[[redirects]]
-    from = "/reg"
-    to = "https://uvm.turbovote.org/"
