@@ -363,6 +363,18 @@ section.light-theme {
     align-self: center;
 }
 
+/* 404 page */
+
+#error .inner-section {
+    display: flex;
+    align-items: center;
+}
+
+.undraw-svg {
+    width: 40vw;
+    height: min-content;
+}
+
 /* layout widths */
 
 .inner-section {
