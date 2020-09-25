@@ -237,6 +237,22 @@ form .user-box input:valid~label {
     flex-direction: column;
 }
 
+.quick-fix-thanks label {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px;
+    padding-right: 14px;
+    margin: 4px;
+}
+
+.quick-fix-thanks label:hover {
+    cursor: pointer;
+}
+
+.quick-fix-thanks label input {
+    margin-right: 8px;
+}
+
 /* Side-by-side boxes */
 
 .inner-section .roles-wrapper {
