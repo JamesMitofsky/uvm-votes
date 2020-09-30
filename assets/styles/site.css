@@ -36,11 +36,8 @@ main {
     flex-direction: column;
 }
 
-#error {
+.full-page {
     flex: 1 1 auto;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
 
 p {
@@ -380,6 +377,12 @@ section.light-theme {
 }
 
 /* 404 page */
+
+#error {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 #error .inner-section {
     display: flex;
