@@ -96,7 +96,6 @@ p {
 /* general styles */
 
 .uvm-votes-banner {
-    background-color: #B2D23E;
     color: #007155;
     text-align: center;
     padding: 5px 0;
@@ -116,11 +115,10 @@ p {
 .uvm-votes-banner svg {
     margin: 5px;
     height: 50px;
-    fill: green;
 }
 
 .UVM-Votes-logo .cls-1 {
-    fill: white;
+    fill: #007155;
 }
 
 .uvm-logo .cls-1 {
