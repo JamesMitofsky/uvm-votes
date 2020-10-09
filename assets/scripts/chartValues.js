@@ -53,7 +53,7 @@ Highcharts.chart('container', {
             data: [
                 62.7, 46.2, 42.8
             ],
-            color: "green"
+            color: "#007155"
         }
     ]
 });
