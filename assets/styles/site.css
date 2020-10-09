@@ -13,12 +13,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Zilla Slab';
-    src: url(/assets/fonts/Zilla_Slab.woff2);
-    font-display: swap;
-}
-
 /* utilities */
 
 html {
@@ -77,11 +71,6 @@ p {
     background-color: #048ac3;
     cursor: pointer;
     border: none;
-}
-
-.blog-post {
-    font-family: 'Zilla Slab';
-    font-size: 1.1em;
 }
 
 .blog-post h1 {
