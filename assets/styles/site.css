@@ -30,6 +30,11 @@ body {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 main {
     flex: 1 1 auto;
     display: flex;
@@ -68,9 +73,23 @@ p {
     border: none;
 }
 
+.blog-post {
+    font-family: 'Zilla Slab';
+    font-size: 1.1em;
+}
+
+.blog-post h1 {
+    text-align: center;
+}
+
+.blog-post h2,
+.blog-post h3 {
+    margin: 2em 0 0 0;
+}
+
 /* general styles */
 
-.evc-banner {
+.uvm-votes-banner {
     background-color: #B2D23E;
     color: #007155;
     text-align: center;
@@ -86,6 +105,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.uvm-votes-banner svg {
+    margin: 5px;
+    height: 50px;
+    fill: green;
+}
+
+.UVM-Votes-logo .cls-1 {
+    fill: white;
+}
+
+.uvm-logo .cls-1 {
+    fill: #007155;
 }
 
 .uvm-banner {
@@ -112,11 +145,6 @@ p {
 .uvm-banner svg {
     margin: 0 .5em;
     height: 40px;
-}
-
-.uvm-logo {
-    height: 50px;
-    margin-right: 10px;
 }
 
 .header {
@@ -324,7 +352,7 @@ form .user-box input:valid~label {
     font-weight: bold;
 }
 
-.light-theme h2 {
+.light-theme .title {
     color: #007155;
 }
 
@@ -421,13 +449,13 @@ section.light-theme {
 
 @media only screen and (min-width: 800px) {
     .inner-section {
-        width: 600px;
+        width: 700px;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .inner-section {
-        width: 700px;
+        width: 800px;
     }
 }
 
