@@ -13,6 +13,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Zilla Slab';
+    src: url(/assets/fonts/Zilla_Slab.woff2);
+    font-display: swap;
+}
+
 /* utilities */
 
 html {
