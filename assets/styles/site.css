@@ -145,6 +145,7 @@ p {
     background-color: #BBE5FB;
     position: relative;
     overflow: hidden;
+    box-shadow: 1px 1px 5px rgb(128 128 128 / 70%);
 }
 
 .header div.org-description {
