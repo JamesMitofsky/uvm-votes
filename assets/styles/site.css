@@ -370,11 +370,6 @@ section.light-theme {
         "profile"
         "email"
         "phone";
-
-    /* grid-template-areas: "profile title"
-        "profile email"
-        "profile phone"; */
-
 }
 
 .grid-container {
@@ -476,11 +471,22 @@ section.light-theme {
         width: 700px;
     }
 
+    .contact-info {
+        padding: 20px;
+        grid-template-areas: "profile title"
+            "profile email"
+            "profile phone";
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
     .inner-section {
         width: 800px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
