@@ -476,6 +476,7 @@ section.light-theme {
         grid-template-areas: "profile title"
             "profile email"
             "profile phone";
+        grid-template-columns: 1fr 1fr;
     }
 
 }
