@@ -366,10 +366,22 @@ section.light-theme {
 
 .contact-info {
     display: grid;
-    grid-template-areas: "profile . email""profile . phone";
+    grid-template-areas: "profile . title"
+        "profile . email"
+        "profile . phone";
     grid-template-columns: minmax(auto, 500px) minmax(auto, 100%) minmax(auto, 500px);
-    justify-content: center;
-    padding-bottom: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-container>* {
+    border: 5px solid #548D7D;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .contact-info svg {
@@ -377,8 +389,12 @@ section.light-theme {
     margin-right: 10px;
 }
 
+.contact-info * {
+    margin: 5px;
+}
+
 .profile-pic {
-    height: 5.8em;
+    height: 8em;
     width: auto;
     border-radius: 50%;
     display: flex;
@@ -387,10 +403,15 @@ section.light-theme {
     grid-area: profile;
 }
 
+.title {
+    grid-area: title;
+    margin-left: 10px;
+}
+
 .email {
     grid-area: email;
     display: flex;
-    align-self: center;
+    align-items: center;
 }
 
 .phone {
@@ -450,6 +471,7 @@ section.light-theme {
     .inner-section {
         width: 700px;
     }
+
 }
 
 @media only screen and (min-width: 1000px) {
