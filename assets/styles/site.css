@@ -366,21 +366,24 @@ section.light-theme {
 
 .contact-info {
     display: grid;
-    grid-template-areas: "profile . title"
-        "profile . email"
-        "profile . phone";
-    grid-template-columns: minmax(auto, 500px) minmax(auto, 100%) minmax(auto, 500px);
+    grid-template-areas: "title"
+        "profile"
+        "email"
+        "phone";
+
+    /* grid-template-areas: "profile title"
+        "profile email"
+        "profile phone"; */
+
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: 20px;
 }
 
 .grid-container>* {
     border: 5px solid #548D7D;
-    padding: 20px;
     border-radius: 5px;
 }
 
@@ -389,8 +392,9 @@ section.light-theme {
     margin-right: 10px;
 }
 
-.contact-info * {
+.contact-info>* {
     margin: 5px;
+    width: fit-content;
 }
 
 .profile-pic {
