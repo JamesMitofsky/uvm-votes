@@ -404,7 +404,6 @@ section.light-theme {
 
 .title {
     grid-area: title;
-    margin-left: 10px;
 }
 
 .email {
