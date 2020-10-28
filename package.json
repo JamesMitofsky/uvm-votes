@@ -24,6 +24,7 @@
         "@11ty/eleventy": "^0.11.0"
     },
     "dependencies": {
-        "sal.js": "^0.8.1"
+        "sal.js": "^0.8.1",
+        "sqip": "^0.3.3"
     }
 }
