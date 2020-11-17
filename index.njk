@@ -5,8 +5,6 @@ title: this is one ginormous test
 <section class="light-theme">
     <div class="inner-section">
 
-        <img class="lazy" src="/assets/images/lizAndAidanPlaceholder.svg" data-src="/assets/images/lizAndAidan.jpg" alt="Picture of UVM Votes members carving pumpkins.">
-
         <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">The Issue.</h2>
         <div class="non-flex-wrapper">
             <figure class="highcharts-figure">
@@ -21,7 +19,7 @@ title: this is one ginormous test
     </div>
 </section>
 
-<section class="dark-theme">
+{# <section class="dark-theme">
     <div class="inner-section mission">
         <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">Our Solution</h2>
         <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">We're helping folks plan to vote with
@@ -94,66 +92,69 @@ title: this is one ginormous test
         </div>
     </div>
 
-</div>
+
+</section> #}
+
+<section class="dark-theme">
+    <div class="inner-section" id="greater-vision">
+
+        <img class="lazy" src="/assets/images/lizAndAidanPlaceholder.svg" data-src="/assets/images/lizAndAidan.jpg" alt="Picture of UVM Votes members carving pumpkins.">
+
+        <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">The Greater Vision</h2>
+        <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">Institutionalize voting.</p>
+
+        <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">Our Student Government Association signed off on the
+            <a class="link" href="https://www.evcnational.org/blogpost/jumpstarting-our-campus-presence-with-time-off-to-vote" target="_blank">Time Off To Vote letter</a>, but UVM as an institution is really well positioned to do more for helping students vote.</p>
+
+        <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">One of the easiest changes would be including voter registration tables at events like Orientation Day and adding a button to voter resources into the myUVM portal. More involved options also include giving election day off or encouraging students to consider their voter status during class sign-ups (Stanford is trying
+            <a class="link" target="_blank" href="https://www.stanforddaily.com/2020/02/06/new-enrollment-hold-encourages-students-to-register-to-vote/">that idea</a>
+            right now).</p>
+
+        <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">We also know that
+            <a target="blank" class="link" href="https://vtcynic.com/news/a-gerrymandered-student-ward-how-burlingtons-ward-8-got-its-shape/">Ward 8 is a gerrymandered district</a>
+            overrepresenting students, so why not move polling to the Davis Center?</p>
+    </div>
 </section>
 
 <section class="light-theme">
-<div class="inner-section" id="greater-vision">
-    <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">The Greater Vision</h2>
-    <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">Institutionalize voting.</p>
+    <div class="inner-section">
+        <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">Contact the Team!</h2>
+        <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">We're all going into this work wide-eyed and would
+            <em>love</em>
+            to talk about it more, so don't hesitate to hit us up!</p>
 
-    <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">Our Student Government Association signed off on the
-        <a class="link" href="https://www.evcnational.org/blogpost/jumpstarting-our-campus-presence-with-time-off-to-vote" target="_blank">Time Off To Vote letter</a>, but UVM as an institution is really well positioned to do more for helping students vote.</p>
+        <div class="grid-container" id="contact">
+            <div class="contact-info">
+                <img src="assets/images/profile-pics/headshot.jpg" class="profile-pic" alt="Profile picture of James Tedesco">
+                <div class="title">President</div>
+                <a class="email link" href="mailto:james@uvm.vote">{% include "images/email.svg" %}james@uvm.vote</a>
+                <a class="phone link" href="tel:1-802-777-4849">{% include "images/speech-bubble.svg" %}(802) 777-4849</a>
+            </div>
+            <div class="contact-info"><img src="assets/images/profile-pics/mia-headshot.png" class="profile-pic" alt="Profile picture of Mia Dillon">
+                <div class="title">Vice-President</div>
+                <a class="email link" href="mailto:mia@uvm.vote">{% include "images/email.svg" %}mia@uvm.vote</a>
+            </div>
+            <div class="contact-info">
+                <img src="assets/images/profile-pics/aidan-headshot.jpg" class="profile-pic" alt="Profile picture of Aidan May">
+                <div class="title">SGA Liaison</div>
+                <a class="email link" href="mailto:aidan@uvm.vote">{% include "images/email.svg" %}aidan@uvm.vote</a>
+            </div>
+            <div class="contact-info">
+                <img src="assets/images/profile-pics/brian-headshot.jpg" class="profile-pic" alt="Profile picture of Brian Donahue">
+                <div class="title">Local Business Collaboration</div>
+                <a class="email link" href="mailto:brian@uvm.vote">{% include "images/email.svg" %}brian@uvm.vote</a>
+            </div>
+            <div class="contact-info">
+                <img src="assets/images/profile-pics/liz-headshot.jpg" class="profile-pic" alt="Profile picture of Liz Chadwick">
+                <div class="title">Social Media</div>
+                <a class="email link" href="mailto:liz@uvm.vote">{% include "images/email.svg" %}liz@uvm.vote</a>
+            </div>
+            <div class="contact-info">
+                <img src="assets/images/profile-pics/bullhorn.png" class="profile-pic" alt="Profile placeholder picture">
+                <div class="title">Greek Life?</div>
+                <div class="email">Literally please help with this.</div>
+            </div>
 
-    <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">One of the easiest changes would be including voter registration tables at events like Orientation Day and adding a button to voter resources into the myUVM portal. More involved options also include giving election day off or encouraging students to consider their voter status during class sign-ups (Stanford is trying
-        <a class="link" target="_blank" href="https://www.stanforddaily.com/2020/02/06/new-enrollment-hold-encourages-students-to-register-to-vote/">that idea</a>
-        right now).</p>
-
-    <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">We also know that
-        <a target="blank" class="link" href="https://vtcynic.com/news/a-gerrymandered-student-ward-how-burlingtons-ward-8-got-its-shape/">Ward 8 is a gerrymandered district</a>
-        overrepresenting students, so why not move polling to the Davis Center?</p>
-</div>
-</section>
-
-<section class="dark-theme">
-<div class="inner-section">
-    <h2 class="title" data-sal-repeat="data-sal-repeat" data-sal="zoom-out" data-sal-duration="1000" data-sal-easing="ease-out-back">Contact the Team!</h2>
-    <p data-sal-repeat="data-sal-repeat" data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease-out-back">We're all going into this work wide-eyed and would
-        <em>love</em>
-        to talk about it more, so don't hesitate to hit us up!</p>
-
-    <div class="grid-container" id="contact">
-        <div class="contact-info">
-            <img src="assets/images/profile-pics/headshot.jpg" class="profile-pic" alt="Profile picture of James Tedesco">
-            <div class="title">President</div>
-            <a class="email link" href="mailto:james@uvm.vote">{% include "images/email.svg" %}james@uvm.vote</a>
-            <a class="phone link" href="tel:1-802-777-4849">{% include "images/speech-bubble.svg" %}(802) 777-4849</a>
         </div>
-        <div class="contact-info"><img src="assets/images/profile-pics/mia-headshot.png" class="profile-pic" alt="Profile picture of Mia Dillon">
-            <div class="title">Vice-President</div>
-            <a class="email link" href="mailto:mia@uvm.vote">{% include "images/email.svg" %}mia@uvm.vote</a>
-        </div>
-        <div class="contact-info">
-            <img src="assets/images/profile-pics/aidan-headshot.jpg" class="profile-pic" alt="Profile picture of Aidan May">
-            <div class="title">SGA Liaison</div>
-            <a class="email link" href="mailto:aidan@uvm.vote">{% include "images/email.svg" %}aidan@uvm.vote</a>
-        </div>
-        <div class="contact-info">
-            <img src="assets/images/profile-pics/brian-headshot.jpg" class="profile-pic" alt="Profile picture of Brian Donahue">
-            <div class="title">Local Business Collaboration</div>
-            <a class="email link" href="mailto:brian@uvm.vote">{% include "images/email.svg" %}brian@uvm.vote</a>
-        </div>
-        <div class="contact-info">
-            <img src="assets/images/profile-pics/liz-headshot.jpg" class="profile-pic" alt="Profile picture of Liz Chadwick">
-            <div class="title">Social Media</div>
-            <a class="email link" href="mailto:liz@uvm.vote">{% include "images/email.svg" %}liz@uvm.vote</a>
-        </div>
-        <div class="contact-info">
-            <img src="assets/images/profile-pics/bullhorn.png" class="profile-pic" alt="Profile placeholder picture">
-            <div class="title">Greek Life?</div>
-            <div class="email">Literally please help with this.</div>
-        </div>
-
     </div>
-</div>
 </section>
