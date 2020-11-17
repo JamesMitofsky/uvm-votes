@@ -8,7 +8,7 @@ Highcharts.chart('container', {
         backgroundColor: "rgb(230, 243, 230)"
     },
     title: {
-        text: '2016 General Election: National Average vs. UVM'
+        text: '2016 Gen. Election: College National Average vs. UVM'
     },
     xAxis: {
         categories: [
