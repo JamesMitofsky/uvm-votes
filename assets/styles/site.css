@@ -193,7 +193,7 @@ p {
     margin: 0;
     margin-top: calc(-50vh + 300px);
     padding-top: calc(50vh - 300px);
-    margin-bottom: -200px;
+    margin-bottom: -220px;
 }
 
 .inner-section form {
@@ -213,6 +213,10 @@ p {
 
 #greater-vision {
     margin-top: -200px;
+}
+
+#contact-us {
+    margin-top: 180px;
 }
 
 form h2 {
