@@ -206,9 +206,14 @@ p {
     border-radius: 10px;
 }
 
-/* #greater-vision {
-    margin-top: 180px;
-} */
+
+#the-issue {
+    margin-bottom: 200px;
+}
+
+#greater-vision {
+    margin-top: -200px;
+}
 
 form h2 {
     margin: 0 0 30px;
