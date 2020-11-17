@@ -412,7 +412,6 @@ section.light-theme {
 .profile-pic {
     height: 8em;
     width: auto;
-    border-radius: 50%;
     display: flex;
     justify-self: center;
     align-self: center;
