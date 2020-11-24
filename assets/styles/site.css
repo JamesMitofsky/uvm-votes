@@ -215,6 +215,10 @@ p {
     margin-top: -200px;
 }
 
+#greater-vision>p {
+    z-index: 2;
+}
+
 #contact-us {
     margin-top: 180px;
 }
