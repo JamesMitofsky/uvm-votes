@@ -39,7 +39,6 @@ body {
 
 a {
     text-decoration: none;
-
 }
 
 main {
@@ -60,22 +59,44 @@ p {
     font-weight: bolder;
 }
 
+.bg-orange {
+    background: #e27c07;
+    width: 100%;
+    box-shadow: 2px 2px 3px rgb(128, 67, 7);
+    padding: .5em 0;
+}
+
+.bg-orange:hover {
+    background-color: #e49007;
+}
+
+.bg-orange:active {
+    box-shadow: -1px -2px 3px rgb(156, 96, 0) inset;
+}
+
+.bg-blue {
+    padding: 1em 2em;
+    background: #07a2e4;
+    width: fit-content;
+}
+
+.bg-blue:hover {
+    background-color: #048ac3;
+}
+
 .link-btn {
     text-decoration: none;
-    background-color: #07a2e4;
     color: white;
     transition: all .2s ease;
-    text-align: center;
-    align-self: center;
-    width: fit-content;
     font-size: inherit;
-    padding: 1em 2em;
     border-radius: 10px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-btn:hover {
-    background-color: #048ac3;
     cursor: pointer;
     border: none;
 }
@@ -84,8 +105,7 @@ p {
     text-align: center;
 }
 
-.blog-post h2,
-.blog-post h3 {
+.blog-post h2, .blog-post h3 {
     margin: 2em 0 0 0;
 }
 
@@ -206,7 +226,6 @@ p {
     border-radius: 10px;
 }
 
-
 #the-issue {
     margin-bottom: 200px;
 }
@@ -258,8 +277,7 @@ form .user-box label {
     transition: .5s;
 }
 
-form .user-box input:focus~label,
-form .user-box input:valid~label {
+form .user-box input:focus~label, form .user-box input:valid~label {
     top: -30px;
     left: 0;
     color: #03e9f4;
@@ -362,7 +380,7 @@ form .user-box input:valid~label {
 
 /* force catch of two light theme links */
 
-.light-theme a {
+.light-theme .link {
     color: #0074ff;
     font-weight: bold;
 }
@@ -387,10 +405,7 @@ section.light-theme {
 
 .contact-info {
     display: grid;
-    grid-template-areas: "title"
-        "profile"
-        "email"
-        "phone";
+    grid-template-areas: "title" "profile" "email" "phone";
 }
 
 .grid-container {
@@ -475,11 +490,9 @@ section.light-theme {
     .inner-section {
         width: 500px;
     }
-
     .header div.org-description {
         text-align: center;
     }
-
     div.uvm-banner {
         flex-direction: row;
     }
@@ -489,22 +502,17 @@ section.light-theme {
     .inner-section {
         width: 700px;
     }
-
     .contact-info {
         padding: 20px;
-        grid-template-areas: "profile title"
-            "profile email"
-            "profile phone";
+        grid-template-areas: "profile title" "profile email" "profile phone";
         grid-template-columns: 1fr 1fr;
     }
-
 }
 
 @media only screen and (min-width: 1000px) {
     .inner-section {
         width: 800px;
     }
-
     .grid-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -528,8 +536,7 @@ figure.highcharts-figure {
     margin: 0 auto;
 }
 
-.highcharts-data-table table,
-.highcharts-figure {
+.highcharts-data-table table, .highcharts-figure {
     min-width: 310px;
     max-width: 800px;
     margin: 1em auto;
@@ -560,14 +567,11 @@ figure.highcharts-figure {
     padding: 0.5em;
 }
 
-.highcharts-data-table caption,
-.highcharts-data-table td,
-.highcharts-data-table th {
+.highcharts-data-table caption, .highcharts-data-table td, .highcharts-data-table th {
     padding: 0.5em;
 }
 
-.highcharts-data-table thead tr,
-.highcharts-data-table tr:nth-child(even) {
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
     background: #f8f8f8;
 }
 
