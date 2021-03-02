@@ -4,6 +4,11 @@
     status = 200
 
 [[redirects]]
+    from = "/meeting"
+    to = "https://teams.microsoft.com/l/meetup-join/19%3a607aad1c6bb0484fa0ab559043f2be41%40thread.tacv2/1614725238343?context=%7b%22Tid%22%3a%221c177758-4d6b-43dc-aaeb-3b9c42562967%22%2c%22Oid%22%3a%22f106a140-0ec4-485b-b462-1d5a1878f514%22%7d"
+    status = 200
+
+[[redirects]]
     from = "/*"
     to = "/404/"
     status = 404
