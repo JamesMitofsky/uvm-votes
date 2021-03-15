@@ -7,7 +7,9 @@ module.exports = function (eleventyConfig) {
         "node_modules/sal.js/dist/sal.js": "assets/scripts/sal.js",
         "node_modules/sal.js/dist/sal.css": "assets/styles/sal.css",
         "assets/tld-links/General-Election-NSLVE-Data.pdf": "General-Election.pdf",
-        "assets/tld-links/Midterm-Election-NSLVE-Data.pdf": "Midterm-Election.pdf"
+        "assets/tld-links/Midterm-Election-NSLVE-Data.pdf": "Midterm-Election.pdf",
+        "assets/tld-links/Registrar-Proposal.pdf": "Registrar-Proposal.pdf",
+        "assets/tld-links/Registrar-Proposal-Citations.pdf": "Registrar-Proposal-Citations.pdf"
     });
 
     return {
