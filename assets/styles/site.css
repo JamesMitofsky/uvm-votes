@@ -90,7 +90,7 @@ p {
 }
 
 .hero-btn:active {
-    box-shadow: -1px -2px 3px rgb(156, 96, 0) inset;
+    box-shadow: none;
 }
 
 .bg-blue {
