@@ -4,4 +4,8 @@
     "emmet.includeLanguages": {
         "njk": "html"
     },
+    "editor.fontFamily": "Fira Code Medium, monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 15
 }
