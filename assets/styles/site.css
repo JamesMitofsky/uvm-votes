@@ -66,12 +66,12 @@ p {
 
 .bg-green {
     background-color: #017155;
-    box-shadow: 2px 2px 3px rgb(0, 54, 19);
+    box-shadow: 3px 4px 6px 1px rgb(0, 54, 19);
 }
 
 .bg-yellow {
     background-color: #ffd601;
-    box-shadow: 2px 2px 3px rgb(142, 119, 18);
+    box-shadow: 3px 4px 6px 1px rgb(142, 119, 18);
 }
 
 .hero-btn {
@@ -81,8 +81,12 @@ p {
     text-align: center;
 }
 
-.hero-btn:hover {
-    background-color: #e49007;
+.bg-green:hover {
+    background-color: #00533e;
+}
+
+.bg-yellow:hover {
+    background-color: #cfad00;
 }
 
 .hero-btn:active {
