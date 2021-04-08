@@ -1,7 +1,6 @@
 [[redirects]]
     from = "/reg"
     to = "https://uvm.turbovote.org/"
-    status = 200
 
 [[redirects]]
     from = "/registrar-citations"
@@ -10,7 +9,10 @@
 [[redirects]]
     from = "/meeting"
     to = "https://evt.to/oeusuidw"
-    status = 200
+
+[[redirects]]
+    from = "/club"
+    to = "https://clubs.uvm.edu/organization/uvmvotes"
 
 [[redirects]]
     from = "/*"
