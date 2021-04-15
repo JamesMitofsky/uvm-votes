@@ -156,8 +156,7 @@ li {
     color: #007155;
     text-align: center;
     padding: 5px 0;
-    margin: 0;
-    margin-bottom: 15px;
+    margin: .9em 0;
     transition: ease 0.2s all;
     line-height: 1.1em;
     font-family: 'Bungee Shade', sans-serif;
