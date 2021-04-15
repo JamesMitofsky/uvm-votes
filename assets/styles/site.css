@@ -128,6 +128,28 @@ p {
     margin: 2em 0 0 0;
 }
 
+/* ul {
+    list-style-image:url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/pushpin_1f4cc.png');
+} */
+
+/* set list item styles */
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.5em;
+}
+ul li:before {
+	content: "📌";
+	position: absolute;
+	left: 0;
+}
+
+li {
+    margin: 1.3em 0;
+}
+
+
 /* general styles */
 
 .uvm-votes-banner {
@@ -228,6 +250,7 @@ p {
 /* form styles */
 
 #sign-up {
+    color: white;
     z-index: 1;
     margin: 0;
     margin-top: calc(-50vh + 300px);
@@ -399,26 +422,26 @@ form .user-box input:focus~label, form .user-box input:valid~label {
 
 /* force catch of two light theme links */
 
-.light-theme .link {
+section:nth-child(odd) .link {
     color: #0074ff;
     font-weight: bold;
 }
 
-.light-theme .title {
+section:nth-child(odd) .title {
     color: #007155;
     font-weight: bold;
 }
 
-section.light-theme {
+section:nth-child(odd) {
     background: #e6f3e6;
 }
 
-.dark-theme {
+section:nth-child(even) {
     background-color: #007155;
     color: white;
 }
 
-.dark-theme h2 {
+section:nth-child(even) h2 {
     color: #D9F420;
 }
 
