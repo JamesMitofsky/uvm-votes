@@ -13,8 +13,8 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", }
+      - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
-      - {label: "Date", name: "date"}
-      - {label: "Title", name: "title", default: "UVM Votes Meeting"}
-      - {label: "Description", name: "description"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string", default: "UVM Votes Meeting"}
+      - {label: "Description", name: "description", widget: "markdown"}
