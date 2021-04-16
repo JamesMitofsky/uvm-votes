@@ -1,5 +1,5 @@
 ---
-layout: blog-wrapper.njk
+layout: fullPage.njk
 ---
 
 # 5 Rules to Organize Volunteers
