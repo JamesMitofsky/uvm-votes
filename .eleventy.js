@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginDate);
 
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("admin");
 
     eleventyConfig.addPassthroughCopy({
         "node_modules/sal.js/dist/sal.js": "assets/scripts/sal.js",

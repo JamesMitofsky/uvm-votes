@@ -6,15 +6,15 @@ backend:
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
-# collections:
-#   - name: "meetingMinutes"
-#     label: "Meeting"
-#     folder: "meetingMinutesCatalog"
-#     create: true
-#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-#     fields:
-#       - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
-#       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
-#       - {label: "Date", name: "date", widget: "datetime"}
-#       - {label: "Title", name: "title", widget: "string", default: "UVM Votes Meeting"}
-#       - {label: "Description", name: "description", widget: "markdown"}
+collections:
+  - name: "meetingMinutes"
+    label: "Meeting"
+    folder: "meetingMinutesCatalog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string", default: "UVM Votes Meeting"}
+      - {label: "Description", name: "description", widget: "markdown"}
