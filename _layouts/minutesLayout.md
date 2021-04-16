@@ -6,4 +6,4 @@ layout: fullPage.njk
 
 <br>
 <br>
-Submitted: {{date}}
+Submitted: {{date | readableDate}}
