@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"></script>
         <script>
@@ -79,6 +81,17 @@
 
         </main>
 
+        <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
         <script src="/assets/scripts/sal.js"></script>
         <script src="/assets/scripts/lazyload.min.js"></script>
         <script src="/assets/scripts/site.js"></script>
