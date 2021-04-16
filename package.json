@@ -26,6 +26,7 @@
         "eleventy-plugin-date": "^1.0.0"
     },
     "dependencies": {
+        "netlify-cms-app": "^2.14.45",
         "sal.js": "^0.8.1",
         "sqip": "^0.3.3"
     }
