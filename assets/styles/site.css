@@ -37,10 +37,6 @@ body {
     display: flex;
 }
 
-a {
-    text-decoration: none;
-}
-
 main {
     flex: 1 1 auto;
     display: flex;
@@ -411,12 +407,7 @@ form .user-box input:focus~label, form .user-box input:valid~label {
 /* theme dependent styles */
 
 .link {
-    text-decoration: none;
     color: #67d2ff;
-}
-
-.link:hover {
-    text-decoration: underline;
 }
 
 /* force catch of two light theme links */
