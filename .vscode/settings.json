@@ -7,6 +7,15 @@
     "files.associations": {
         "*.njk": "html"
     },
+    "vsicons.associations.files": [
+        {
+            "icon": "nunjucks",
+            "extensions": [
+                "njk"
+            ],
+            "format": "svg"
+        }
+    ],
     "editor.fontFamily": "Fira Code Medium, monospace",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "monospace",
