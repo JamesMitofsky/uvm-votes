@@ -12,7 +12,7 @@ Highcharts.chart('container', {
     },
     xAxis: {
         categories: [
-            'Voting Rate of Registered Students', 'Voting Rate of All Students', 'Voting Rate of Undergrads'
+            'Voting Rate of Registered Students', 'Voting Rate of Undergrads'
         ],
         crosshair: true
     },
@@ -44,14 +44,14 @@ Highcharts.chart('container', {
         {
             name: 'National',
             data: [
-                68, 50.4, 47.2
+                68, 47.2
             ],
             color: "gold"
 
         }, {
             name: 'UVM',
             data: [
-                62.7, 46.2, 42.8
+                62.7, 42.8
             ],
             color: "#007155"
         }
