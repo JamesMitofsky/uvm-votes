@@ -1,127 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"></script>
+        <script>
+            if (window.location.href != "http://localhost:8080/") {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
 
-<head>
-    <script
-        src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="async"
-        src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"></script>
-    <script>
-        if (window.location.href != "http://localhost:8080/") {
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
+                gtag('config', 'UA-151087295-2');
+            } else {
+                console.log('Site Anouncement: analytics disabled - dev environment')
             }
-            gtag('js', new Date());
+        </script>
 
-            gtag('config', 'UA-151087295-2');
-        } else {
-            console.log('Site Anouncement: analytics disabled - dev environment')
-        }
-    </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UVM Votes</title>
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
+        <link rel="manifest" href="/assets/site.webmanifest">
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-    <title>UVM Votes</title>
-    <link rel="shortcut icon"
-        href="/assets/images/favicon.ico"
-        type="image/vnd.microsoft.icon">
-    <link rel="apple-touch-icon" sizes="180x180"
-        href="assets/images/favicon.ico">
-    <link rel="icon" type="image/png"
-        sizes="32x32"
-        href="assets/images/favicon.ico">
-    <link rel="icon" type="image/png"
-        sizes="16x16"
-        href="assets/images/favicon.ico">
-    <link rel="manifest"
-        href="/assets/site.webmanifest">
+        {# meta social tags #}
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="UVM Votes">
+        <meta name="description" content="A student-led coalition focused on voter registration, education, and reform.">
 
-    {# meta social tags #}
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="UVM Votes">
-    <meta name="description"
-        content="A student-led coalition focused on voter registration, education, and reform.">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.uvm.vote/">
+        <meta property="og:title" content="UVM Votes">
+        <meta property="og:description" content="A student-led coalition focused on voter registration, education, and reform.">
+        <meta property="og:image" content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-10-19-20.png">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url"
-        content="https://www.uvm.vote/">
-    <meta property="og:title" content="UVM Votes">
-    <meta property="og:description"
-        content="A student-led coalition focused on voter registration, education, and reform.">
-    <meta property="og:image"
-        content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-10-19-20.png">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.uvm.vote/">
+        <meta property="twitter:title" content="UVM Votes">
+        <meta property="twitter:description" content="A student-led coalition focused on voter registration, education, and reform.">
+        <meta property="twitter:image" content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-10-19-20.png">
 
-    <!-- Twitter -->
-    <meta property="twitter:card"
-        content="summary_large_image">
-    <meta property="twitter:url"
-        content="https://www.uvm.vote/">
-    <meta property="twitter:title"
-        content="UVM Votes">
-    <meta property="twitter:description"
-        content="A student-led coalition focused on voter registration, education, and reform.">
-    <meta property="twitter:image"
-        content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-10-19-20.png">
+        <link rel="stylesheet" href="/assets/styles/sal.css">
 
-    <link rel="stylesheet"
-        href="/assets/styles/sal.css">
+        <style>
+            {% include "styles/site.css" %}
+        </style>
 
-    <style>
-        {
-            % include "styles/site.css"%
-        }
-    </style>
+    </head>
 
-</head>
+    <!-- If you're looking at the code, chances are, you might want to contribute to this project. Check out the Github repo here: https://github.com/JamesTedesco/uvm.vote -->
+    <body>
 
-<!-- If you're looking at the code, chances are, you might want to contribute to this project. Check out the Github repo here: https://github.com/JamesTedesco/uvm.vote -->
+        <header class="header">
 
-<body>
+            <a href="/" class="uvm-votes-banner">
+                {% include "svgs/OutlineTowerWhite.svg" %}
+                {% include 'svgs/UVM_Votes_Logo.svg' %}
+            </a>
+            {# <div class="uvm-banner">
+                <a href="https://twitter.com/uvmVotes" target="_blank">
+                    {% include "svgs/twitter-color.svg" %}</a>
+                <a href="https://www.instagram.com/uvmvotes/" target="_blank">
+                    {% include "svgs/instagram-color.svg" %}</a>
+            </div> #}
+            <div class="hero-background"></div>
+            
 
-    <header class="header">
+        </header>
 
-        <a href="/" class="uvm-votes-banner">
-            {% include
-            "svgs/OutlineTowerWhite.svg" %}
-            {% include 'svgs/UVM_Votes_Logo.svg'
-            %}
-        </a>
-        {# <div class="uvm-banner">
-            <a href="https://twitter.com/uvmVotes"
-                target="_blank">
-                {% include
-                "svgs/twitter-color.svg" %}</a>
-            <a href="https://www.instagram.com/uvmvotes/"
-                target="_blank">
-                {% include
-                "svgs/instagram-color.svg" %}</a>
-        </div> #}
-        <div class="hero-background"></div>
+        <main>
 
+            {{ content | safe }}
 
-    </header>
+        </main>
 
-    <main>
-
-        {{ content | safe }}
-
-    </main>
-
-    <script src="/assets/scripts/sal.js"></script>
-    <script
-        src="/assets/scripts/lazyload.min.js"></script>
-    <script
-        src="/assets/scripts/site.js"></script>
-    <script
-        src="/assets/scripts/highcharts.js"></script>
-    <script
-        src="/assets/scripts/accessibility.js"></script>
-    <script
-        src="/assets/scripts/chartValues.js"></script>
-</body>
-
+        <script src="/assets/scripts/sal.js"></script>
+        <script src="/assets/scripts/lazyload.min.js"></script>
+        <script src="/assets/scripts/site.js"></script>
+        <script src="/assets/scripts/highcharts.js"></script>
+        <script src="/assets/scripts/accessibility.js"></script>
+        <script src="/assets/scripts/chartValues.js"></script>
+    </body>
 </html>
