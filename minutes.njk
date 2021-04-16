@@ -4,7 +4,7 @@ layout: fullPage.njk
 <ul>
     {%- for post in collections.meetingMinutes
     -%}
-    <li>{{post.data.datetoString()}} <a
+    <li>{{post.data.date | readableDate}} — <a
             href="{{post.url}}">{{post.data.title}}</a>
     </li>
     {%- endfor -%}

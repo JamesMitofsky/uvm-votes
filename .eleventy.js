@@ -1,7 +1,10 @@
+const pluginDate = require("eleventy-plugin-date");
+
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPlugin(pluginDate);
 
+    eleventyConfig.addPassthroughCopy("assets");
 
     eleventyConfig.addPassthroughCopy({
         "node_modules/sal.js/dist/sal.js": "assets/scripts/sal.js",
