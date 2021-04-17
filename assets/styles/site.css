@@ -207,7 +207,7 @@ div a.uvm-votes-banner {
     /* box-shadow: 1px 1px 5px rgb(128 128 128 / 70%); */
 }
 /* nav bar */
-.inner-nav {
+.inner-header {
     z-index: 1;
     margin: auto;
     display: flex;
@@ -215,7 +215,7 @@ div a.uvm-votes-banner {
     align-items: flex-end;
 }
 
-.inner-nav a {
+.inner-header a {
     z-index: 1;
     padding: .5em 1em;
     color: white;
@@ -224,7 +224,7 @@ div a.uvm-votes-banner {
     background-color: #007155;
 }
 
-.inner-nav .active {
+.inner-header .active {
     background-color: #e6f3e6;
     color: #007155;
     box-shadow: none;
@@ -527,7 +527,7 @@ section:nth-child(even) h2 {
 }
 
 @media only screen and (min-width: 600px) {
-    .inner-section, .inner-nav{
+    .inner-section, .inner-header{
         width: 500px;
     }
     .header div.org-description {
@@ -539,7 +539,7 @@ section:nth-child(even) h2 {
 }
 
 @media only screen and (min-width: 800px) {
-    .inner-section, .inner-nav{
+    .inner-section, .inner-header{
         width: 700px;
     }
     .contact-info {
@@ -550,7 +550,7 @@ section:nth-child(even) h2 {
 }
 
 @media only screen and (min-width: 1000px) {
-    .inner-section, .inner-nav{
+    .inner-section, .inner-header{
         width: 800px;
     }
     .grid-container {
@@ -559,13 +559,13 @@ section:nth-child(even) h2 {
 }
 
 @media only screen and (min-width: 1200px) {
-    .inner-section, .inner-nav{
+    .inner-section, .inner-header{
         width: 900px;
     }
 }
 
 @media only screen and (min-width: 1500px) {
-    .inner-section, .inner-nav{
+    .inner-section, .inner-header{
         width: 1100px;
     }
 }
