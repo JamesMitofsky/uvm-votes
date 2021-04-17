@@ -2,7 +2,7 @@
 layout: fullPage.njk
 ---
 # Minutes: {{title}}
-{{meetingMinutes}}
+{{description}}
 
 <br>
 <br>
