@@ -1,7 +1,8 @@
 ---
 layout: fullPage.njk
 ---
-# Minutes: {{title}}
+<a href="/minutes">← Return to Minutes</a>
+# {{title}}
 {{description}}
 
 <br>
