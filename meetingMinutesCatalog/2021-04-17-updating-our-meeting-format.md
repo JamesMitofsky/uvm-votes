@@ -29,8 +29,6 @@ description: >-
   → start talking to people about how they would do that 
 
 
-
-
   Navigate or text? THE BIG QUESTION 
 
 
@@ -48,4 +46,9 @@ description: >-
 
 
   * Not going to the legislators ??
+
+
+
+
+  TODO: clean up these notes
 ---
