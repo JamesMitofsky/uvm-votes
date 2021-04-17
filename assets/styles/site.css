@@ -550,12 +550,15 @@ section:nth-child(even) h2 {
 
     .inner-header {
         flex-direction: row;
-        justify-content: space-around;
         align-items: flex-end;
     }
 
     .nav-bar {
-        justify-content: space-around;
+        justify-content: flex-end;
+    }
+
+    .nav-bar a {
+        margin: 0 .3em
     }
 
     .contact-info {
