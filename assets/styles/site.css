@@ -141,36 +141,10 @@ li {
     margin: 1.3em 0;
 }
 
-/* nav bar */
-
-.nav-bar {
-    position: relative;
-    padding-top: 10px;
-}
-
-.inner-nav {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-bar a {
-    padding: .5em 1em;
-    color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-color: #007155;
-}
-
-.nav-bar .active {
-    background-color: #e6f3e6;
-    color: #007155;
-    box-shadow: none;
-}
-
 /* general styles */
 
-.uvm-votes-banner {
+div a.uvm-votes-banner {
+    background: none;
     color: #007155;
     text-align: center;
     padding: 5px 0;
@@ -232,16 +206,32 @@ li {
     overflow: hidden;
     /* box-shadow: 1px 1px 5px rgb(128 128 128 / 70%); */
 }
+/* nav bar */
+.inner-nav {
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
 
-.header div.org-description {
-    display: block;
-    padding: 0 .5em;
-    margin: 23px auto;
-    text-align: left;
-    position: relative;
+.inner-nav a {
+    z-index: 1;
+    padding: .5em 1em;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #007155;
+}
+
+.inner-nav .active {
+    background-color: #e6f3e6;
+    color: #007155;
+    box-shadow: none;
 }
 
 .hero-background {
+    z-index: 0;
     position: absolute;
     left: 0;
     top: 0;
@@ -254,10 +244,6 @@ li {
     -moz-background-size: contain;
     -webkit-background-size: contain;
     background-size: contain;
-}
-
-.header p {
-    margin: 0;
 }
 
 .inner-section .title {
