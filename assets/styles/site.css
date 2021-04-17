@@ -206,16 +206,21 @@ div a.uvm-votes-banner {
     overflow: hidden;
     /* box-shadow: 1px 1px 5px rgb(128 128 128 / 70%); */
 }
-/* nav bar */
+
 .inner-header {
     z-index: 1;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column;
 }
 
-.inner-header a {
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+}
+
+.nav-bar a {
     z-index: 1;
     padding: .5em 1em;
     color: white;
@@ -224,7 +229,7 @@ div a.uvm-votes-banner {
     background-color: #007155;
 }
 
-.inner-header .active {
+.nav-bar .active {
     background-color: #e6f3e6;
     color: #007155;
     box-shadow: none;
@@ -542,6 +547,17 @@ section:nth-child(even) h2 {
     .inner-section, .inner-header{
         width: 700px;
     }
+
+    .inner-header {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .nav-bar {
+        justify-content: space-around;
+    }
+
     .contact-info {
         padding: 20px;
         grid-template-areas: "profile title" "profile email" "profile phone";
