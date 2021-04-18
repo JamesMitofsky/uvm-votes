@@ -54,6 +54,7 @@ p {
 .bg-yellow {
     background-color: #ffd601;
     box-shadow: 3px 4px 6px 1px rgb(142, 119, 18);
+    margin-top: 15px;
 }
 
 .hero-btn {
