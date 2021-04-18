@@ -8,18 +8,26 @@ Highcharts.chart('container', {
         backgroundColor: "rgb(230, 243, 230)"
     },
     title: {
-        text: '2016 Gen. Election: College National Average vs. UVM'
+        text: ' Voting Rate in 2016 General Election'
     },
     xAxis: {
         categories: [
-            'Voting Rate of Registered Students', 'Voting Rate of Undergrads'
+            'Voter Registered Students', 'Undergrad Students',
         ],
-        crosshair: true
+        crosshair: true,
+        labels: {
+            style: {
+                fontSize: '16px'
+            }
+        }
     },
     yAxis: {
         min: 0,
         title: {
-            text: '% of Students'
+            text: '% of Students',
+            style: {
+                fontSize: '16px'
+            }
         }
     },
     tooltip: {
@@ -38,6 +46,11 @@ Highcharts.chart('container', {
             dataLabels: {
                 enabled: true
             }
+        }
+    },
+    legend: {
+        itemStyle: {
+            fontSize: '14px'
         }
     },
     series: [
