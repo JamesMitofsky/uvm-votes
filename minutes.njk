@@ -5,8 +5,8 @@ layout: fullPage.njk
     {%- for post in collections.meetingMinutes |
     reverse
     -%}
-    <div class="table-item">{{post.data.date |
-        readableDate}}&nbsp;
+    <div class="table-item">
+        {{post.data.date}}&nbsp;
     </div>
     <div class="table-item">
         — <a
