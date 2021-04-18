@@ -18,3 +18,5 @@
     from = "/*"
     to = "/404/"
     status = 404
+
+TZ='America/New_York'
