@@ -428,7 +428,7 @@ section:nth-child(odd) .link {
     font-weight: bold;
 }
 
-section:nth-child(odd) .title, h2 {
+section:nth-child(odd) .title {
     color: #007155;
     font-weight: bold;
 }
