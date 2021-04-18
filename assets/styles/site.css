@@ -111,6 +111,17 @@ p {
     margin: 2em 0 0 0;
 }
 
+
+/* grid settings */
+.table {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.table-item {
+    text-align: left;
+}
+
 /* set list item styles */
 ul {
 	position: relative;
