@@ -4,51 +4,46 @@ tags: meetingMinutes
 date: 2021-04-13T00:00:00.000Z
 title: Updating Our Meeting Format
 description: >-
-  City Councillor who doesn’t believe UVM students should have access to voting
-  in Burlington elections:
+  **UVM Students and Burlington Elections:** 
 
 
-  * Joan Shannon
+  * Joan Shannon: City Councillor who has argued against  UVM students having access to voting in Burlington elections
 
-    * Can compare to soldiers
+    * Can compare to soldiers: very difficult for both college students and soldiers to know where to vote when addresses are always changing 
+  * Caleb Usadi’s group chat that goes to Burlington City council meetings
 
-  58%  of UVM students get need-based students aid 
+    * Decided that Caleb will be our liason to stay updated on voting-related happenings and council meetings
 
-
-  New person: Caleb Duggan 
-
-
-  Caleb Usadi’s group chat that goes to Burlington City council meetings 
+  New member Caleb Duggan! 
 
 
-  **\
-
-  Registrar button** 
+  **Registrar button:**  
 
 
-  → start talking to people about how they would do that 
+  * Fall back on designers and tech staff at the registrar's office when it come's to design the button 
 
 
-  Navigate or text? THE BIG QUESTION 
+  **Navigate or text?** 
 
 
-  Working with the admissions office to register students on orientation day (week?) 
+  * We need to know how our message will be sent
 
-
-  * When is orientation?? 
-
-  * Make sure OLs say “hey take out your phone and register to vote at turbo vote” 
-
-  * Brian, James, and Aidan 
-
-
-  Ballot boxes 
-
-
-  * Not going to the legislators ??
+  * Do we still pursue this option if through navigate only? 
 
 
 
 
-  TODO: clean up these notes
+  **Orientation Registration** 
+
+
+  * Work with admissions office to register students on orientation day/week 
+
+    * When is orientation?? 
+    * Make sure OLs say “hey take out your phone and register to vote at turbo vote” 
+    * Brian, James, and Aidan will be working on this 
+
+  **Ballot boxes** 
+
+
+  * According to Jim Condos, not going up to the legislators
 ---
