@@ -149,7 +149,7 @@ div a.uvm-votes-banner {
 
 .uvm-votes-banner svg {
     margin: 5px;
-    height: 69px;
+    height: 50px;
 }
 
 .UVM-Votes-logo .cls-1 {
@@ -538,6 +538,10 @@ section:nth-child(even) h2 {
     .inner-header {
         flex-direction: row;
         align-items: flex-end;
+    }
+
+    .uvm-votes-banner svg {
+        height: 69px;
     }
 
     .nav-bar {
