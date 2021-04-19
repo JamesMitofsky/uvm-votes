@@ -1,7 +1,7 @@
 ---
 layout: minutesLayout.md
 tags: meetingMinutes
-date: 2021-04-13T00:00:00.000Z
+date: 
 title: Updating Our Meeting Format
 description: >-
   **UVM Students and Burlington Elections:** 
