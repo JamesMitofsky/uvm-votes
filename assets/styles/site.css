@@ -114,7 +114,7 @@ p {
 /* grid settings */
 .table {
     display: grid;
-    grid-template-columns: minmax(100px, auto) min-content minmax(100px, auto);
+    grid-template-columns: repeat(3,fit-content(100%));
 }
 
 .table-item {
