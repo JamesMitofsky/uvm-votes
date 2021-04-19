@@ -12,7 +12,7 @@ description: >-
     * Can compare to soldiers: very difficult for both college students and soldiers to know where to vote when addresses are always changing 
   * Caleb Usadi’s group chat that goes to Burlington City council meetings
 
-    * Decided that Caleb will be our liasion to stay updated on voting-related happenings and council meetings
+    * Decided that Caleb will be our liaison to stay updated on voting-related happenings and council meetings
 
   New member Caleb Duggan! 
 
