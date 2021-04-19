@@ -15,6 +15,6 @@ collections:
     fields:
       - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
-      - {label: "Date", name: "date", widget: "datetime", time_format: false }
+      - {label: "Date", name: "date", widget: "datetime", time_format: false, format: "LL"}
       - {label: "Title", name: "title", widget: "string", default: "UVM Votes Meeting"}
       - {label: "Description", name: "description", widget: "markdown"}
