@@ -1,10 +1,10 @@
 ---
 layout: minutesLayout.md
 tags: meetingMinutes
-date: 
+date: 2021-04-12T04:00:00.000Z
 title: Updating Our Meeting Format
 description: >-
-  **UVM Students and Burlington Elections:** 
+  ## UVM Students and Burlington Elections: 
 
 
   * Joan Shannon: City Councillor who has argued against  UVM students having access to voting in Burlington elections
@@ -17,13 +17,13 @@ description: >-
   New member Caleb Duggan! 
 
 
-  **Registrar button:**  
+  ## **Registrar button:**  
 
 
   * Fall back on designers and tech staff at the registrar's office when it come's to design the button 
 
 
-  **Navigate or text?** 
+  ## **Navigate or text?** 
 
 
   * We need to know how our message will be sent
@@ -31,9 +31,7 @@ description: >-
   * Do we still pursue this option if through navigate only? 
 
 
-
-
-  **Orientation Registration** 
+  ## **Orientation Registration** 
 
 
   * Work with admissions office to register students on orientation day/week 
@@ -42,7 +40,7 @@ description: >-
     * Make sure OLs say “hey take out your phone and register to vote at turbo vote” 
     * Brian, James, and Aidan will be working on this 
 
-  **Ballot boxes** 
+  ## **Ballot boxes** 
 
 
   * According to Jim Condos, not going up to the legislators
