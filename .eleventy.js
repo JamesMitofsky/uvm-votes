@@ -5,10 +5,13 @@ module.exports = function (eleventyConfig) {
     // add text filter plugin from npm
     eleventyConfig.addPlugin(pluginDate);
 
-    // pass through netlify CMS management
-    eleventyConfig.addPassthroughCopy("admin");
 
-    // pass through links to make available at tld
+
+    // netlify CMS management
+    eleventyConfig.addPassthroughCopy("admin");
+    // image assets
+    eleventyConfig.addPassthroughCopy("assets")
+    // top level links access
     eleventyConfig.addPassthroughCopy({ "assets/tld-links": "." })
 
 
