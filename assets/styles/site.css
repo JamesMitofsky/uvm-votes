@@ -114,10 +114,11 @@ p {
 /* grid settings */
 .table {
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: minmax(100px, auto) min-content minmax(100px, auto);
 }
 
 .table-item {
+    margin-bottom: 2em;
     text-align: left;
 }
 
