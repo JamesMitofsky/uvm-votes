@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-size: 1.2em;
     line-height: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Optima, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
