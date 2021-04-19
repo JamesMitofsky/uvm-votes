@@ -1,7 +1,7 @@
 ---
 layout: minutesLayout.md
 tags: meetingMinutes
-date: 2021-04-05T00:00:00.000Z
+date: Apr Apr 4th 2021
 title: SGA funding, position updates, & club continuity
 description: >-
   ## Changes in Executive Board Composition
