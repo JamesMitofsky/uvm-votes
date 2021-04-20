@@ -16,5 +16,5 @@ collections:
       - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
-      - {label: "Title", name: "title", widget: "string", default: "UVM Votes Meeting"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string", hint: "Will appear as 'H1' tag." }
+      - {label: "Description", name: "description", widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
