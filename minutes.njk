@@ -2,11 +2,12 @@
 layout: fullPage.njk
 ---
 <div id="input-container">
-    <input type="text" id="search"
-        placeholder="Search here!">
+    <div type="text" id="search">
+    </div>
 </div>
 <div class="table">
-    {%- for post in collections.meetingMinutes |
+    {%- for post in collections.meetingMinutes
+    |
     reverse
     -%}
     <div class="table-item">

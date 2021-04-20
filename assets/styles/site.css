@@ -514,6 +514,11 @@ section:nth-child(even) h2 {
     height: min-content;
 }
 
+/* search styles */
+#input-container {
+    margin-bottom: 30px;
+}
+
 /* layout widths */
 
 .inner-section {
