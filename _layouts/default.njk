@@ -54,20 +54,19 @@
         </style>
 
         <!-- AddEvent script -->
-        <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+        <script type="text/javascript" src="/assets/scripts/calendarAddEvent.min.js" async></script>
 
         <!-- Agolia Search -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+        <link rel="stylesheet" href="/assets/styles/agolia.css"/>
+        <script type="text/javascript" src="/assets/scripts/agoliaSearch.js"></script>
         <script type="text/javascript">
-        algoliasearchNetlify({
-            appId: 'WJLB8863XE',
-            apiKey: '048c4826331eb5964317ac19cf6644e1',
-            siteId: '39db6aa4-02e2-4fd5-a033-671863062556',
-            branch: 'master',
-            selector: 'div#search',
-        });
-
+            algoliasearchNetlify({
+                appId: 'WJLB8863XE',
+                apiKey: '048c4826331eb5964317ac19cf6644e1',
+                siteId: '39db6aa4-02e2-4fd5-a033-671863062556',
+                branch: 'master',
+                selector: 'div#search',
+            });
         </script>
 
     </head>
