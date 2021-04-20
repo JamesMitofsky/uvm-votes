@@ -531,7 +531,7 @@ section:nth-child(even) h2 {
 }
 
 .inner-section>* {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 @media only screen and (min-width: 600px) {
