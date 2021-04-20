@@ -4,7 +4,7 @@ tags: meetingMinutes
 date: 2021-04-12T04:00:00.000Z
 title: Updating Our Meeting Format
 description: >-
-  ## UVM Students and Burlington Elections: 
+  ## UVM Students and Burlington Elections:
 
 
   * Joan Shannon: City Councillor who has argued against  UVM students having access to voting in Burlington elections
@@ -12,7 +12,7 @@ description: >-
     * Can compare to soldiers: very difficult for both college students and soldiers to know where to vote when addresses are always changing 
   * Caleb Usadi’s group chat that goes to Burlington City council meetings
 
-    * Decided that Caleb will be our liason to stay updated on voting-related happenings and council meetings
+    * Decided that Caleb will be our liaison to stay updated on voting-related happenings and council meetings
 
   New member Caleb Duggan! 
 
@@ -20,10 +20,10 @@ description: >-
   ## **Registrar button:**  
 
 
-  * Fall back on designers and tech staff at the registrar's office when it come's to design the button 
+  * Fall back on designers and tech staff at the registrar's office when it comes to design the button 
 
 
-  ## **Navigate or text?** 
+  ## **Navigate or text?**
 
 
   * We need to know how our message will be sent
@@ -31,7 +31,7 @@ description: >-
   * Do we still pursue this option if through navigate only? 
 
 
-  ## **Orientation Registration** 
+  ## **Orientation Registration**
 
 
   * Work with admissions office to register students on orientation day/week 
