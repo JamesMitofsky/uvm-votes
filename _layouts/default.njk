@@ -53,6 +53,20 @@
             {% include "styles/site.css" %}
         </style>
 
+        <!-- Agolia Search -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+        <script type="text/javascript">
+        algoliasearchNetlify({
+            appId: 'WJLB8863XE',
+            apiKey: '048c4826331eb5964317ac19cf6644e1',
+            siteId: '39db6aa4-02e2-4fd5-a033-671863062556',
+            branch: 'master',
+            selector: 'div#search',
+        });
+
+        </script>
+
     </head>
 
     <!-- If you're looking at the code, chances are, you might want to contribute to this project. Check out the Github repo here: https://github.com/JamesTedesco/uvm.vote -->
