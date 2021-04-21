@@ -123,13 +123,13 @@ p {
 }
 
 /* set list item styles */
-ul {
+.fun-list ul {
 	position: relative;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 1.5em;
 }
-ul li:before {
+.fun-list li:before {
 	content: "📌";
 	position: absolute;
 	left: 0;
