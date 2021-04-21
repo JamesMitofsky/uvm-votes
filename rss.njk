@@ -27,6 +27,11 @@
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
+
+  {%- for podcast in collections.podcasts %}
+    <title>Proof</title>
+  {%- endfor %}
+  
   {%- for podcast in collections.podcasts %}
   {% set absolutePostUrl %}{{ podcast.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
