@@ -2,14 +2,9 @@
 layout: minutesLayout.md
 tags: meetingMinutes
 date: 2021-04-20T00:51:28.656Z
-title: UVM Votes Meeting
+title: Participation & Funding
 description: >-
-  
-
-  # Participation & Funding  
-
-
-  ## Website: 
+  # Website: 
 
 
   * Added projects 
