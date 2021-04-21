@@ -1,15 +1,10 @@
 const pluginDate = require("eleventy-plugin-date");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 module.exports = function (eleventyConfig) {
 
     // add text filter plugin from npm
     eleventyConfig.addPlugin(pluginDate);
-    // rss feed builder
-    eleventyConfig.addPlugin(pluginRss);
-
-
 
     // netlify CMS management
     eleventyConfig.addPassthroughCopy("admin");
