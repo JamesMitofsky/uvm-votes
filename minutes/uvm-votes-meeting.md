@@ -2,6 +2,7 @@
 layout: minutesLayout.md
 tags: meetingMinutes
 date: 2021-04-20T00:51:28.656Z
+attendees: 6
 title: Participation & Funding
 description: >-
   ## Website: 
@@ -19,7 +20,7 @@ description: >-
 
   * Where can we keep these? 
 
-  * * Sophie’s Basement 
+    * Sophie’s Basement 
     * Aidan’s Basement
   * Wait to table until next semester 
 
@@ -55,9 +56,8 @@ description: >-
 
   * Take the food out of James’ car  
 
-  * * Put it in the cage in Davis center 
-
-      * Email Sarah Flaherty
+    * Put it in the cage in Davis center 
+    * Email Sarah Flaherty
     * Aidan? 
     * Debate Team? 
   * Student Orientation Day
