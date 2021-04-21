@@ -129,6 +129,11 @@ p {
 	margin-left: 0;
 	padding-left: 1.5em;
 }
+
+.fun-list li {
+    margin: 1.3em;
+}
+
 .fun-list li:before {
 	content: "📌";
 	position: absolute;
@@ -136,7 +141,7 @@ p {
 }
 
 li {
-    margin: 1.3em 0;
+    margin: 0.3em 0;
 }
 
 /* general styles */
