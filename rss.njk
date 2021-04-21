@@ -21,20 +21,33 @@
     <subtitle>{{ metadata.subtitle }}</subtitle>
     <link href="{{ metadata.feedUrl }}" rel="self"/>
     <link href="{{ metadata.url }}"/>
-    <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ collections.podcasts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ metadata.url }}</id>
     <author>
       <name>{{ metadata.author.name }}</name>
       <email>{{ metadata.author.email }}</email>
     </author>
-    {%- for post in collections.posts %}
-    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {%- for podcast in collections.podcasts %}
+    {% set absolutePostUrl %}{{ podcast.url | url | absoluteUrl(metadata.url) }}{% endset %}
     <entry>
-      <title>{{ post.data.title }}</title>
-      <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <channel>
+            <title>
+                {{ podcast.data.title }}
+            </title>
+            <link>
+                {{ absolutePostUrl }}
+            </link>
+            <description>
+                {{ podcast.data.description }}
+            </description>
+            <language>
+                en
+            </language>
+            
+        </channel>
+      <updated>{{ podcast.date | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      <content type="html">{{ podcast.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
     </entry>
     {%- endfor %}
   </feed>
