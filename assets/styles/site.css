@@ -524,6 +524,12 @@ section:nth-child(even) h2 {
     display: none;
 }
 
+/* post button navigation */
+.post-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* layout widths */
 
 .inner-section {
