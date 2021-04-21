@@ -18,7 +18,7 @@ collections:
       - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
-      - {label: "Number of Attendees", name: "attendees", widget: "number", value_type: "int"}
+      - {label: "Number of Attendees", name: "attendees", widget: "number", required: false, value_type: "int"}
       - {label: "Title", name: "title", widget: "string", hint: "Will appear as 'H1' tag." }
       - {label: "Description", name: "description", widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
       - {label: "Action Items", name: "actionItems", widget: "list", label_singular: "Add Action Item", required: false, fields: [ {label: "Task", name: actionItem, widget: string, hint: "What is being worked on?"}, {label: "Being handled by:", name: assignment, widget: string, hint: "Who's working on this?"}]}
