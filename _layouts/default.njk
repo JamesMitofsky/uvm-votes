@@ -89,7 +89,7 @@
                         {% include 'svgs/UVM_Votes_Logo.svg' %}
                     </a>
                     <div class="nav-bar">
-                        <a class="{{ 'active' if '/' in page.url and not '/projects' in page.url and not '/minutes' in page.url }}" href="/">Home</a>
+                        <a class="{{ 'active' if page.url == '/'}}" href="/">Home</a>
                         <a class="{{ 'active' if '/projects' in page.url }}" href="/projects">Projects</a>
                         <a class="{{ 'active' if '/minutes' in page.url }}" href="/minutes">Minutes</a>
                     </div>
