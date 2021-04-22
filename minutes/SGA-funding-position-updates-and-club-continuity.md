@@ -2,6 +2,7 @@
 layout: minutesLayout.md
 tags: meetingMinutes
 date: 2021-04-04T04:00:00.000Z
+attendees: 6
 title: SGA funding, position updates, & club continuity
 description: >-
   ## Changes in Executive Board Composition
@@ -59,4 +60,8 @@ description: >-
   * Send meeting invite to Office of Civic Engagement for recurring meetings held on twice monthly basis.
 
     Move the UVM Votes Meeting
+actionItems:
+  - actionItem: Ask the Registrar's Office for more details on how texting all UVM
+      students will work. Will we be using push notifications or SMS messages?
+    assignment: James & Mia
 ---
