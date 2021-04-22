@@ -51,8 +51,8 @@ actionItems:
   - actionItem: Investigate how to integrate voter registration into student
       orientation day.
     assignment: Aidan May
-  - actionItem: Call the Burlington Town Clerk about ballot boxes
-    assignment: Mia Dillon
+  - actionItem: Call the Burlington Town Clerk about ballot boxes.
+    assignment: James Tedesco
   - actionItem: Investigate a calendar which can identify important voting days on
       the state and federal level (either if it exists or if we can co-opt one).
     assignment: Brian Donahue
