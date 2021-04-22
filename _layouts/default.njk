@@ -97,7 +97,7 @@
 
         </header>
 
-        <main>
+        <main class="{{ 'home' if page.url == '/' }}">
 
             {{ content | safe }}
 

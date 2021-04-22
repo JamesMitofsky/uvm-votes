@@ -40,7 +40,7 @@ h1 {
     border-radius: 10px;
 }
 
-p {
+.home p {
     margin: 40px 0;
 }
 
@@ -138,6 +138,10 @@ p {
 	content: "📌";
 	position: absolute;
 	left: 0;
+}
+
+ul p {
+    margin: .2em;
 }
 
 li {
