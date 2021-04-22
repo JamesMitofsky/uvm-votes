@@ -50,18 +50,12 @@ description: >-
     * Office of Civic Engagement
     * Director of Institutional Research (Alex Yin)
   * Voting Summit, where all student affinity clubs get together once a year to talk about voter turnout and brainstorm collaboration. What do they need? What can they do?
-
-
-  ## ToDo's
-
-
-  * Propose specifics to Registrar's Office for texting students about voting.
-
-  * Send meeting invite to Office of Civic Engagement for recurring meetings held on twice monthly basis.
-
-    Move the UVM Votes Meeting
 actionItems:
   - actionItem: Ask the Registrar's Office for more details on how texting all UVM
       students will work. Will we be using push notifications or SMS messages?
     assignment: James & Mia
+  - actionItem: Send meeting invite to Office of Civic Engagement for recurring meetings held on twice monthly basis.
+    assignment: James
+  - actionItem: Move the day of the week for general meetings from Tuesday to Monday.
+    assignment: James
 ---
