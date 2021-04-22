@@ -8,7 +8,7 @@ layout: fullPage.njk
 
 {% if actionItems %}
 <br>
-<h2>Actionables</h2>
+<h2>Assigned Actionables</h2>
 {%- for item in actionItems -%}
 <div class="project-assignment">
 <b>Project:</b> {{item.actionItem}}
