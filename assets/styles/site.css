@@ -523,6 +523,14 @@ section:nth-child(even) h2 {
     height: min-content;
 }
 
+/* minutes */
+.project-assignment {
+    padding: .7em;
+    margin: 1em 0;
+    border: 5px solid #548D7D;
+    border-radius: 5px;
+}
+
 /* search */
 #input-container {
     margin-bottom: 30px;

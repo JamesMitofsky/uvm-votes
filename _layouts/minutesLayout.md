@@ -6,6 +6,18 @@ layout: fullPage.njk
 {{description}}
 
 <br>
+{% if actionItems %}
+<div class="project-assignment">
+{%- for item in actionItems -%}
+<b>Project:</b> {{item.actionItem}}
+
+<b>People:</b> {{item.assignment}}
+{%- endfor -%}
+</div>
+{% endif %}
+
+
+<br>
 <br>
 Submitted: {{date | readableDate}}
 
