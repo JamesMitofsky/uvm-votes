@@ -7,13 +7,13 @@ layout: fullPage.njk
 
 <br>
 {% if actionItems %}
-<div class="project-assignment">
 {%- for item in actionItems -%}
+<div class="project-assignment">
 <b>Project:</b> {{item.actionItem}}
 
 <b>People:</b> {{item.assignment}}
-{%- endfor -%}
 </div>
+{%- endfor -%}
 {% endif %}
 
 
