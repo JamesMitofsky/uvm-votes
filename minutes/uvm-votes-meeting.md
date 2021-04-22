@@ -22,13 +22,7 @@ description: >-
 
     * Sophie’s Basement 
     * Aidan’s Basement
-  * Wait to table until next semester 
-
-
-  ## Ecofascism: 
-
-
-  * Kill someone or have baby 
+  * Wait to table until next semester
 
 
   ## Refresh Our Listserv: 
@@ -49,23 +43,6 @@ description: >-
   * University has veto power on anything of meaningful importance 
 
   * Sam may take this information and create an SGA reform committee
-
-
-  ## Actionables: 
-
-
-  * Take the food out of James’ car  
-
-    * Put it in the cage in Davis center 
-    * Email Sarah Flaherty
-    * Aidan? 
-    * Debate Team? 
-  * Student Orientation Day
-
-    * Aidan sends some emails before the next meeting 
-  * Call the town clerk about Ballot Boxes (4/20) 
-
-  * Brian working on the calendar
 actionItems:
   - actionItem: Take UVM Votes tabling food out of James' car. Maybe can be put in
       the Davis Center cage (email Sarah Flaherty), taken by Aidan, or kept in
@@ -74,8 +51,8 @@ actionItems:
   - actionItem: Investigate how to integrate voter registration into student
       orientation day.
     assignment: Aidan May
-  - actionItem: Call the Burlington Town Clerk about ballot boxes
-    assignment: Mia Dillon
+  - actionItem: Call the Burlington Town Clerk about ballot boxes.
+    assignment: James Tedesco
   - actionItem: Investigate a calendar which can identify important voting days on
       the state and federal level (either if it exists or if we can co-opt one).
     assignment: Brian Donahue
