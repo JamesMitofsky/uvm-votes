@@ -131,7 +131,7 @@ h1 {
 }
 
 .fun-list li {
-    margin: 1.3em;
+    margin: 1.3em 0;
 }
 
 .fun-list li:before {
