@@ -93,4 +93,15 @@ description: >-
   * Fliers with incorrect dates are still all around campus 
 
   * Do we take these down?
+actionItems:
+  - actionItem: Clarify first steps for integrating voter registration into student
+      orientation day.
+    assignment: Aidan May
+  - actionItem: Figure out designing reusable posters for Monday meetings.
+    assignment: Sophie Feldman
+  - actionItem: Email the Assistant Registrar's contact about the technical
+      requirements for texting every student.
+    assignment: James Tedesco
+  - actionItem: Update website page titles to dynamically understand what page they're on.
+    assignment: James Tedesco
 ---
