@@ -482,8 +482,9 @@ section:nth-child(even) h2 {
 }
 
 .profile-pic {
+    border-radius: 50%;
     height: auto;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-self: center;
     align-self: center;
@@ -492,6 +493,7 @@ section:nth-child(even) h2 {
 
 .title {
     grid-area: title;
+    font-size: 1.3em;
 }
 
 .email {
