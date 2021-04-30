@@ -47,15 +47,20 @@
         <meta property="twitter:description" content="A non-partisan club focused on improving the student-voter experience.">
         <meta property="twitter:image" content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-04-17-21.png">
 
+        <!-- Animation stylesheet from Sal.js -->
         <link rel="stylesheet" href="/assets/styles/sal.css">
 
         <style>
             {% include "styles/site.css" %}
         </style>
 
+
+        {% if page.url == '/' %}
         <!-- AddEvent script -->
         <script type="text/javascript" src="/assets/scripts/calendarAddEvent.min.js" async></script>
+        {% endif %}
 
+        {% if page.url == '/minutes/' %}
         <!-- Agolia Search -->
         <link rel="stylesheet" href="/assets/styles/agolia.css"/>
         <script type="text/javascript" src="/assets/scripts/agoliaSearch.js"></script>
@@ -68,6 +73,7 @@
                 selector: 'div#search',
             });
         </script>
+        {% endif %}
 
     </head>
 
