@@ -1,6 +1,5 @@
 ---
 layout: fullPage.njk
-permalink: "{{ title | slug }}.html"
 ---
 <a href="/minutes">← Return to Minutes</a>
 # {{title}}
