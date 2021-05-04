@@ -4,18 +4,22 @@ tags: meetingMinutes
 date: 2021-05-03T04:00:00.000Z
 attendees: 6
 title: "Ratifying Our Club Constitution "
-description: |-
-  Actionables 
+description: >-
+  Spending SGA Funds
 
-  * Sophie- design reusable posters for Monday meetings next semester
-  * James- respond to Jerome Powell
-  * Brian- Treasury Requests due by "end of the semester"
 
-    * $318 requested 
-    * CanvaPro subscription 
-    * 5 reusable posters 
+  $325 were initially allocated and Brian submitted a spending request for $318 from that pool. Spend on:
+
+
+  * CanvaPro subscription
+
+  * Renew uvm.vote domain
+
+  * 5 reusable posters 
+
 
   Recruitment for Fall 2021
+
 
   * Focus on Arts majors 
 
@@ -23,5 +27,14 @@ description: |-
 
   Club Constitution 
 
+
   * Constitution was read and ratified by all executive board members!
+actionItems:
+  - actionItem: Design reusable posters for Monday meetings next semester
+    assignment: Sophie Feldman
+  - actionItem: Respond to Jerome Powell's comment about the long-term cost of
+      hosting a private domain.
+    assignment: James Tedesco
+  - actionItem: Figure out spending deadline from SGA Finance.
+    assignment: Brian Donahue
 ---
