@@ -5,7 +5,7 @@ date: 2021-05-03T04:00:00.000Z
 attendees: 6
 title: "Ratifying Our Club Constitution "
 description: >-
-  Spending SGA Funds
+  ## Spending SGA Funds
 
 
   $325 were initially allocated and Brian submitted a spending request for $318 from that pool. Spend on:
@@ -18,17 +18,16 @@ description: >-
   * 5 reusable posters 
 
 
-  Recruitment for Fall 2021
+  ## Recruitment for Fall 2021
 
 
-  * Focus on Arts majors 
-
-    * specifically graphic design students
-
-  Club Constitution 
+  Focus on Arts majors, specifically graphic design students.
 
 
-  * Constitution was read and ratified by all executive board members!
+  ## Club Constitution 
+
+
+  * Constitution was read and ratified by all Executive Board members!
 actionItems:
   - actionItem: Design reusable posters for Monday meetings next semester
     assignment: Sophie Feldman
