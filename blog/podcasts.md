@@ -2,8 +2,7 @@
 layout: fullPage.njk
 date: 2021-05-03T04:00:00.000Z
 tags: ['Blog', 'Podcast']
-title: "Gerrymandered Student
-Districts & Local Voting"
+title: 'Gerrymandered Student Districts & Local Voting'
 ---
 
 <iframe
