@@ -448,7 +448,6 @@ form .user-box input:focus~label, form .user-box input:valid~label {
 
 section:nth-child(odd) .link {
     color: #0074ff;
-    font-weight: bold;
 }
 
 section:nth-child(odd) .title {
