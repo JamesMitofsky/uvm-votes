@@ -13,7 +13,7 @@ collections:
     label: "Meeting"
     folder: "minutes"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{{slug}}-{{month}}-{{year}}"
     fields:
       - {label: "Layout", name: "layout", default: "minutesLayout.md", widget: "hidden"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
