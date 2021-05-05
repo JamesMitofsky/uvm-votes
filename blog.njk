@@ -3,7 +3,7 @@ layout: fullPage.njk
 ---
 
 <div class="blog-items">
-    {%- for item in collections.Blog -%}
+    {%- for item in collections.Blog | reverse -%}
 
     <div class="blog-item">
 
