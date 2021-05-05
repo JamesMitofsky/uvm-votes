@@ -1,6 +1,5 @@
 const pluginDate = require("eleventy-plugin-date");
 
-
 module.exports = function (eleventyConfig) {
 
     // add text filter plugin from npm
@@ -17,6 +16,23 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "node_modules/sal.js/dist/sal.js": "assets/scripts/sal.js",
         "node_modules/sal.js/dist/sal.css": "assets/styles/sal.css"
+    });
+
+    // Get only content that matches a tag
+    // eleventyConfig.addCollection("Blog", function (collectionApi) {
+    //     let editorials = collectionApi.getFilteredByTags("Editorial")
+    //     let podcasts = collectionApi.getFilteredByTags("Podcast")
+    //     let events = collectionApi.getFilteredByTags("Event")
+
+    //     let blogs = editorials.concat(podcasts, events)
+    //     console.log(blogs.length, 'items concatenated.')
+
+    //     return blogs
+    // });
+
+    // Filter source file names using a glob
+    eleventyConfig.addCollection("Blog", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("blog/**");
     });
 
 

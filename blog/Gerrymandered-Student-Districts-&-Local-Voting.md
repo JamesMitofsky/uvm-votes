@@ -1,8 +1,6 @@
 ---
 layout: fullPage.njk
-tags:
-  - Blog
-  - Podcast
+tags: Podcast
 date: 2021-04-18T04:00:00.000Z
 title: Gerrymandered Student Districts & Local Voting
 ---

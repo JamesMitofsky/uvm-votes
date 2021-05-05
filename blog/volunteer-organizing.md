@@ -1,8 +1,6 @@
 ---
 layout: fullPage.njk
-tags:
-  - Blog
-  - Editorial
+tags: Editorial
 date: 2020-10-08T04:00:00.000Z
 title: 5 Rules to Organizing Volunteers
 ---
