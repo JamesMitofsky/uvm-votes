@@ -1,0 +1,23 @@
+---
+layout: fullPage.njk
+---
+
+
+<div class="table">
+    {%- for item in collections.Blog -%}
+    <div class="table-item">
+        {{ 'Blog Post' if
+        item.data.tags.includes('Blog Post')}}
+        {{ 'Podcast' if
+        item.data.tags.includes('Podcast')}}
+    </div>
+    <div class="table-item">
+        &nbsp;—&nbsp;
+    </div>
+    <div class="table-item"><a
+            href="{{item.url}}">
+            {{item.data.title}}</a>
+    </div>
+
+    {%- endfor -%}
+</div>
