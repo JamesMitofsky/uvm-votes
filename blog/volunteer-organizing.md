@@ -3,6 +3,7 @@ layout: blogsLayout
 tags: Editorial
 date: 2020-10-08T04:00:00.000Z
 title: 5 Rules to Organize Volunteers
+author: James Tedesco
 ---
 When you’re starting a volunteer group, playing a leadership role can be hard to finesse.
 
