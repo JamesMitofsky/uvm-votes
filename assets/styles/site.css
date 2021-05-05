@@ -122,6 +122,20 @@ h1 {
     text-align: left;
 }
 
+/* blog items */
+.blog-items {
+    display: grid;
+    grid-template-columns: repeat(2,fit-content(100%));
+    padding-top: 30px;
+    row-gap: 30px
+}
+
+.blog-item svg {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
 /* set list item styles */
 .fun-list ul {
 	position: relative;

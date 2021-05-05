@@ -2,7 +2,7 @@
 layout: fullPage.njk
 title: 5 Rules to Organizing Volunteers
 date: 2021-05-03T04:00:00.000Z
-tags: ['Blog', 'Blog Post']
+tags: ['Blog', 'Editorial']
 ---
 
 # 5 Rules to Organize Volunteers
