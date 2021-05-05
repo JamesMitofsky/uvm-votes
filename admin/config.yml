@@ -29,7 +29,7 @@ collections:
     slug: "{{slug}}-{{month}}-{{year}}"
     fields:
       - {label: "Layout", name: "layout", default: "fullPage.njk", widget: "hidden"}
-      - {label: "Tags", name: "tags", widget: "select", options: ["Event", "Podcast", "Editorial"]}
+      - {label: "Tags", name: "tags", hint: "Select a content category.", widget: "select", options: ["Event", "Podcast", "Editorial"]}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
       - {label: "Title", name: "title", widget: "string", hint: "Will appear as 'H1' tag." }
       - {label: "Article", name: "article", required: false, widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
