@@ -1,12 +1,9 @@
 ---
-layout: fullPage.njk
+layout: blogsLayout
 tags: Editorial
 date: 2020-10-08T04:00:00.000Z
-title: 5 Rules to Organizing Volunteers
+title: 5 Rules to Organize Volunteers
 ---
-
-# 5 Rules to Organize Volunteers
-
 When you’re starting a volunteer group, playing a leadership role can be hard to finesse.
 
 Nothing will replace a brazen willingness to investigate options yourself, but this guide should help frame your thinking. These rules are lessons learned through my organizing work with UVM Votes.
