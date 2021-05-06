@@ -117,3 +117,5 @@ dist
 
 # dev dist folder
 _site
+# Local Netlify folder
+.netlify

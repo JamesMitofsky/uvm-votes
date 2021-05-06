@@ -64,3 +64,7 @@ Graph is dynamically put together by Highcharts: [API reference](https://api.hig
 
 ## Form Collection
 The form is [powered by Netlify](https://www.netlify.com/products/forms/) at build time.
+
+
+## Environement
+Make sure NPM packages are globally accessible by appending ```source ~/.bash_profile``` to .zshrc, which can be found as a hidden file in the user's root directory. (Source)[https://stackoverflow.com/a/46179792/5395435]
