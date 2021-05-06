@@ -119,3 +119,6 @@ dist
 _site
 # Local Netlify folder
 .netlify
+
+#Mac specific data
+.DS_Store
