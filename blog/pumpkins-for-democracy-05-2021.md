@@ -14,13 +14,13 @@ of jack-o-lanterns‽
 With a grant from National Voter Registration Day, we were able to bring this event into reality. Here's a peak at one of my drafts of the impact we'd have on campus:
 
 
-![](/images/uploads/planningpumpkinsfordemocracy.png)
+![](/assets/images/uploads/planningpumpkinsfordemocracy.png)
 
 
 Before we can wow any students though, we needed to do the hard work of cutting some gord and scooping some guts. Armed with 20 pumpkins, a few cutting implements, and some personal grit, we got to work.
 
 
-![](/images/uploads/dsc_0001.jpg)
+![](/assets/images/uploads/dsc_0001.jpg)
 
 
-![](/images/uploads/dsc_0021.jpg)
+![](/assets/images/uploads/dsc_0021.jpg)
