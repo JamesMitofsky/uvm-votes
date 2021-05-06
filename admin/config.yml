@@ -25,6 +25,7 @@ collections:
     folder: "minutes"
     create: true
     slug: "{{slug}}-{{month}}-{{year}}"
+    preview_path: minutes/{{slug}}
     fields:
       - {label: "Tags", name: "tags", widget: "hidden", default: "meetingMinutes"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
@@ -37,6 +38,7 @@ collections:
     folder: "blog"
     create: true
     slug: "{{slug}}-{{month}}-{{year}}"
+    preview_path: blog/{{slug}}
     fields:
       - {label: "Tags", name: "tags", hint: "Select a content category.", widget: "select", options: ["Event", "Podcast", "Editorial"]}
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
