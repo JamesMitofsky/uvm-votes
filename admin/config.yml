@@ -10,6 +10,11 @@ site_url: /
 display_url: /
 logo_url: /assets/images/UVM_Votes_Logo.png
 
+# Preview editor content
+publish_mode: editorial_workflow
+show_preview_links: true
+
+
 # This line should *not* be indented
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
