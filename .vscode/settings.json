@@ -5,7 +5,7 @@
         "njk": "html"
     },
     "files.associations": {
-        "*.njk": "html"
+        "*.njk": "njk"
     },
     "vsicons.associations.files": [
         {
