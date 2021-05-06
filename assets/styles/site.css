@@ -32,6 +32,9 @@ main {
 .full-page {
     flex: 1 1 auto;
 }
+.full-page img {
+    margin: 0 auto;
+}
 
 h1 {
     background-color: #007155;
