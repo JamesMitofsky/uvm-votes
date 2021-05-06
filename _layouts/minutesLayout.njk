@@ -2,8 +2,9 @@
 layout: fullPage.njk
 ---
 <a href="/minutes">← Return to Minutes</a>
-# {{title}}
-{{description}}
+<h1> {{title}} </h1>
+
+{{content | safe}}
 
 
 {% if actionItems %}

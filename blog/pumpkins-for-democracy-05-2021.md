@@ -1,5 +1,4 @@
 ---
-layout: blogsLayout
 tags: Event
 date: 2020-10-28T23:08:01.526Z
 title: Pumpkins for Democracy
