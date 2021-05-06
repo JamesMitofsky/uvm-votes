@@ -33,4 +33,4 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: true }
       - {label: "Title", name: "title", widget: "string", hint: "Will appear as 'H1' tag." }
       - {label: "Author", name: "author", widget: "string", required: false }
-      - {label: "Article", name: "article", required: false, widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
+      - {label: "Article", name: "body", widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
