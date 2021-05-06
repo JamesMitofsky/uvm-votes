@@ -114,7 +114,8 @@ h1 {
 /* grid settings */
 .table {
     display: grid;
-    grid-template-columns: repeat(3,fit-content(100%));
+    grid-template-columns: repeat(2,fit-content(100%));
+    column-gap: 1em;
 }
 
 .table-item {
