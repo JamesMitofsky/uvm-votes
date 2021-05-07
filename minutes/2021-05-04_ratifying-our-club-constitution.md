@@ -12,7 +12,6 @@ actionItems:
   - actionItem: Figure out spending deadline from SGA Finance.
     assignment: Brian Donahue
 ---
-
 ## Spending SGA Funds
 
 
