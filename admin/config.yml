@@ -7,7 +7,7 @@ local_backend: true
 
 # Configure CMS portal
 site_url: /
-display_url: /
+display_url: https://uvm.vote
 logo_url: /assets/images/UVM_Votes_Logo.png
 
 # Preview editor content
