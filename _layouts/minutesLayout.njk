@@ -13,8 +13,12 @@ layout: fullPage.njk
     <h2>Assigned Actionables</h2>
     {% for item in actionItems %}
         <div class="project-assignment">
-            <b>Project:</b> {{item.actionItem}}
-            <b>People:</b> {{item.assignment}}
+            <div>
+                <b>Project:</b> {{item.actionItem}}
+            </div>
+            <div>
+                <b>People:</b> {{item.assignment}}
+            </div>
         </div>
     {% endfor %}
 {% endif %}
