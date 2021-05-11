@@ -547,8 +547,9 @@ section:nth-child(even) h2 {
 .project-assignment {
     padding: .7em;
     margin: 1em 0;
-    border: 5px solid #548D7D;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.08);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.52);
 }
 
 /* search */
