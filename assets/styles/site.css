@@ -548,8 +548,8 @@ section:nth-child(even) h2 {
     padding: .7em;
     margin: 1em 0;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.08);
-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.52);
+    background-color: white;
+box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.52);
 }
 
 /* search */
