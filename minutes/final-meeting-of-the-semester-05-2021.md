@@ -2,7 +2,7 @@
 tags: meetingMinutes
 date: 2021-05-10T14:50:32.866Z
 attendees: 4
-title: Final Meeting of the Semester!
+title: End of the Semester!
 ---
 ## House Keeping
 
