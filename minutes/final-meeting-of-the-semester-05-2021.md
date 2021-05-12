@@ -10,7 +10,9 @@ title: Final Meeting of the Semester!
 
 Brian reported his meeting with the Treasurer has been delayed to this coming Friday. We’ll likely have our hands on the funds then.
 
-## Discussion: Why Not Make Voting Hard?
+## Discussion
+
+### Why Not Make Voting Hard?
 
 * It’s absurd to suggest that we gain ‘quality votes’ by making it harder when there’s the law of large numbers: making small things easier have long term implications
 * Voters have jobs, sometimes more than one. If time is money, then forcing people to add time is functionally a poll tax.
@@ -18,7 +20,9 @@ Brian reported his meeting with the Treasurer has been delayed to this coming Fr
 * Party distinction between explicit and implicit (right and left). The liberal wing of the party system is very concerned with the implications of how voting laws say things.
 * The tough love strategy has no definitive end.
 
-## Oh The Places You'll Go
+## Member Updates
+
+### Oh The Places You'll Go
 
 * Brian Donahue (with former Engagement Chair Liz Chadwick) doing research with Professor Alec Ewald on voter resources for felons.
 * James Tedesco is doing a fellowship at Tufts with their Institute for Democracy in Higher Education (IDHE) — they produce the NSLVE report which is the main reference for UVM Votes. He'll be researching and codifying state voter laws through the Stanford-MIT Healthy Elections Project.
