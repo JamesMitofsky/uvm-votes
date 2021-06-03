@@ -1,6 +1,6 @@
 ---
 tags: Editorial
-date: 2021-06-03T16:26:02.477Z
+date: 2020-12-21T17:26:02.477Z
 title: Comparing Notes with Stanford Votes
 author: James Tedesco
 ---
