@@ -442,6 +442,20 @@ form .user-box input:focus~label, form .user-box input:valid~label {
     color: #363636;
 }
 
+/* reports specific styles */
+.reports-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reports-wrapper img {
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.7);
+    margin: 1em;
+    max-width: 400px;
+    width: auto;
+}
+
 /* theme dependent styles */
 
 .link {
