@@ -4,9 +4,9 @@ date: 2021-06-08T12:47:28.179Z
 title: Establishing an SGA Research Committee
 author: James Tedesco
 ---
-## We Have a Problem
+## Our SGA Has a Problem
 
-Our SGA has a problem: very few students are voting to elect campus leaders, and the qualified students who are elected often resign after one term. These problems aren't unique to UVM, but that doesn't make them any less material.
+Very few students are voting to elect campus leaders, and the qualified students who are elected often resign after one term. These problems aren't unique to UVM, but that doesn't make them any less material.
 
 Seeking to address this — among other things — the current SGA President, Sam Pasqualoni, and UVM Votes President, James Tedesco, are founding an ad-hoc research committee to understand how other schools have attempted to handle these same problems.
 
