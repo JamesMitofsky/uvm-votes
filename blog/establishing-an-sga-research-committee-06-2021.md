@@ -12,13 +12,9 @@ Seeking to address this — among other things — the current SGA President, Sa
 
 ## The Committee’s Work
 
-**Only 17.3% of catamounts voted in last year’s SGA election (see [Engagement 3.3](https://www.uvm.edu/sites/default/files/Office-of-the-Provost/ASG_Dashboard_Oct4_2020.pdf)). How can we raise that?**
+**Only 17.3% of catamounts voted in last year’s SGA election (see [Engagement 3.3](https://www.uvm.edu/sites/default/files/Office-of-the-Provost/ASG_Dashboard_Oct4_2020.pdf)). How can we raise that?** Plenty of schools around the country suffer from this same problem of low participation, and it’s this committee’s objective to research what is and isn’t working for SGAs at other schools. Bringing speakers for internal development among senators is important, but internal ideation and external research are complimentary, not supplementary. Each has their place.
 
-Plenty of schools around the country suffer from this same problem of low participation, and it’s this committee’s objective to research what is and isn’t working for SGAs at other schools. Bringing speakers for internal development among senators is important, but internal ideation and external research are complimentary, not supplementary. Each has their place.
-
-**There’s a pattern of senator burnout, where qualified candidates don’t run for re-election. How do we retain them?**
-
-This could be explained by high achieving students having to prioritize their activities as they near graduation, but it begs the question: why isn't SGA viewed as a valuable opportunity for continued growth and resume building?
+**There’s a pattern of senator burnout, where qualified candidates don’t run for re-election. How do we retain them?** This could be explained by high achieving students having to prioritize their activities as they near graduation, but it begs the question: why isn't SGA viewed as a valuable opportunity for continued growth and resume building?
 
 ## Why Bother?
 
