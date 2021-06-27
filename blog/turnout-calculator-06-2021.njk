@@ -1,0 +1,109 @@
+---
+tags: Editorial
+date: 2021-06-26T16:21:49.346Z
+title: Turnout Calculator
+author: James Tedesco
+---
+<span class="caution">Experimental Calculator —
+    Under Review</span>
+
+<table>
+    <thead>
+        <tr>
+            <th>UVM Rates</th>
+            <th>2012</th>
+            <th>2016</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Registration</td>
+            <td>66.9%</td>
+            <td>73.6%</td>
+        </tr>
+        <tr>
+            <td>Yield</td>
+            <td>57%</td>
+            <td>62.7%</td>
+        </tr>
+        <tr>
+            <td>Overall Turnout</td>
+            <td>38.2%</td>
+            <td>46.2%</td>
+        </tr>
+    </tbody>
+</table>
+
+If yield was held constant, this is how much an
+increase in registration would affect the system:
+<form>
+    <fieldset>
+        <legend>Impact Caculator (2016 baseline)
+        </legend>
+        <span>Compare registering
+            eligible voters
+            and turning out already registered
+            ones. Measure impact by a percent
+            change of</span>
+        <input placeholder="%" id="regDelta"
+            type="number">
+        <h3>Registering Voters</h3><span>A change
+            of</span>
+        <span
+            class="userInput">____</span><span>will
+            have a</span>
+        <span
+            id="regChange">______</span><span>impact
+            on the overall voter pool.</span>
+
+        <h3>Turning Out the Vote</h3><span>A
+            change
+            of</span>
+        <span class="userInput">____</span>will
+        have a
+        <span
+            id="yieldChange">______</span><span>impact
+            on the overall voter pool.</span>
+    </fieldset>
+</form>
+
+This is another way of thinking about where to
+invest your time when getting out the vote.
+
+While registering new voters and helping currently
+registered students turn
+out to the polls are by no means mutually
+exclusive, it's important to time your efforts for
+the most impact. Early on in the year is a great
+time to be doing voter registration drives, but
+when the election is on your doorstep, it should
+be a full tilt effort to make sure students have a
+plan to vote.
+
+<style>
+    table * {
+        border: 1px solid black;
+    }
+
+    input {
+        width: 5em;
+    }
+
+    form {
+        color: white;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    .caution {
+        background-color: orange;
+        padding: .2em 1em;
+        border-radius: 5px;
+        text-align: center;
+    }
+</style>
+
+<script type="text/javascript"
+    src="/assets/scripts/turnoutCalculator.js"></script>
