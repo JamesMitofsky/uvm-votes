@@ -1,7 +1,7 @@
 ---
 tags: Editorial
 date: 2021-06-08T12:47:28.179Z
-title: Establishing an SGA Research Committee
+title: SGA Research Committee & Internship
 author: James Tedesco
 ---
 ## Solving a Nation-Wide Question
