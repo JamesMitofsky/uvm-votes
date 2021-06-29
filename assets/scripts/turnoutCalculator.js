@@ -16,11 +16,9 @@ function updateValue(e) {
     // convert for percent calculations
     // input = input / 100
 
-    let regRate = regRateCalc(input)
-    updateResults("regChange", regRate)
+    regRateCalc(input)
 
-    let yieldRate = yieldRateCalc(input)
-    updateResults("yieldChange", yieldRate)
+    yieldRateCalc(input)
 
 
 
@@ -32,7 +30,9 @@ function regRateCalc(regChange) {
     let previousYield = 62.7
 
     // produce result for user
-    return regChange * previousYield / 100
+    let rate = regChange * previousYield / 100
+
+    updateResults("regChange", rate)
 
 }
 
@@ -40,7 +40,9 @@ function yieldRateCalc(yieldChange) {
     // from 2016 NSLVE UVM report
     let previousRegRate = 73.6
     // produce result for user
-    return yieldChange * previousRegRate / 100
+    let rate = yieldChange * previousRegRate / 100
+
+    updateResults("yieldChange", rate)
 }
 
 function updateResults(className, updatedValue) {
