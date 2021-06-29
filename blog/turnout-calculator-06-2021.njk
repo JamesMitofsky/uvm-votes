@@ -140,9 +140,24 @@ plan to vote.
     the registration delta was held at zero, and
     likewise, when testing for the impact of
     registration changes, the yield delta was held
-    at zero. This canceled out that part of the
+    at zero. These zeros canceled out that part of
+    the
     formula, allowing for the simplified equations
-    found in the calculator.</p>
+    found in the calculator. Below is the formula
+    before it's simplified:</p>
+<code>
+        Year 1 to Year 2 VR Change = (5% *
+    0) + (5% * 50%) + (0 * 70%)
+    </code>
+<p>The registration rate delta (RR Delta) is
+    zeroed by the yield rate delta (YR Delta); we
+    set YR Delta to zero because we want to focus
+    on testing the impact of registration changes.
+    Next, our RR Rate because relevant because
+    it's multiplied by the yield rate from our
+    year of interest. Finally, the YR Delta again
+    makes the registration rate of our year of
+    interest no matter, zeroing it out.</p>
 
 <style>
     .dataTable * {
