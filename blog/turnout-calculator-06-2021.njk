@@ -64,7 +64,7 @@ increase in registration would affect the system:
                         <th>*</th>
                         <th>YR (Last Election)</th>
                         <th>=</th>
-                        <th>Result</th>
+                        <th>Voter Pool Change</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -97,7 +97,7 @@ increase in registration would affect the system:
                     <th>*</th>
                     <th>YR Delta</th>
                     <th>=</th>
-                    <th>Result</th>
+                    <th>Voter Pool Change</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -130,22 +130,19 @@ plan to vote.
 
 <br>
 <br>
-<b>Formulas for Voting
-    Rate Change:</b>
+<b>Formula & Explanation</b>
 <code>Year 1 to Year 2 VR Change = (RR Delta *
     YR Delta) + (RR Delta * Year 1 YR) + (YR Delta
     * Year 1 RR)
 </code>
-<div>Simplified, this expression can be read as:
-</div>
-<code>
-<ul>
-    <li>RR Change = RR Delta *
-        Base-year YR</li>
-    <li>YR Change = Base-year RR *
-        YR Delta</li>
-</ul>
-</code>
+<p>The equations used here were derived from the
+    above formula. When testing for yield changes,
+    the registration delta was held at zero, and
+    likewise, when testing for the impact of
+    registration changes, the yield delta was held
+    at zero. This canceled out that part of the
+    formula, allowing for the simplified equations
+    found in the calculator.</p>
 
 <style>
     .dataTable * {
