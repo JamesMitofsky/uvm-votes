@@ -13,15 +13,9 @@ function updateValue(e) {
     let input = parseInt(e.target.value)
     updateResults("userInput", input)
 
-    // convert for percent calculations
-    // input = input / 100
-
     regRateCalc(input)
 
     yieldRateCalc(input)
-
-
-
 
 }
 
@@ -54,7 +48,7 @@ function updateResults(className, updatedValue) {
     if (className == "userInput") {
         for (field of fields) {
             // select text attribute; convert value to string, add percent symbol; update value
-            formattedValue = updatedValue.toString().concat("% ")
+            formattedValue = updatedValue.toString()
             field.textContent = formattedValue
         }
         return
