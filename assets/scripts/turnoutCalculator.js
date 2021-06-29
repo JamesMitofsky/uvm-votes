@@ -10,48 +10,60 @@ function main() {
 
 function updateValue(e) {
     // convert input to percent
-    let input = e.target.value
-    // update document to reflect input
-    updateUserInput(input)
+    let input = parseInt(e.target.value)
+    updateResults("userInput", input)
 
     // convert for percent calculations
-    input = input / 100
+    // input = input / 100
 
-    regRateCalc(input)
-    yieldRateCalc(input)
+    let regRate = regRateCalc(input)
+    updateResults("regChange", regRate)
+
+    let yieldRate = yieldRateCalc(input)
+    updateResults("yieldChange", yieldRate)
+
+
+
 
 }
 
 function regRateCalc(regChange) {
-    // from 2016 NSLVE national report
-    let previousYield = .627
+    // from 2016 NSLVE UVM report
+    let previousYield = 62.7
 
     // produce result for user
-    let vrChange = regChange * previousYield * 100
+    return regChange * previousYield / 100
 
-    vrChange = vrChange.toFixed(2).concat("% ")
-
-    // update website with info
-    document.getElementById('regChange').textContent = vrChange
 }
 
 function yieldRateCalc(yieldChange) {
-    let previousRegRate = .736
-
+    // from 2016 NSLVE UVM report
+    let previousRegRate = 73.6
     // produce result for user
-    let vrChange = yieldChange * previousRegRate * 100
-
-    vrChange = vrChange.toFixed(2).concat("% ")
-
-    // update website with info
-    document.getElementById('yieldChange').textContent = vrChange
-
+    return yieldChange * previousRegRate / 100
 }
 
-function updateUserInput(input) {
-    let fields = document.getElementsByClassName('userInput')
-    for (field of fields) {
-        console.log(field.textContent)
-        field.textContent = input.toString().concat("% ")
+function updateResults(className, updatedValue) {
+
+    // get HTML collection
+    let fields = document.getElementsByClassName(className)
+
+    // catch user input to avoid trailing zeros
+    if (className == "userInput") {
+        for (field of fields) {
+            // select text attribute; convert value to string, add percent symbol; update value
+            formattedValue = updatedValue.toString().concat("% ")
+            field.textContent = formattedValue
+        }
+        return
     }
+
+    // handle presenting deltas and results
+    for (field of fields) {
+        // select text attribute; convert value to string, add percent symbol; update value
+        roundedNumber = Math.round(updatedValue * 100) / 100
+        formattedValue = roundedNumber.toString().concat("% ")
+        field.textContent = formattedValue
+    }
+
 }

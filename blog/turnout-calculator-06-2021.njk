@@ -7,7 +7,7 @@ author: James Tedesco
 <span class="caution">Experimental Calculator —
     Under Review</span>
 
-<table>
+<table class="dataTable">
     <thead>
         <tr>
             <th>UVM Rates</th>
@@ -53,8 +53,32 @@ increase in registration would affect the system:
             class="userInput">____</span><span>will
             have a</span>
         <span
-            id="regChange">______</span><span>impact
+            class="regChange">______</span><span>impact
             on the overall voter pool.</span>
+        <div>
+            <code>
+                <table class="formulaTable">
+                    <thead>
+                      <tr>
+                        <th>RR Delta</th>
+                        <th>*</th>
+                        <th>YR (Last Election)</th>
+                        <th>=</th>
+                        <th>Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="userInput">____</td>
+                        <td>*</td>
+                        <td>62.7%</td>
+                        <td>=</td>
+                        <td class="regChange">____</td>
+                      </tr>
+                    </tbody>
+                    </table>
+            </code>
+        </div>
 
         <h3>Turning Out the Vote</h3><span>A
             change
@@ -62,8 +86,32 @@ increase in registration would affect the system:
         <span class="userInput">____</span>will
         have a
         <span
-            id="yieldChange">______</span><span>impact
+            class="yieldChange">______</span><span>impact
             on the overall voter pool.</span>
+        <div>
+            <code>
+            <table class="formulaTable">
+                <thead>
+                  <tr>
+                    <th>RR (Last Election)</th>
+                    <th>*</th>
+                    <th>YR Delta</th>
+                    <th>=</th>
+                    <th>Result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>73.6%</td>
+                    <td>*</td>
+                    <td class="userInput">____</td>
+                    <td>=</td>
+                    <td class="yieldChange">____</td>
+                  </tr>
+                </tbody>
+                </table>
+        </code>
+        </div>
     </fieldset>
 </form>
 
@@ -100,8 +148,15 @@ plan to vote.
 </code>
 
 <style>
-    table * {
+    .dataTable * {
         border: 1px solid black;
+    }
+
+    .formulaTable {
+        margin-top: 15px;
+        border: 1px solid black;
+        text-align: center;
+        border-spacing: 20px;
     }
 
     input {
