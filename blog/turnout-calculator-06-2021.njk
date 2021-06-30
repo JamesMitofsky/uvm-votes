@@ -5,35 +5,11 @@ title: Turnout Calculator
 author: James Tedesco
 ---
 
-<table class="dataTable">
-    <thead>
-        <tr>
-            <th>UVM Rates</th>
-            <th>2012</th>
-            <th>2016</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Registration</td>
-            <td>66.9%</td>
-            <td>73.6%</td>
-        </tr>
-        <tr>
-            <td>Yield</td>
-            <td>57%</td>
-            <td>62.7%</td>
-        </tr>
-        <tr>
-            <td>Overall Turnout</td>
-            <td>38.2%</td>
-            <td>46.2%</td>
-        </tr>
-    </tbody>
-</table>
-
-If yield was held constant, this is how much an
-increase in registration would affect the system:
+<p>This tool compares the effect of investing the
+    same amount of change (at UVM) into two
+    different metrics: yield rate (YR) &
+    registration rate
+    (RR).</p>
 <form>
     <h2>Impact Caculator (2016 baseline)</h2>
     <span>Compare registering
@@ -125,7 +101,7 @@ plan to vote.
 
 <br>
 <br>
-<b>Formula Explanation</b>
+<h2>Formula Explanation</h2>
 <code>Year 1 to Year 2 VR Delta = (RR Delta *
     YR Delta) + (RR Delta * Year 1 YR) + (YR Delta
     * Year 1 RR)
@@ -139,7 +115,7 @@ plan to vote.
     the
     formula, allowing for the simplified equations
     found in the calculator.</p>
-<b>Example</b>
+<h3>Example</h3>
 <p>Here's an example calculating how a change in
     the registration rate would impact the voting
     rate:</p>
@@ -157,6 +133,35 @@ plan to vote.
     year of interest. Finally, the YR Delta again
     makes the registration rate of our year of
     interest no matter, zeroing it out.</p>
+
+<h3>Source Data</h3>
+
+<table class="dataTable">
+    <thead>
+        <tr>
+            <th>UVM Rates</th>
+            <th>2012</th>
+            <th>2016</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Registration</td>
+            <td>66.9%</td>
+            <td>73.6%</td>
+        </tr>
+        <tr>
+            <td>Yield</td>
+            <td>57%</td>
+            <td>62.7%</td>
+        </tr>
+        <tr>
+            <td>Overall Turnout</td>
+            <td>38.2%</td>
+            <td>46.2%</td>
+        </tr>
+    </tbody>
+</table>
 
 <style>
     .dataTable * {
