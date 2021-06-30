@@ -35,39 +35,37 @@ author: James Tedesco
 If yield was held constant, this is how much an
 increase in registration would affect the system:
 <form>
-    <fieldset>
-        <legend>Impact Caculator (2016 baseline)
-        </legend>
-        <span>Compare registering
-            eligible voters
-            and turning out already registered
-            ones. Measure impact by a change
-            of</span>
-        <input placeholder="%" id="regDelta"
-            type="number"><span> points.</span>
-        <h3>Registering Voters</h3><span>A change
-            of</span>
-        <span
-            class="userInput">____</span><span>will
-            have a</span>
-        <span
-            class="regChange">______</span><span>impact
-            on the overall voter pool.</span>
-        <div>
-            <code>
+    <h2>Impact Caculator (2016 baseline)</h2>
+    <span>Compare registering
+        eligible voters
+        and turning out already registered
+        ones. Measure impact by a change
+        of</span>
+    <input placeholder="%" id="regDelta"
+        type="number"><span> points.</span>
+    <h3>Registering Voters</h3>
+    <span>A change
+        of</span>
+    <span class="userInput">____</span><span>
+        points would
+        increase the overall voter pool
+        to</span>
+    <span class="regChangeTotal">______</span>.
+    <div>
+        <code>
                 <table class="formulaTable">
                     <thead>
                       <tr>
                         <th>RR Delta</th>
                         <th>*</th>
-                        <th>YR (Last Election)</th>
+                        <th>YR (2016)</th>
                         <th>=</th>
                         <th>Voter Pool Delta</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td><span class="userInput">____</span>-points</td>
+                        <td><span class="userInput">____</span> pts</td>
                         <td>*</td>
                         <td>62.7%</td>
                         <td>=</td>
@@ -76,23 +74,22 @@ increase in registration would affect the system:
                     </tbody>
                     </table>
             </code>
-        </div>
+    </div>
 
-        <h3>Turning Out the Vote</h3><span>A
-            change
-            of</span>
-        <span class="userInput">____</span> points
-        would
-        have a
-        <span
-            class="yieldChange">______</span><span>impact
-            on the overall voter pool.</span>
-        <div>
-            <code>
+    <h3>Turning Out the Vote</h3>
+    <span>A change
+        of</span>
+    <span class="userInput">____</span><span>
+        points would
+        increase the overall voter pool
+        to</span>
+    <span class="yieldChangeTotal">______</span>.
+    <div>
+        <code>
             <table class="formulaTable">
                 <thead>
                   <tr>
-                    <th>RR (Last Election)</th>
+                    <th>RR (2016)</th>
                     <th>*</th>
                     <th>YR Delta</th>
                     <th>=</th>
@@ -103,15 +100,14 @@ increase in registration would affect the system:
                   <tr>
                     <td>73.6%</td>
                     <td>*</td>
-                    <td><span class="userInput">____</span>-points</td>
+                    <td><span class="userInput">____</span> pts</td>
                     <td>=</td>
                     <td class="yieldChange">____</td>
                   </tr>
                 </tbody>
                 </table>
         </code>
-        </div>
-    </fieldset>
+    </div>
 </form>
 
 This is another way of thinking about where to
@@ -129,7 +125,7 @@ plan to vote.
 
 <br>
 <br>
-<b>Formula & Explanation</b>
+<b>Formula Explanation</b>
 <code>Year 1 to Year 2 VR Delta = (RR Delta *
     YR Delta) + (RR Delta * Year 1 YR) + (YR Delta
     * Year 1 RR)
@@ -142,13 +138,17 @@ plan to vote.
     at zero. These zeros canceled out that part of
     the
     formula, allowing for the simplified equations
-    found in the calculator. Below is the formula
-    before it's simplified:</p>
+    found in the calculator.</p>
+<b>Example</b>
+<p>Here's an example calculating how a change in
+    the registration rate would impact the voting
+    rate:</p>
 <code>
         Year 1 to Year 2 VR Delta = (5% *
-    0) + (5% * 50%) + (0 * 70%)
+    0) + (5% * 62.7%) + (0 * 73.6%)
     </code>
-<p>The registration rate delta (RR Delta) is
+<p>Going from left to right, the registration rate
+    delta (RR Delta) is
     zeroed by the yield rate delta (YR Delta); we
     set YR Delta to zero because we want to focus
     on testing the impact of registration changes.
@@ -167,7 +167,7 @@ plan to vote.
         margin-top: 15px;
         border: 1px solid black;
         text-align: center;
-        border-spacing: 20px;
+        border-spacing: 0 1em;
     }
 
     input {

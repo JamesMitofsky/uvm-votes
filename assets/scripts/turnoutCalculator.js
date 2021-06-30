@@ -24,19 +24,24 @@ function regRateCalc(regChange) {
     let previousYield = 62.7
 
     // produce result for user
-    let rate = regChange * previousYield / 100
+    let delta = regChange * previousYield / 100
+    updateResults("regChange", delta)
 
-    updateResults("regChange", rate)
+    let newRegTotal = delta + previousYield
+    updateResults("regChangeTotal", newRegTotal)
 
 }
 
 function yieldRateCalc(yieldChange) {
     // from 2016 NSLVE UVM report
     let previousRegRate = 73.6
-    // produce result for user
-    let rate = yieldChange * previousRegRate / 100
 
-    updateResults("yieldChange", rate)
+    // produce result for user
+    let delta = yieldChange * previousRegRate / 100
+    updateResults("yieldChange", delta)
+
+    let newYieldTotal = delta + previousRegRate
+    updateResults("yieldChangeTotal", newYieldTotal)
 }
 
 function updateResults(className, updatedValue) {
