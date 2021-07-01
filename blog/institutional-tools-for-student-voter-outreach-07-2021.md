@@ -5,3 +5,5 @@ title: Institutional Tools for Student Voter Outreach
 author: James Tedesco
 ---
 ![](/assets/images/uploads/registrar-proposal.png)
+
+Find citations for this document [here](https://uvm.vote/registrar-citations).
