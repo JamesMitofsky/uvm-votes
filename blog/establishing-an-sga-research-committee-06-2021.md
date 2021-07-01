@@ -4,6 +4,8 @@ date: 2021-06-08T12:47:28.179Z
 title: SGA Research Committee & Internship
 author: James Tedesco
 ---
+Want to get involved? Email [James.Tedesco@uvm.edu](mailto:james.tedesco@uvm.edu)!
+
 ## Solving a Nation-Wide Question
 
 Few students vote in Student Government Association elections on campuses across the country, and it's common for the most qualified students to resign after one term — UVM is no exception. This compounds with the instability of the college environment, where the electorate turns over every 4 years.
