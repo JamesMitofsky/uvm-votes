@@ -1,6 +1,6 @@
 ---
 tags: Event
-date: 2021-07-01T17:12:39.874Z
+date: 2020-10-08T17:12:39.874Z
 title: "National Webinar Spotlight: UVM Votes"
 author: James Tedesco
 ---
