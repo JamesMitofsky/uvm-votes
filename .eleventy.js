@@ -1,9 +1,12 @@
 const pluginDate = require("eleventy-plugin-date");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = function (eleventyConfig) {
 
     // add text filter plugin from npm
     eleventyConfig.addPlugin(pluginDate);
+    // lazy load images
+    eleventyConfig.addPlugin(lazyImagesPlugin);
 
     // netlify CMS management
     eleventyConfig.addPassthroughCopy("admin");
