@@ -286,7 +286,7 @@ div a.uvm-votes-banner {
 .cta-btn {
     width: -webkit-fit-content;
     font-size: 1.3em;
-    padding: .2em 2em;
+    padding: .5em 2em;
     color: white;
     background-color: rgb(224, 62, 62);
     box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.23);
