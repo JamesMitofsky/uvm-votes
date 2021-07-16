@@ -16,12 +16,17 @@ html {
 body {
     margin: 0;
     font-size: 1.2em;
-    line-height: 1.5em;
-    font-family: Optima, sans-serif;
+    line-height: 1.4em;
+    font-family: Helvetica, Arial, sans-serif;
+    color:rgba(0, 0, 0, 0.72);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     display: flex;
+}
+
+p {
+    margin: 1em 0;
 }
 
 main {
@@ -42,10 +47,6 @@ h1 {
     padding: 15px;
     color: white;
     border-radius: 10px;
-}
-
-.home p {
-    margin: 40px 0;
 }
 
 .bold {
@@ -265,6 +266,41 @@ div a.uvm-votes-banner {
     margin-bottom: 0;
 }
 
+/* call to action */
+.style-bar {
+    height: .6em;
+    width: 2em;
+    background-color: rgb(231, 62, 62);
+    margin-bottom: .5em;
+}
+
+.hero-text h2, .hero-text h3{
+    font-size: 1.8em;
+    margin: .4em 0;
+}
+
+.action-emphasis {
+    color: rgb(221, 71, 71);
+}
+
+.cta-btn {
+    width: -webkit-fit-content;
+    font-size: 1.3em;
+    padding: .2em 2em;
+    color: white;
+    background-color: rgb(224, 62, 62);
+    box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.23);
+    border: none;
+    transition: box-shadow .2s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
 /* form styles */
 
 #sign-up {
@@ -284,18 +320,6 @@ div a.uvm-votes-banner {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
-}
-
-#the-issue {
-    margin-bottom: 200px;
-}
-
-#greater-vision {
-    margin-top: -200px;
-}
-
-#greater-vision>p {
-    z-index: 2;
 }
 
 #contact-us {
@@ -509,7 +533,7 @@ section:nth-child(even) h2 {
 
 .title {
     grid-area: title;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 .email {
@@ -578,10 +602,6 @@ section:nth-child(even) h2 {
     transition: width ease 0.2s;
 }
 
-.inner-section>* {
-    margin: 10px 0;
-}
-
 .footer {
     text-align: right;
     font-size: .8em;
@@ -636,6 +656,18 @@ section:nth-child(even) h2 {
     .grid-container {
         grid-template-columns: 1fr 1fr;
     }
+    .style-bar {
+        height: 2vw;
+        width: 9vw;
+    }
+    
+    .hero-text h2, .hero-text h3{
+        font-size: 6vw;
+    }
+    .cta-btn {
+        font-size: 4vw;
+        box-shadow: .7vw .7vw 1px rgba(0, 0, 0, 0.23);
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -651,10 +683,6 @@ section:nth-child(even) h2 {
 }
 
 /* highcharts styles */
-
-figure.highcharts-figure {
-    margin: 0 auto;
-}
 
 .highcharts-data-table table, .highcharts-figure {
     min-width: 310px;
