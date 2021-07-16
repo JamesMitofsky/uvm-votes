@@ -52,11 +52,6 @@ h1 {
     font-weight: bolder;
 }
 
-.hero-bttn-wrapper {
-    display: flex;
-    flex-direction: row;
-}
-
 .bg-green {
     background-color: #017155;
     box-shadow: 3px 4px 6px 1px rgb(0, 54, 19);
@@ -68,23 +63,12 @@ h1 {
     margin-top: 15px;
 }
 
-.hero-btn {
-    padding: .5em 0;
-    margin: 0 10px;
-    width: -webkit-fill-available;
-    text-align: center;
-}
-
 .bg-green:hover {
     background-color: #00533e;
 }
 
 .bg-yellow:hover {
     background-color: #cfad00;
-}
-
-.hero-btn:active {
-    box-shadow: none;
 }
 
 .bg-blue {
@@ -261,7 +245,7 @@ div a.uvm-votes-banner {
     box-shadow: none;
 }
 
-.hero-background {
+.header-background {
     z-index: 0;
     position: absolute;
     left: 0;
