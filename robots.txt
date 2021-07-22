@@ -1,0 +1,3 @@
+user-agent: Algolia Crawler
+allow: /minutes/
+disallow: /
