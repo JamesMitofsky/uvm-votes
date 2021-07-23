@@ -54,7 +54,7 @@
             {% include "styles/site.css" %}
         </style>
 
-        {% if page.url != '/minutes/' %}
+        {% if '/minutes/' not in page.url %}
         <meta name="Algolia crawler" content="noindex">
         {% endif %}
 
