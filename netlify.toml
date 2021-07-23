@@ -1,6 +1,6 @@
 [[redirects]]
     from = "/reg"
-    to = "https://uvm.turbovote.org/"
+    to = "/turbovote"
 
 [[redirects]]
     from = "/registrar-citations"
