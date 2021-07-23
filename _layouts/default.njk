@@ -54,6 +54,11 @@
             {% include "styles/site.css" %}
         </style>
 
+        {% if page.url != '/minutes/' %}
+        <meta name="Algolia crawler" content="noindex">
+        {% endif %}
+
+
         {% if page.url == '/minutes/' %}
         <!-- Agolia Search -->
         <link rel="stylesheet" href="/assets/styles/agolia.css"/>
