@@ -1,3 +1,2 @@
 User-agent: Algolia Crawler
 Allow: /minutes/
-Disallow: /*
