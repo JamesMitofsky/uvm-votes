@@ -49,6 +49,10 @@ h1 {
     border-radius: 10px;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 .bold {
     font-weight: bolder;
 }
@@ -260,10 +264,6 @@ div a.uvm-votes-banner {
     -moz-background-size: contain;
     -webkit-background-size: contain;
     background-size: contain;
-}
-
-.inner-section .title {
-    margin-bottom: 0;
 }
 
 /* call to action */
@@ -567,12 +567,16 @@ section:nth-child(even) h2 {
 }
 
 /* minutes */
+.category-header {
+    margin-bottom: 0;
+}
+
 .project-assignment {
     padding: .7em;
     margin: 1em 0;
     border-radius: 5px;
-    background-color: #f9fff9;
-    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.72);
+    background-color: white;
+    box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.73);
 }
 
 /* search */

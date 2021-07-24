@@ -9,18 +9,18 @@ layout: fullPage.njk
 
 
 {% if actionItems %}
-    <br>
-    <h2>Assigned Actionables</h2>
-    {% for item in actionItems %}
-        <div class="project-assignment">
-            <div>
-                <b>Project:</b> {{item.actionItem}}
-            </div>
-            <div>
-                <b>People:</b> {{item.assignment}}
-            </div>
-        </div>
-    {% endfor %}
+<br>
+<h2>Actionables</h2>
+{% for item in actionItems %}
+<div class="project-assignment">
+    <div>
+        <b>Project:</b> {{item.actionItem}}
+    </div>
+    <div>
+        <b>Assigned to:</b> {{item.assignment}}
+    </div>
+</div>
+{% endfor %}
 {% endif %}
 
 
@@ -28,10 +28,16 @@ layout: fullPage.njk
 <br>
 Submitted: {{date | readableDate}}
 
-{% set previousPost = collections.meetingMinutes | getPreviousCollectionItem(page) %}
-{% set nextPost = collections.meetingMinutes | getNextCollectionItem(page) %}
+{% set previousPost = collections.meetingMinutes |
+getPreviousCollectionItem(page) %}
+{% set nextPost = collections.meetingMinutes |
+getNextCollectionItem(page) %}
 
 <div class="post-btn-wrapper">
-    <div>{% if previousPost %}<a href="{{ previousPost.url }}">← Last Week</a>{% endif %}</div>
-    <div>{% if nextPost %}<a href="{{ nextPost.url }}">Next Week →</a>{% endif %}</div>
+    <div>{% if previousPost %}<a
+            href="{{ previousPost.url }}">← Last
+            Week</a>{% endif %}</div>
+    <div>{% if nextPost %}<a
+            href="{{ nextPost.url }}">Next Week
+            →</a>{% endif %}</div>
 </div>
