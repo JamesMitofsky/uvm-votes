@@ -50,7 +50,15 @@ h1 {
 }
 
 h2 {
+    margin-top: 1em;
+}
+
+h1, h2, h3 {
     margin-bottom: 0;
+}
+
+ul, p {
+    margin: 0.3em 0;
 }
 
 .bold {
@@ -534,6 +542,7 @@ section:nth-child(even) h2 {
 .title {
     grid-area: title;
     font-size: 1.6em;
+    margin-bottom: .5em;
 }
 
 .email {
