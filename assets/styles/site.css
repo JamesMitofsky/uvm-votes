@@ -310,6 +310,9 @@ div a.uvm-votes-banner {
 }
 
 /* form styles */
+.z-index-raised {
+    z-index: 2;
+}
 
 #sign-up {
     color: white;
