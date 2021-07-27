@@ -1,0 +1,30 @@
+---
+layout: fullPage
+---
+<h1>Voter Information by State</h1>
+<iframe id="map" width="900" height="525"
+    src="https://createaclickablemap.com/map.php?&id=104693&maplocation=false&online=true"
+    style="border: none;"></iframe>
+<script>if (window.addEventListener) { window.addEventListener("message", function (event) { if (event.data.length >= 22) { if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent) { window.attachEvent("message", function (event) { if (event.data.length >= 22) { if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); }</script>
+
+<script>
+    // custom sizing of map according to innerSection width
+    window.addEventListener('resize', responsivelySizeMap)
+    window.addEventListener('load', responsivelySizeMap)
+
+    function responsivelySizeMap() {
+
+        // determine desired width from the inner section
+        let headerElement = document.getElementsByTagName('h1')[0]
+        let desiredWidth = headerElement.offsetWidth
+
+        // find map element
+        let map = document.getElementById('map')
+
+        // set map width to match desiredWidth
+        map.style.width = desiredWidth + 'px'
+        // set height of map to match desiredWidth
+        let desiredHeight = desiredWidth * .6
+        map.style.height = desiredHeight + 'px'
+    }
+</script>
