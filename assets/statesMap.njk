@@ -1,0 +1,41 @@
+<iframe id="map" width="900" height="525"
+    src="https://createaclickablemap.com/map.php?&id=104693&maplocation=false&online=true"
+    style="border: none;"></iframe>
+<script>if (window.addEventListener) { window.addEventListener("message", function (event) { if (event.data.length >= 22) { if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent) { window.attachEvent("message", function (event) { if (event.data.length >= 22) { if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); }</script>
+
+<script>
+    // custom sizing of map according to innerSection width
+    window.addEventListener('resize', responsivelySizeMap)
+    window.addEventListener('load', responsivelySizeMap)
+
+    function responsivelySizeMap() {
+
+        // determine desired width from the inner section
+        let innerSection = document.getElementsByClassName('inner-section')[0]
+        let sectionWidth = innerSection.offsetWidth
+
+        let sectionPadding = returnTotalPadding(innerSection)
+        console.log(sectionPadding)
+
+        // find map element
+        let map = document.getElementById('map')
+
+        // set desired width
+        let desiredWidth = sectionWidth - sectionPadding
+        // set map width to match desiredWidth
+        map.style.width = desiredWidth + 'px'
+        console.log(desiredWidth)
+        // set height of map to match desiredWidth
+        let desiredHeight = desiredWidth * .6
+        map.style.height = desiredHeight + 'px'
+    }
+
+    function returnTotalPadding(section) {
+        // get padding of left side
+        let paddingLeft = window.getComputedStyle(section).getPropertyValue('padding-left')
+        // remove px suffix from result
+        let paddingNum = paddingLeft.replace(/[^\d.-]/g, '');
+        // assume left and right padding are the same: acquire total padding
+        return paddingNum * 2
+    }
+</script>
