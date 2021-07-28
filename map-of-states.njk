@@ -15,16 +15,31 @@ layout: fullPage
     function responsivelySizeMap() {
 
         // determine desired width from the inner section
-        let headerElement = document.getElementsByTagName('h1')[0]
-        let desiredWidth = headerElement.offsetWidth
+        let innerSection = document.getElementsByClassName('inner-section')[0]
+        let sectionWidth = innerSection.offsetWidth
+
+        let sectionPadding = returnTotalPadding(innerSection)
+        console.log(sectionPadding)
 
         // find map element
         let map = document.getElementById('map')
 
+        // set desired width
+        let desiredWidth = sectionWidth - sectionPadding
         // set map width to match desiredWidth
         map.style.width = desiredWidth + 'px'
+        console.log(desiredWidth)
         // set height of map to match desiredWidth
         let desiredHeight = desiredWidth * .6
         map.style.height = desiredHeight + 'px'
+    }
+
+    function returnTotalPadding(section) {
+        // get padding of left side
+        let paddingLeft = window.getComputedStyle(section).getPropertyValue('padding-left')
+        // remove px suffix from result
+        let paddingNum = paddingLeft.replace(/[^\d.-]/g, '');
+        // assume left and right padding are the same: acquire total padding
+        return paddingNum * 2
     }
 </script>
