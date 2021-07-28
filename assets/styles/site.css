@@ -283,6 +283,10 @@ div a.uvm-votes-banner {
     margin-bottom: .5em;
 }
 
+.hero-text h2.target-identity {
+    color:rgba(0, 0, 0, 0.72);
+}
+
 .hero-text h2, .hero-text h3{
     font-size: 2.4em;
     margin: .4em 0;
