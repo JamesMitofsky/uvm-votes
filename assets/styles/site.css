@@ -493,7 +493,7 @@ section:nth-child(odd) .link {
     color: #0074ff;
 }
 
-section:nth-child(odd) .title {
+section:nth-child(odd) h2 {
     color: #007155;
     font-weight: bold;
 }
