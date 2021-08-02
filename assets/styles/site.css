@@ -6,8 +6,8 @@
     --darkLink: #67d2ff;
     
     --lightPrimary: #e6f3e6;
-    --lightText: rgba(0, 0, 0, 0.72);
-    --lightCTA: rgb(224, 62, 62);
+    --lightText: #393e41;
+    --lightCTA: #dd2d2d;
     --lightLink: #0074ff;
 
     --lightDarkIntersecting: #548D7D;
@@ -23,6 +23,25 @@ img {
     height: auto;
     border-radius: 10px;
   }
+
+/* #testing1 {
+    background-image: url(/assets/campus-background.jpg);
+} */
+#testing1 {
+    position: relative;
+}
+
+#testing1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/assets/campus-background.jpg);
+    filter: opacity(0.4);
+  }
+.inner-section {
+    position: relative;
+}
 
 html {
     scroll-behavior: smooth;
@@ -326,7 +345,7 @@ h3.call-to-action {
     padding: .5em 2em;
     color: var(--darkText);
     background-color: var(--lightCTA);
-    box-shadow: 6px 6px 1px rgba(51, 35, 35, 0.23);
+    box-shadow: 4px 5px 1px rgb(0 0 0 / 46%);
     border: none;
     transition: box-shadow .2s ease;
     font-weight: bold;
@@ -711,7 +730,6 @@ section:nth-child(even) h2 {
     }
     .cta-btn {
         font-size: 4vw;
-        box-shadow: .7vw .7vw 1px rgba(0, 0, 0, 0.23);
     }
 }
 
