@@ -24,21 +24,22 @@ img {
     border-radius: 10px;
   }
 
-/* #testing1 {
-    background-image: url(/assets/campus-background.jpg);
-} */
-#testing1 {
+  /* main uvm image styles */
+
+#top-section {
     position: relative;
 }
 
-#testing1::before {
-    content: "";
+#uvm-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: url(/assets/campus-background.jpg);
-    filter: opacity(0.4);
-  }
+    border-radius: 0;
+    opacity: .5;
+}
+
 .inner-section {
     position: relative;
 }
