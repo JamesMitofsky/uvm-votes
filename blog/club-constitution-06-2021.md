@@ -2,6 +2,7 @@
 tags: Editorial
 date: 2020-01-01T20:38:36.528Z
 title: Club Constitution
+previewImage: /assets/images/uploads/screen-shot-2021-08-03-at-12.08.31-am.png
 ---
 ## Preamble
 
