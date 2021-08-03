@@ -3,6 +3,7 @@ tags: Editorial
 date: 2020-09-01T20:35:59.054Z
 title: This Fall Semester, College Campuses Are the Laboratories of Democracy
 author: Campbell Streator, Philip Hinkes, & James Tedesco
+previewImage: /assets/images/uploads/screen-shot-2021-08-02-at-11.37.21-pm.png
 ---
 As [millions of college students](https://www.marketwatch.com/story/more-than-3-in-4-college-students-plan-to-return-to-campus-this-fall-but-they-promise-not-to-party-2020-07-15) return to campus, they are going back to a “new normal.” Today’s students have a wide range of abnormal responsibilities — from wearing masks to social distancing and resisting the urge to party on weekends.
 
