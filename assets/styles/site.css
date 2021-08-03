@@ -168,9 +168,7 @@ ul {
 /* blog items */
 .blog-items {
     display: grid;
-    grid-template-columns: repeat(2,fit-content(100%));
-    padding-top: 30px;
-    row-gap: 30px
+    grid-template-columns: repeat(1,fit-content(100%));
 }
 
 .blog-item svg {
@@ -755,6 +753,9 @@ section:nth-child(even) h2 {
     }
     .cta-btn {
         font-size: 4vw;
+    }
+    .blog-items {
+        grid-template-columns: repeat(2,fit-content(100%));
     }
 }
 
