@@ -6,13 +6,13 @@ backend:
 local_backend: true
 
 # Configure CMS portal
-site_url: /
+site_url: https://uvm.vote
 display_url: https://uvm.vote
-logo_url: /assets/images/UVM_Votes_Logo.png
+logo_url: https://uvm.vote/assets/images/UVM_Votes_Logo.png
 
 # Preview editor content
-publish_mode: editorial_workflow
-show_preview_links: true
+# publish_mode: editorial_workflow
+# show_preview_links: true
 
 
 # This line should *not* be indented
@@ -45,3 +45,4 @@ collections:
       - {label: "Title", name: "title", widget: "string", hint: "Will appear as 'H1' tag." }
       - {label: "Author", name: "author", widget: "string", required: false }
       - {label: "Article", name: "body", widget: "markdown", hint: "Use 'H2' tags as category headers, as 'H1' is already being used as the title." }
+      - {label: "Preview Image", name: "previewImage", widget: "image", required: true, allow_multiple: false }

@@ -179,6 +179,12 @@ ul {
     margin-right: 10px;
 }
 
+.blog-preview-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* set list item styles */
 .fun-list ul {
 	position: relative;

@@ -20,6 +20,9 @@ layout: fullPage.njk
         {% endif %}
     </div>
     <div class="blog-item">
+        <img class="blog-preview-image"
+            src="{{item.data.coverImage}}"
+            alt="Cover image.">
         <a
             href="{{item.url}}">{{item.data.title}}</a>
     </div>
