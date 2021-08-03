@@ -179,10 +179,28 @@ ul {
     margin-right: 10px;
 }
 
-.blog-preview-image {
+.preview-wrapper {
+    position: relative;
     height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px black;
+    overflow: hidden;
+}
+
+.preview-image {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    position: absolute;
+}
+
+.post-title {
+    position: relative;
+    background-color: rgba(252, 252, 252, 0.911);
+    padding: .4em;
 }
 
 /* set list item styles */

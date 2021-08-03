@@ -6,26 +6,27 @@ layout: fullPage.njk
 <div class="blog-items">
     {%- for item in collections.Blog | reverse -%}
 
-    <div class="blog-item">
-
-        {% if item.data.tags.includes('Editorial')
-        %}
-        {% include "svgs/editorial.svg" %}
-        {% elif item.data.tags.includes('Podcast')
-        %}
-        {% include "svgs/microphone.svg" %}
-        {% elif item.data.tags.includes('Event')
-        %}
-        {% include "svgs/event.svg" %}
-        {% endif %}
-    </div>
-    <div class="blog-item">
-        <img class="blog-preview-image"
+    <a class="preview-wrapper"
+        href="{{item.url}}">
+        <!-- {% if
+            item.data.tags.includes('Editorial')
+            %}
+            {% include "svgs/editorial.svg" %}
+            {% elif
+            item.data.tags.includes('Podcast')
+            %}
+            {% include "svgs/microphone.svg" %}
+            {% elif
+            item.data.tags.includes('Event')
+            %}
+            {% include "svgs/event.svg" %}
+            {% endif %} -->
+        <img class="preview-image"
             src="{{item.data.previewImage}}"
             alt="Cover image.">
-        <a
-            href="{{item.url}}">{{item.data.title}}</a>
-    </div>
+        <div class="post-title">
+            {{item.data.title}}</div>
+    </a>
 
     {%- endfor -%}
 </div>
