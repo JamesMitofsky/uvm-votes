@@ -168,7 +168,7 @@ ul {
 /* blog items */
 .blog-items {
     display: grid;
-    grid-template-columns: repeat(1,fit-content(100%));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .blog-item svg {
