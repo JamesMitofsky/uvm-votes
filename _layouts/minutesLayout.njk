@@ -1,9 +1,23 @@
 ---
 layout: fullPage.njk
 ---
-<a href="/minutes">← Return to Minutes</a>
+<a href="/minutes" class="nav-btn">Return to
+    Minutes</a>
 
 <h1> {{title}} </h1>
+{% set previousPost = collections.meetingMinutes |
+getPreviousCollectionItem(page) %}
+{% set nextPost = collections.meetingMinutes |
+getNextCollectionItem(page) %}
+
+<div class="post-btn-wrapper">
+    <div>{% if previousPost %}<a
+            href="{{ previousPost.url }}">← Last
+            Meeting</a>{% endif %}</div>
+    <div>{% if nextPost %}<a
+            href="{{ nextPost.url }}">Next Meeting
+            →</a>{% endif %}</div>
+</div>
 
 {{content | safe}}
 
@@ -26,17 +40,3 @@ layout: fullPage.njk
 <br>
 <br>
 Submitted: {{date | readableDate}}
-
-{% set previousPost = collections.meetingMinutes |
-getPreviousCollectionItem(page) %}
-{% set nextPost = collections.meetingMinutes |
-getNextCollectionItem(page) %}
-
-<div class="post-btn-wrapper">
-    <div>{% if previousPost %}<a
-            href="{{ previousPost.url }}">← Last
-            Week</a>{% endif %}</div>
-    <div>{% if nextPost %}<a
-            href="{{ nextPost.url }}">Next Week
-            →</a>{% endif %}</div>
-</div>
