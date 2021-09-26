@@ -1,7 +1,20 @@
 ---
 layout: fullPage.njk
 ---
-<a href="/blog" class="nav-btn">← Return to Blog
-    Posts</a>
+<a href="/blog" class="nav-btn">Return to All
+    Blogs</a>
 <h1>{{ title }}</h1>
+{% set previousPost = collections.Blog |
+getPreviousCollectionItem(page) %}
+{% set nextPost = collections.Blog |
+getNextCollectionItem(page) %}
+
+<div class="post-btn-wrapper">
+    <div>{% if previousPost %}<a
+            href="{{ previousPost.url }}">← Last
+            Post</a>{% endif %}</div>
+    <div>{% if nextPost %}<a
+            href="{{ nextPost.url }}">Next Post
+            →</a>{% endif %}</div>
+</div>
 {{ content | safe }}

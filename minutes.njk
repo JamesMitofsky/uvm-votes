@@ -2,17 +2,20 @@
 layout: fullPage.njk
 title: "Minutes"
 ---
+<h1>Meeting Minutes</h1>
 <div id="input-container">
     <div type="text" id="search">
     </div>
 </div>
 <div class="table">
-    {% for post in collections.meetingMinutes | reverse %}
-        <div class="table-item">
-            {{post.data.date | readableDate}}
-        </div>
-        <div class="table-item">
-            <a href="{{post.url}}">{{post.data.title}}</a>
-        </div>
+    {% for post in collections.meetingMinutes |
+    reverse %}
+    <div class="table-item">
+        {{post.data.date | readableDate}}
+    </div>
+    <div class="table-item">
+        <a
+            href="{{post.url}}">{{post.data.title}}</a>
+    </div>
     {% endfor %}
 </div>
