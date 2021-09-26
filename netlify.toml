@@ -3,6 +3,10 @@
     to = "https://go.uvm.edu/votetext"
 
 [[redirects]]
+    from = "/trip"
+    to = "/redistrictingTalk"
+
+[[redirects]]
     from = "/registrar-citations"
     to = "https://docs.google.com/document/d/1_wanRzrtTZ4BSh5FUDBzycwMMVCEb36cRjXmnG7e9QI/edit?usp=sharing"
 
