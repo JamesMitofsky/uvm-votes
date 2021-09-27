@@ -73,3 +73,6 @@ Make sure NPM packages are globally accessible by appending ```source ~/.bash_pr
 
 ## Sitemap creation with collections
 (Walkthrough guide here)[https://www.belter.io/eleventy-sitemap/]
+
+## Dynamically Build Social Media Previews
+https://mtm.dev/eleventy-social-sharing-images
