@@ -9,7 +9,7 @@ title: "Redistricting Talk"
         Middlebury's beautiful campus for an
         expert panel discussion of this once
         in-a-decade moment. <a class="link"
-            href="#trip-details">View travel
+            href="#travel-details">View travel
             details.</a></em>
 </p>
 <img src="/assets/images/uploads/13607.jpg"
@@ -66,6 +66,22 @@ title: "Redistricting Talk"
         transition: all .2s ease;
         margin: 10px;
         width: 80px;
+        animation-name: ctaDropShadow;
+        animation-duration: .8s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
+
+    /* The animation code */
+    @keyframes ctaDropShadow {
+        from {
+            filter: drop-shadow(8px 6px 1px grey);
+        }
+
+        to {
+            filter: drop-shadow(10px 8px 8px grey);
+        }
     }
 
     .calendar-btns img:active {
