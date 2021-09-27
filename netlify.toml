@@ -4,7 +4,16 @@
 
 [[redirects]]
     from = "/trip"
-    to = "/redistrictingTalk"
+    to = "/blog/redistrictingtalk/"
+[[redirects]]
+    from = "/dc"
+    to = "/blog/redistrictingtalk/"
+[[redirects]]
+    from = "/flyer"
+    to = "/blog/redistrictingtalk/"
+[[redirects]]
+    from = "/drop"
+    to = "/blog/redistrictingtalk/"
 
 [[redirects]]
     from = "/registrar-citations"
