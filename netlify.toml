@@ -18,6 +18,9 @@
     from = "/ra"
     to = "https://go.uvm.edu/raotes"
 
+[[redirects]]
+    from = "/table"
+    to = "https://go.uvm.edu/91s87"
 
 [[redirects]]
     from = "/registrar-citations"
