@@ -4,24 +4,23 @@
 
 [[redirects]]
     from = "/trip"
-    to = "/blog/redistrictingtalk/"
+    to = "https://go.uvm.edu/trip"
+
 [[redirects]]
     from = "/dc"
-    to = "/blog/redistrictingtalk/"
+    to = "https://go.uvm.edu/nprj1"
+
 [[redirects]]
     from = "/flyer"
-    to = "/blog/redistrictingtalk/"
+    to = "https://go.uvm.edu/12dmt"
+
 [[redirects]]
     from = "/drop"
-    to = "/blog/redistrictingtalk/"
+    to = "https://go.uvm.edu/n1qbh"
 
 [[redirects]]
     from = "/registrar-citations"
     to = "https://docs.google.com/document/d/1_wanRzrtTZ4BSh5FUDBzycwMMVCEb36cRjXmnG7e9QI/edit?usp=sharing"
-
-[[redirects]]
-    from = "/meeting"
-    to = "https://evt.to/oeusuidw"
 
 [[redirects]]
     from = "/club"
