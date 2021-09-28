@@ -15,12 +15,9 @@
     to = "https://go.uvm.edu/nprj1"
 
 [[redirects]]
-    from = "/flyer"
-    to = "https://go.uvm.edu/12dmt"
+    from = "/ra"
+    to = "https://go.uvm.edu/raotes"
 
-[[redirects]]
-    from = "/drop"
-    to = "https://go.uvm.edu/n1qbh"
 
 [[redirects]]
     from = "/registrar-citations"
