@@ -11,6 +11,10 @@
     to = "https://go.uvm.edu/nprj1"
 
 [[redirects]]
+    from = "/redistrictingTalk"
+    to = "https://go.uvm.edu/nprj1"
+
+[[redirects]]
     from = "/flyer"
     to = "https://go.uvm.edu/12dmt"
 
