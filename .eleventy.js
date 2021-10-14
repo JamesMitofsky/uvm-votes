@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
     // image assets
     eleventyConfig.addPassthroughCopy("assets")
     // top level links access
-    eleventyConfig.addPassthroughCopy({ "assets/tld-links": "" })
+    eleventyConfig.addPassthroughCopy({ "assets/tld-links": "." })
 
     // add animation features
     eleventyConfig.addPassthroughCopy({
