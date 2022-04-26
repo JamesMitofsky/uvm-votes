@@ -1,4 +1,4 @@
-# Description
+# UVM Votes
 Voting is a crucial feature of civic engagement, and making it accessible to everyone is our mission. This statically generated site is created with [Eleventy], deployed over Netlify, and accessible by authorized editors [through the CMS](https://uvm.vote/admin/).
 
 ## Getting Started / Install
