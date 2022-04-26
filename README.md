@@ -74,8 +74,8 @@ The form is [powered by Netlify](https://www.netlify.com/products/forms/) at bui
 ### Environement
 Make sure NPM packages are globally accessible by appending ```source ~/.bash_profile``` to .zshrc, which can be found as a hidden file in the user's root directory. (Source)[https://stackoverflow.com/a/46179792/5395435]
 
-## Sitemap creation with collections
+### Sitemap creation with collections
 (Walkthrough guide here)[https://www.belter.io/eleventy-sitemap/]
 
-## Dynamically Build Social Media Previews
+### Dynamically Build Social Media Previews
 https://mtm.dev/eleventy-social-sharing-images
