@@ -1,15 +1,7 @@
-# uvm.vote
-every vote counts on UVM campus - not gonna wait to play friendly with drupal, thanks
+# Description
+Voting is a crucial feature of civic engagement, and making it accessible to everyone is our mission. This statically generated site is created with [Eleventy], deployed over Netlify, and accessible by authorized editors [through the CMS](https://uvm.vote/admin/).
 
-
-## Build Highcharts
-
-
-* [Highcharts > Command Line Rendering](https://www.highcharts.com/docs/export-module/render-charts-serverside)
-* [Highcharts > Node Export Server](https://github.com/highcharts/node-export-server)
-
-
-## Install
+# Getting Started / Install
 
 ```bash
 npm install highcharts-export-server -g
@@ -21,7 +13,13 @@ npm install highcharts-export-server -g
 highcharts-export-server -infile charts/voting.json -outfile assets/voting.svg -type svg
 ```
 
-# Website Resources
+
+# Informative Resources
+## Highcharts
+
+* [Highcharts > Command Line Rendering](https://www.highcharts.com/docs/export-module/render-charts-serverside)
+* [Highcharts > Node Export Server](https://github.com/highcharts/node-export-server)
+
 
 ## Netlify Content Management System
 - Retroactively added [CMS with Netlify](https://www.netlifycms.org/docs/add-to-your-site/)
