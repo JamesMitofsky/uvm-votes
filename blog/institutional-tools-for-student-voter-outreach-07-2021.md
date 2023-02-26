@@ -5,6 +5,7 @@ title: "Collaboration with Registrar: Texting Students"
 author: James Tedesco
 previewImage: /assets/images/uploads/turbovote-texting-pitch.png
 ---
+
 ![](/assets/images/uploads/turbovote-texting-pitch.png)
 
 ![](/assets/images/uploads/uvm-votes-registrar-proposal-details.png)

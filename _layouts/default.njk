@@ -1,132 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <head>
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"></script>
-        <script>
-            if (window.location.href != "http://localhost:8080/") {
-                window.dataLayer = window.dataLayer || [];
-                function gtag() {
-                    dataLayer.push(arguments);
-                }
-                gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async="async"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151087295-2"
+    ></script>
+    <script>
+      if (window.location.href != "http://localhost:8080/") {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-                gtag('config', 'UA-151087295-2');
-            } else {
-                console.log('Site Announcement: analytics disabled - dev environment')
-            }
-        </script>
+        gtag("config", "UA-151087295-2");
+      } else {
+        console.log("Site Announcement: analytics disabled - dev environment");
+      }
+    </script>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>UVM Votes{% if title %} — {{title}}{% endif %}</title>
-        <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/vnd.microsoft.icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.ico">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
-        <link rel="manifest" href="/assets/site.webmanifest">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UVM Votes{% if title %} — {{ title }}{% endif %}</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon.ico"
+    />
+    <link rel="manifest" href="/assets/site.webmanifest" />
 
-        {# meta social tags #}
-        <!-- Primary Meta Tags -->
-        <meta name="title" content="UVM Votes">
-        <meta name="description" content="A non-partisan club focused on improving the student-voter experience.">
+    {# meta social tags #}
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="UVM Votes" />
+    <meta
+      name="description"
+      content="A non-partisan club focused on improving the student-voter experience."
+    />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.uvm.vote/">
-        <meta property="og:title" content="UVM Votes">
-        <meta property="og:description" content="A non-partisan club focused on improving the student-voter experience.">
-        <meta property="og:image" content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-07-16-21.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.uvm.vote/" />
+    <meta property="og:title" content="UVM Votes" />
+    <meta
+      property="og:description"
+      content="A non-partisan club focused on improving the student-voter experience."
+    />
+    <meta
+      property="og:image"
+      content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-07-16-21.png"
+    />
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://www.uvm.vote/">
-        <meta property="twitter:title" content="UVM Votes">
-        <meta property="twitter:description" content="A non-partisan club focused on improving the student-voter experience.">
-        <meta property="twitter:image" content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-07-16-21.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.uvm.vote/" />
+    <meta property="twitter:title" content="UVM Votes" />
+    <meta
+      property="twitter:description"
+      content="A non-partisan club focused on improving the student-voter experience."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.uvm.vote/assets/images/UVM-Votes-Preview-07-16-21.png"
+    />
 
-        <!-- Animation stylesheet from Sal.js -->
-        <link rel="stylesheet" href="/assets/styles/sal.css">
+    <!-- Animation stylesheet from Sal.js -->
+    <link rel="stylesheet" href="/assets/styles/sal.css" />
 
-        <style>
-            {% include "styles/site.css" %}
-        </style>
+    <style>
+      {% include "styles/site.css" %}
+    </style>
 
-        {% if '/minutes/' not in page.url %}
-        <meta name="Algolia crawler" content="noindex">
-        {% endif %}
+    {% if '/minutes/' not in page.url %}
+    <meta name="Algolia crawler" content="noindex" />
+    {% endif %} {% if page.url == '/minutes/' %}
+    <!-- Agolia Search -->
+    <link rel="stylesheet" href="/assets/styles/agolia.css" />
+    <script
+      type="text/javascript"
+      src="/assets/scripts/agoliaSearch.js"
+    ></script>
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: "WJLB8863XE",
+        apiKey: "048c4826331eb5964317ac19cf6644e1",
+        siteId: "39db6aa4-02e2-4fd5-a033-671863062556",
+        branch: "master",
+        selector: "div#search",
+      });
+    </script>
+    {% endif %}
+  </head>
 
+  <!-- If you're looking at the code, chances are, you might want to contribute to this project. Get in touch with our director. -->
+  <body>
+    <header class="header">
+      {#
+      <div class="uvm-banner">
+        <a href="https://twitter.com/uvmVotes" target="_blank">
+          {% include "svgs/twitter-color.svg" %}</a
+        >
+        <a href="https://www.instagram.com/uvmvotes/" target="_blank">
+          {% include "svgs/instagram-color.svg" %}</a
+        >
+      </div>
+      #}
+      <div class="header-background"></div>
 
-        {% if page.url == '/minutes/' %}
-        <!-- Agolia Search -->
-        <link rel="stylesheet" href="/assets/styles/agolia.css"/>
-        <script type="text/javascript" src="/assets/scripts/agoliaSearch.js"></script>
-        <script type="text/javascript">
-            algoliasearchNetlify({
-                appId: 'WJLB8863XE',
-                apiKey: '048c4826331eb5964317ac19cf6644e1',
-                siteId: '39db6aa4-02e2-4fd5-a033-671863062556',
-                branch: 'master',
-                selector: 'div#search',
+      <div class="inner-header">
+        <a href="/" class="uvm-votes-banner">
+          {% include "svgs/OutlineTowerWhite.svg" %} {% include
+          'svgs/UVM_Votes_Logo.svg' %}
+        </a>
+        <div class="nav-bar">
+          <a class="{{ 'active' if page.url == '/'}}" href="/">Home</a>
+          <a class="{{ 'active' if '/blog' in page.url }}" href="/blog">Blog</a>
+          <a class="{{ 'active' if '/minutes' in page.url }}" href="/minutes"
+            >Minutes</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="{{ 'home' if page.url == '/' }}">
+      {{ content | safe }}
+
+      <section class="footer">
+        <a class="link" target="_blank" href="https://github.com/jamesTedesco/"
+          >Made with ❤️ in Burlington, VT</a
+        >
+      </section>
+    </main>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
             });
-        </script>
-        {% endif %}
-
-    </head>
-
-    <!-- If you're looking at the code, chances are, you might want to contribute to this project. Check out the Github repo here: https://github.com/JamesTedesco/uvm.vote -->
-    <body>
-
-        <header class="header">
-            {# <div class="uvm-banner">
-                <a href="https://twitter.com/uvmVotes" target="_blank">
-                    {% include "svgs/twitter-color.svg" %}</a>
-                <a href="https://www.instagram.com/uvmvotes/" target="_blank">
-                    {% include "svgs/instagram-color.svg" %}</a>
-            </div> #}
-            <div class="header-background"></div>
-            
-                <div class="inner-header">
-                    <a href="/" class="uvm-votes-banner">
-                        {% include "svgs/OutlineTowerWhite.svg" %}
-                        {% include 'svgs/UVM_Votes_Logo.svg' %}
-                    </a>
-                    <div class="nav-bar">
-                        <a class="{{ 'active' if page.url == '/'}}" href="/">Home</a>
-                        <a class="{{ 'active' if '/blog' in page.url }}" href="/blog">Blog</a>
-                        <a class="{{ 'active' if '/minutes' in page.url }}" href="/minutes">Minutes</a>
-                    </div>
-                </div>
-
-        </header>
-
-        <main class="{{ 'home' if page.url == '/' }}">
-
-            {{ content | safe }}
-
-            <section class="footer">
-                <a class="link" target="_blank" href="https://jamestedesco.me/">Made with ❤️ in Burlington, VT</a>
-            </section>
-        </main>
-
-        <script>
-            if (window.netlifyIdentity) {
-              window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                  window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                  });
-                }
-              });
-            }
-          </script>
-        <script src="/assets/scripts/sal.js"></script>
-        <script src="/assets/scripts/lazyload.min.js"></script>
-        <script src="/assets/scripts/site.js"></script>
-        <script src="/assets/scripts/highcharts.js"></script>
-        <script src="/assets/scripts/accessibility.js"></script>
-        <script src="/assets/scripts/chartValues.js"></script>
-    </body>
+          }
+        });
+      }
+    </script>
+    <script src="/assets/scripts/sal.js"></script>
+    <script src="/assets/scripts/lazyload.min.js"></script>
+    <script src="/assets/scripts/site.js"></script>
+    <script src="/assets/scripts/highcharts.js"></script>
+    <script src="/assets/scripts/accessibility.js"></script>
+    <script src="/assets/scripts/chartValues.js"></script>
+  </body>
 </html>

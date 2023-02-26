@@ -4,7 +4,8 @@ date: 2021-04-20T00:51:28.656Z
 attendees: 6
 title: Participation & Funding
 actionItems:
-  - actionItem: Take UVM Votes tabling food out of James' car. Maybe can be put in
+  - actionItem:
+      Take UVM Votes tabling food out of James' car. Maybe can be put in
       the Davis Center cage (email Sarah Flaherty), taken by Aidan, or kept in
       the debate house basement.
     assignment: James Tedesco
@@ -13,46 +14,42 @@ actionItems:
     assignment: Aidan May
   - actionItem: Call the Burlington Town Clerk about ballot boxes.
     assignment: James Tedesco
-  - actionItem: Investigate a calendar which can identify important voting days on
+  - actionItem:
+      Investigate a calendar which can identify important voting days on
       the state and federal level (either if it exists or if we can co-opt one).
     assignment: Brian Donahue
 ---
 
 ## Website: 
 
+- Added projects
 
-* Added projects 
-
-* Added meeting notes 
-
+- Added meeting notes
 
 ## Money: 
 
+- We now have $800 worth of drinks
 
-* We now have $800 worth of drinks 
+- Where can we keep these?
 
-* Where can we keep these? 
+  - Sophie’s Basement
+  - Aidan’s Basement
 
-  * Sophie’s Basement 
-  * Aidan’s Basement
-* Wait to table until next semester
-
+- Wait to table until next semester
 
 ## Refresh Our Listserv: 
 
+- How should we refresh the email list?
 
-* How should we refresh the email list? 
-
-  * “We’re doing a clean-up!”
-  * Unsubscribe button
-  * Email each week before meetings
-  * Send out meeting notes 
+  - “We’re doing a clean-up!”
+  - Unsubscribe button
+  - Email each week before meetings
+  - Send out meeting notes
 
 ## SGA & Labor Unionization: 
 
+- Union of students which has meaningful work power that has that power diverted to meaningless tasks
 
-* Union of students which has meaningful work power that has that power diverted to meaningless tasks 
+- University has veto power on anything of meaningful importance
 
-* University has veto power on anything of meaningful importance 
-
-* Sam may take this information and create an SGA reform committee
+- Sam may take this information and create an SGA reform committee

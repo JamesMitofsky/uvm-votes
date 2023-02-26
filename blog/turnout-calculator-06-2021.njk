@@ -6,197 +6,177 @@ author: James Tedesco
 previewImage: /assets/images/uploads/impact-calculator.png
 ---
 
-<p>This tool compares the effect of investing the
-    same amount of change (at UVM) into two
-    different metrics: yield rate (YR) &
-    registration rate
-    (RR).</p>
+<p>
+  This tool compares the effect of investing the same amount of change (at UVM)
+  into two different metrics: yield rate (YR) & registration rate (RR).
+</p>
 <form>
-    <h2>Impact Caculator (2016 baseline)</h2>
-    <span>Compare registering
-        eligible voters
-        and turning out already registered
-        ones. Measure impact by a change
-        of</span>
-    <input id="regDelta" type="number"><span>
-        points.</span>
-    <h3>Registering Voters</h3>
-    <span>A change
-        of</span>
-    <span class="userInput">__</span><span>
-        points would
-        increase the overall voter pool
-        to</span>
-    <span class="regChangeTotal">______</span>.
-    <div>
-        <code>
-                <table class="formulaTable">
-                    <thead>
-                      <tr>
-                        <th>RR Delta</th>
-                        <th>*</th>
-                        <th>YR (2016)</th>
-                        <th>=</th>
-                        <th>Voter Pool Delta</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td><span class="userInput">__</span> pts</td>
-                        <td>*</td>
-                        <td>62.7%</td>
-                        <td>=</td>
-                        <td class="regChange">____</td>
-                      </tr>
-                    </tbody>
-                    </table>
-            </code>
-    </div>
+  <h2>Impact Caculator (2016 baseline)</h2>
+  <span
+    >Compare registering eligible voters and turning out already registered
+    ones. Measure impact by a change of</span
+  >
+  <input id="regDelta" type="number" /><span> points.</span>
+  <h3>Registering Voters</h3>
+  <span>A change of</span>
+  <span class="userInput">__</span
+  ><span> points would increase the overall voter pool to</span>
+  <span class="regChangeTotal">______</span>.
+  <div>
+    <code>
+      <table class="formulaTable">
+        <thead>
+          <tr>
+            <th>RR Delta</th>
+            <th>*</th>
+            <th>YR (2016)</th>
+            <th>=</th>
+            <th>Voter Pool Delta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="userInput">__</span> pts</td>
+            <td>*</td>
+            <td>62.7%</td>
+            <td>=</td>
+            <td class="regChange">____</td>
+          </tr>
+        </tbody>
+      </table>
+    </code>
+  </div>
 
-    <h3>Turning Out the Vote</h3>
-    <span>A change
-        of</span>
-    <span class="userInput">__</span><span>
-        points would
-        increase the overall voter pool
-        to</span>
-    <span class="yieldChangeTotal">______</span>.
-    <div>
-        <code>
-            <table class="formulaTable">
-                <thead>
-                  <tr>
-                    <th>RR (2016)</th>
-                    <th>*</th>
-                    <th>YR Delta</th>
-                    <th>=</th>
-                    <th>Voter Pool Delta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>73.6%</td>
-                    <td>*</td>
-                    <td><span class="userInput">__</span> pts</td>
-                    <td>=</td>
-                    <td class="yieldChange">____</td>
-                  </tr>
-                </tbody>
-                </table>
-        </code>
-    </div>
+  <h3>Turning Out the Vote</h3>
+  <span>A change of</span>
+  <span class="userInput">__</span
+  ><span> points would increase the overall voter pool to</span>
+  <span class="yieldChangeTotal">______</span>.
+  <div>
+    <code>
+      <table class="formulaTable">
+        <thead>
+          <tr>
+            <th>RR (2016)</th>
+            <th>*</th>
+            <th>YR Delta</th>
+            <th>=</th>
+            <th>Voter Pool Delta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>73.6%</td>
+            <td>*</td>
+            <td><span class="userInput">__</span> pts</td>
+            <td>=</td>
+            <td class="yieldChange">____</td>
+          </tr>
+        </tbody>
+      </table>
+    </code>
+  </div>
 </form>
 
-This is another way of thinking about where to
-invest your time when getting out the vote.
+This is another way of thinking about where to invest your time when getting out
+the vote. While registering new voters and helping currently registered students
+turn out to the polls are by no means mutually exclusive, it's important to time
+your efforts for the most impact. Early on in the year is a great time to be
+doing voter registration drives, but when the election is on your doorstep, it
+should be a full tilt campaign to make sure students have a plan to vote.
 
-While registering new voters and helping currently
-registered students turn
-out to the polls are by no means mutually
-exclusive, it's important to time your efforts for
-the most impact. Early on in the year is a great
-time to be doing voter registration drives, but
-when the election is on your doorstep, it should
-be a full tilt campaign to make sure students have
-a
-plan to vote.
-
-<br>
-<br>
+<br />
+<br />
 <h2>Formula Explanation</h2>
-<code>Year 1 to Year 2 VR Delta = (RR Delta *
-    YR Delta) + (RR Delta * Year 1 YR) + (YR Delta
-    * Year 1 RR)
+<code
+  >Year 1 to Year 2 VR Delta = (RR Delta * YR Delta) + (RR Delta * Year 1 YR) +
+  (YR Delta * Year 1 RR)
 </code>
-<p>The equations used here were derived from the
-    above formula. When testing for yield changes,
-    the registration delta was held at zero, and
-    likewise, when testing for the impact of
-    registration changes, the yield delta was held
-    at zero. These zeros canceled out that part of
-    the
-    formula, allowing for the simplified equations
-    found in the calculator.</p>
+<p>
+  The equations used here were derived from the above formula. When testing for
+  yield changes, the registration delta was held at zero, and likewise, when
+  testing for the impact of registration changes, the yield delta was held at
+  zero. These zeros canceled out that part of the formula, allowing for the
+  simplified equations found in the calculator.
+</p>
 <h3>Example</h3>
-<p>Here's an example calculating how a change in
-    the registration rate would impact the voting
-    rate:</p>
-<code>
-        Year 1 to Year 2 VR Delta = (5% *
-    0) + (5% * 62.7%) + (0 * 73.6%)
-    </code>
-<p>Going from left to right, the registration rate
-    delta (RR Delta) is
-    zeroed by the yield rate delta (YR Delta); we
-    set YR Delta to zero because we want to focus
-    on testing the impact of registration changes.
-    Next, our RR Rate because relevant because
-    it's multiplied by the yield rate from our
-    year of interest. Finally, the YR Delta again
-    makes the registration rate of our year of
-    interest no matter, zeroing it out.</p>
+<p>
+  Here's an example calculating how a change in the registration rate would
+  impact the voting rate:
+</p>
+<code> Year 1 to Year 2 VR Delta = (5% * 0) + (5% * 62.7%) + (0 * 73.6%) </code>
+<p>
+  Going from left to right, the registration rate delta (RR Delta) is zeroed by
+  the yield rate delta (YR Delta); we set YR Delta to zero because we want to
+  focus on testing the impact of registration changes. Next, our RR Rate because
+  relevant because it's multiplied by the yield rate from our year of interest.
+  Finally, the YR Delta again makes the registration rate of our year of
+  interest no matter, zeroing it out.
+</p>
 
 <h2>Source Data</h2>
 
 <table class="dataTable">
-    <thead>
-        <tr>
-            <th>UVM Rates</th>
-            <th>2012</th>
-            <th>2016</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Registration</td>
-            <td>66.9%</td>
-            <td>73.6%</td>
-        </tr>
-        <tr>
-            <td>Yield</td>
-            <td>57%</td>
-            <td>62.7%</td>
-        </tr>
-        <tr>
-            <td>Overall Turnout</td>
-            <td>38.2%</td>
-            <td>46.2%</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>UVM Rates</th>
+      <th>2012</th>
+      <th>2016</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Registration</td>
+      <td>66.9%</td>
+      <td>73.6%</td>
+    </tr>
+    <tr>
+      <td>Yield</td>
+      <td>57%</td>
+      <td>62.7%</td>
+    </tr>
+    <tr>
+      <td>Overall Turnout</td>
+      <td>38.2%</td>
+      <td>46.2%</td>
+    </tr>
+  </tbody>
 </table>
 
 <h2>Calculator Limitations</h2>
 <ul>
-    <li>There is currently no number validation
-        preventing a result which exceeds 100%. In
-        reality, increasing a population beyond
-        this is not possible.</li>
+  <li>
+    There is currently no number validation preventing a result which exceeds
+    100%. In reality, increasing a population beyond this is not possible.
+  </li>
 </ul>
 
 <style>
-    .dataTable * {
-        border: 1px solid black;
-    }
+  .dataTable * {
+    border: 1px solid black;
+  }
 
-    .formulaTable {
-        margin-top: 15px;
-        border: 1px solid black;
-        text-align: center;
-        border-spacing: 0 1em;
-    }
+  .formulaTable {
+    margin-top: 15px;
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 0 1em;
+  }
 
-    input {
-        width: 5em;
-    }
+  input {
+    width: 5em;
+  }
 
-    form {
-        color: white;
-    }
+  form {
+    color: white;
+  }
 
-    h3 {
-        margin-bottom: 0px;
-    }
+  h3 {
+    margin-bottom: 0px;
+  }
 </style>
 
-<script type="text/javascript"
-    src="/assets/scripts/turnoutCalculator.js"></script>
+<script
+  type="text/javascript"
+  src="/assets/scripts/turnoutCalculator.js"
+></script>

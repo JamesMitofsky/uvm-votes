@@ -5,6 +5,7 @@ title: SGA Research Committee
 author: James Tedesco
 previewImage: /assets/images/uploads/hero-sgaprez.png
 ---
+
 ## Solving a Nation-Wide Question
 
 Few students vote in Student Government Association elections on campuses across the country, and it's common for the most qualified students to resign after one term — UVM is no exception. This compounds with the instability of the college environment, where the electorate turns over every 4 years.
@@ -29,8 +30,7 @@ Our two questions:
 1. How to increase voter participation in SGA elections and campaigns?
 
    1. Year over year, are senators coming from certain colleges? Against metrics like college, gender, and ethnicity, how representative is our student government?
+
 2. How to retain incumbent senators?
 
    1. Although senator turnover could be explained by high achieving students having to prioritize their activities as they near graduation, it begs the question: why isn't the SGA viewed as a valuable opportunity for continued growth and resume building?
-
-Want to get involved? Email [James.Tedesco@uvm.edu](mailto:james.tedesco@uvm.edu)!

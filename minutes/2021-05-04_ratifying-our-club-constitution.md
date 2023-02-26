@@ -12,26 +12,21 @@ actionItems:
   - actionItem: Figure out spending deadline from SGA Finance.
     assignment: Brian Donahue
 ---
-## Spending SGA Funds
 
+## Spending SGA Funds
 
 $325 were initially allocated and Brian submitted a spending request for $318 from that pool. Spend on:
 
+- CanvaPro subscription
 
-* CanvaPro subscription
+- Renew uvm.vote domain
 
-* Renew uvm.vote domain
-
-* 5 reusable posters 
-
+- 5 reusable posters
 
 ## Recruitment for Fall 2021
 
-
 Focus on Arts majors, specifically graphic design students.
 
+## Club Constitution
 
-## Club Constitution 
-
-
-* Constitution was read and ratified by all Executive Board members!
+- Constitution was read and ratified by all Executive Board members!

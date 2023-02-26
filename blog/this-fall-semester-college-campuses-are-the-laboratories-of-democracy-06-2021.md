@@ -5,6 +5,7 @@ title: This Fall Semester, College Campuses Are the Laboratories of Democracy
 author: Campbell Streator, Philip Hinkes, & James Tedesco
 previewImage: /assets/images/uploads/screen-shot-2021-08-02-at-11.37.21-pm.png
 ---
+
 As [millions of college students](https://www.marketwatch.com/story/more-than-3-in-4-college-students-plan-to-return-to-campus-this-fall-but-they-promise-not-to-party-2020-07-15) return to campus, they are going back to a “new normal.” Today’s students have a wide range of abnormal responsibilities — from wearing masks to social distancing and resisting the urge to party on weekends.
 
 While the new normal is an adjustment, students must seize the opportunity and be prepared to take on duties that extend beyond normal coursework. With college campuses serving as laboratories for a public-health experiment, students can similarly be the guinea pigs for electoral reform.
@@ -25,8 +26,6 @@ By fostering discussions about voter registration, schools like Northwestern Uni
 
 Today, we must continue to strengthen our democratic process, and the fall semester presents an unprecedented opportunity to secure real, lasting change. With students and administrators joining forces, college campuses can be America’s laboratories of democracy not just this year, but for decades to come.
 
+_Campbell Streator is the executive director of Every Vote Counts. Philip Hinkes, a senior at Yale University, serves as president of EVC’s Yale chapter. James Tedesco, a junior at the University of Vermont, serves as president of EVC’s UVM chapter._
 
-
-*Campbell Streator is the executive director of Every Vote Counts. Philip Hinkes, a senior at Yale University, serves as president of EVC’s Yale chapter. James Tedesco, a junior at the University of Vermont, serves as president of EVC’s UVM chapter.*
-
-*This is a republishing of an editorial which debued in the [Morning Consult](https://morningconsult.com/opinions/this-fall-semester-college-campuses-are-the-laboratories-of-democracy/).*
+_This is a republishing of an editorial which debued in the [Morning Consult](https://morningconsult.com/opinions/this-fall-semester-college-campuses-are-the-laboratories-of-democracy/)._

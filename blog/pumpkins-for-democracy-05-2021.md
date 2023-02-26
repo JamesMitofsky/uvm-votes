@@ -5,6 +5,7 @@ title: Pumpkins for Democracy
 author: James Tedesco
 previewImage: /assets/images/uploads/DSC_0041.JPG
 ---
+
 Trying to capitalize on the halloween spirit before election day on November
 4th this year, UVM Votes hosted an event to help spread voter registration QR
 codes around campus. And what better way to distribute these codes than on top
