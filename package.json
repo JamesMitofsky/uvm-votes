@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "netlify-cms-app": "^2.15.72",
+    "npm": "^9.6.0",
     "sal.js": "^0.8.5",
     "sqip": "^0.3.3"
   }
