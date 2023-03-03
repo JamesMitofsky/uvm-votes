@@ -2,7 +2,7 @@
 tags: Editorial
 date: 2021-06-08T12:47:28.179Z
 title: SGA Research Committee
-author: James Tedesco
+author: James
 previewImage: /assets/images/uploads/hero-sgaprez.png
 ---
 

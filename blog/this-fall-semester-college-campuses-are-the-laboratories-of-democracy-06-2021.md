@@ -2,7 +2,7 @@
 tags: Editorial
 date: 2020-09-01T20:35:59.054Z
 title: This Fall Semester, College Campuses Are the Laboratories of Democracy
-author: Campbell Streator, Philip Hinkes, & James Tedesco
+author: Campbell Streator, Philip Hinkes, & James
 previewImage: /assets/images/uploads/screen-shot-2021-08-02-at-11.37.21-pm.png
 ---
 
@@ -26,6 +26,6 @@ By fostering discussions about voter registration, schools like Northwestern Uni
 
 Today, we must continue to strengthen our democratic process, and the fall semester presents an unprecedented opportunity to secure real, lasting change. With students and administrators joining forces, college campuses can be America’s laboratories of democracy not just this year, but for decades to come.
 
-_Campbell Streator is the executive director of Every Vote Counts. Philip Hinkes, a senior at Yale University, serves as president of EVC’s Yale chapter. James Tedesco, a junior at the University of Vermont, serves as president of EVC’s UVM chapter._
+_Campbell Streator is the executive director of Every Vote Counts. Philip Hinkes, a senior at Yale University, serves as president of EVC’s Yale chapter. James, a junior at the University of Vermont, serves as president of EVC’s UVM chapter._
 
 _This is a republishing of an editorial which debued in the [Morning Consult](https://morningconsult.com/opinions/this-fall-semester-college-campuses-are-the-laboratories-of-democracy/)._

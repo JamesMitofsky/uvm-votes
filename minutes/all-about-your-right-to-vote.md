@@ -11,9 +11,9 @@ actionItems:
     assignment: Sophie Feldman
   - actionItem: Email the Assistant Registrar's contact about the technical
       requirements for texting every student.
-    assignment: James Tedesco
+    assignment: James
   - actionItem: Update website page titles to dynamically understand what page they're on.
-    assignment: James Tedesco
+    assignment: James
 ---
 
 ## Your Right to Vote: 

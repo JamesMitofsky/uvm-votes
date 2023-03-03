@@ -4,7 +4,7 @@ date: 2021-02-28T21:40:20.068Z
 title: Course Registration Portal Integration
 actionItems:
   - actionItem: Write portal registration editorial before next week.
-    assignment: James Tedesco
+    assignment: James
 ---
 
 ## Announce First General Meeting

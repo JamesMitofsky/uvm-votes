@@ -2,7 +2,7 @@
 tags: Event
 date: 2020-09-21T16:21:49.346Z
 title: Introducing UVM Votes & Textbanking
-author: James Tedesco
+author: James
 previewImage: /assets/images/uploads/screen-shot-2021-08-02-at-11.42.14-pm.png
 ---
 

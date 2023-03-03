@@ -8,7 +8,7 @@ actionItems:
     assignment: Sophie Feldman
   - actionItem: Respond to Jerome Powell's comment about the long-term cost of
       hosting a private domain.
-    assignment: James Tedesco
+    assignment: James
   - actionItem: Figure out spending deadline from SGA Finance.
     assignment: Brian Donahue
 ---

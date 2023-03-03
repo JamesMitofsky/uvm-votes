@@ -26,6 +26,6 @@ Brian reported his meeting with the Treasurer has been delayed to this coming Fr
 ### Oh The Places You'll Go
 
 - Brian Donahue (with former Engagement Chair Liz Chadwick) doing research with Professor Alec Ewald on voter resources for felons.
-- James Tedesco is doing a fellowship at Tufts with their Institute for Democracy in Higher Education (IDHE) — they produce the NSLVE report which is the main reference for UVM Votes. He'll be researching and codifying state voter laws through the Stanford-MIT Healthy Elections Project.
+- James is doing a fellowship at Tufts with their Institute for Democracy in Higher Education (IDHE) — they produce the NSLVE report which is the main reference for UVM Votes. He'll be researching and codifying state voter laws through the Stanford-MIT Healthy Elections Project.
 - Sophie Feldman’s doing an art conservation internship, restoring UVM's collection of taxidermied animals.
 - Aidan May is analyzing serious illness conversations from palliative care patients.

@@ -2,7 +2,7 @@
 tags: Event
 date: 2020-10-08T17:12:39.874Z
 title: "National Spotlight: UVM Votes Textbanking"
-author: James Tedesco
+author: James
 previewImage: /assets/images/uploads/Screen-Shot-2021-07-13-at-4.47.07-PM.png
 ---
 

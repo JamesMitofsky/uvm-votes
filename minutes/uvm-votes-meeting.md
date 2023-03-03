@@ -8,12 +8,12 @@ actionItems:
       Take UVM Votes tabling food out of James' car. Maybe can be put in
       the Davis Center cage (email Sarah Flaherty), taken by Aidan, or kept in
       the debate house basement.
-    assignment: James Tedesco
+    assignment: James
   - actionItem: Investigate how to integrate voter registration into student
       orientation day.
     assignment: Aidan May
   - actionItem: Call the Burlington Town Clerk about ballot boxes.
-    assignment: James Tedesco
+    assignment: James
   - actionItem:
       Investigate a calendar which can identify important voting days on
       the state and federal level (either if it exists or if we can co-opt one).

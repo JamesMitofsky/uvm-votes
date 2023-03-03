@@ -2,7 +2,7 @@
 tags: Event
 date: 2020-10-28T23:08:01.526Z
 title: Pumpkins for Democracy
-author: James Tedesco
+author: James
 previewImage: /assets/images/uploads/DSC_0041.JPG
 ---
 
