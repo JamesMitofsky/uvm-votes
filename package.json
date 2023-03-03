@@ -20,14 +20,12 @@
   },
   "homepage": "https://github.com/JamesMitofsky/uvm.vote#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-date": "^1.0.0",
-    "eleventy-plugin-lazyimages": "^2.1.2",
     "netlify-cli": "^3.39.4"
   },
   "dependencies": {
     "netlify-cms-app": "^2.15.72",
-    "npm": "^9.6.0",
     "sal.js": "^0.8.5",
     "sqip": "^0.3.3"
   }
