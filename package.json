@@ -22,12 +22,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-date": "^1.0.0",
-    "eleventy-plugin-lazyimages": "^2.1.0",
-    "netlify-cli": "^3.28.0"
+    "eleventy-plugin-lazyimages": "^2.1.2",
+    "netlify-cli": "^3.39.4"
   },
   "dependencies": {
-    "netlify-cms-app": "^2.14.45",
-    "sal.js": "^0.8.1",
+    "netlify-cms-app": "^2.15.72",
+    "sal.js": "^0.8.5",
     "sqip": "^0.3.3"
   }
 }
